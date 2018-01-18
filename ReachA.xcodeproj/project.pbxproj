@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */; };
 		2C28E1914D460667BA9DDC84 /* Pods_ReachA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */; };
 		DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA10F535200DD5FF00A5C9FC /* Top.storyboard */; };
 		DA10F53A200DD79100A5C9FC /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F539200DD79100A5C9FC /* TopViewController.swift */; };
 		DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F53C200DD8C800A5C9FC /* ChannelViewController.swift */; };
 		DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F53E200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift */; };
-		DA10F543200DDA4700A5C9FC /* ChannelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA10F542200DDA4700A5C9FC /* ChannelDetail.storyboard */; };
 		DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F545200DDA6B00A5C9FC /* ChannelDetailViewController.swift */; };
 		DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA401C14200C924400CE2E1A /* TimelineViewController.swift */; };
 		DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E995200C858300CE1183 /* AppDelegate.swift */; };
@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetail.storyboard; sourceTree = "<group>"; };
 		80E12CAB81C78D7E0BCBC0D0 /* Pods-ReachA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReachA/Pods-ReachA.debug.xcconfig"; sourceTree = "<group>"; };
 		ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReachA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67B261AA16330F7DA2C82B7 /* Pods-ReachA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReachA/Pods-ReachA.release.xcconfig"; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		DA10F539200DD79100A5C9FC /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		DA10F53C200DD8C800A5C9FC /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		DA10F53E200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCollectionViewCell.swift; sourceTree = "<group>"; };
-		DA10F542200DDA4700A5C9FC /* ChannelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetail.storyboard; sourceTree = "<group>"; };
 		DA10F545200DDA6B00A5C9FC /* ChannelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailViewController.swift; sourceTree = "<group>"; };
 		DA401C14200C924400CE2E1A /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		DAA4E992200C858300CE1183 /* ReachA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				DA10F535200DD5FF00A5C9FC /* Top.storyboard */,
-				DA10F542200DDA4700A5C9FC /* ChannelDetail.storyboard */,
+				1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 				DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */,
 				DAA4E9A0200C858400CE1183 /* LaunchScreen.storyboard in Resources */,
 				DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */,
-				DA10F543200DDA4700A5C9FC /* ChannelDetail.storyboard in Resources */,
+				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
 				DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

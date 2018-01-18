@@ -7,13 +7,19 @@
 //
 
 import UIKit
+import WebKit
 
-class ChannelDetailViewController: UIViewController {
+class ChannelDetailViewController: UIViewController,WKNavigationDelegate {
+    
+    @IBOutlet weak var wkWebView: WKWebView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let url = URL(string: "http://yurucamp.jp/")
+        let urlRequest = URLRequest(url: url!)
+        wkWebView.load(urlRequest)
     }
 
     override func didReceiveMemoryWarning() {
