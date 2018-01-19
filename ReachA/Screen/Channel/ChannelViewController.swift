@@ -13,19 +13,6 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
         return 10
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChannelCollectionView", for: indexPath)
-        
-        return cell        
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        self.performSegue(withIdentifier: "toDetail", sender: nil)
-    }
-    
-    
     @IBOutlet weak var channelCollectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -35,7 +22,23 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
         channelCollectionView.dataSource = self
     }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChannelCollectionView", for: indexPath)
+        
+        return cell
+    }
     
-
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        self.performSegue(withIdentifier: "toDetail", sender: nil)
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let next:UITabBarController = segue.destination as! UITabBarController
+        next.hidesBottomBarWhenPushed = true
+        next.title = "ゆるキャン△"
+    }
 
 }

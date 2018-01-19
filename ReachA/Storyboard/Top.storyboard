@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Channel View Controller-->
+        <!--チャンネル一覧-->
         <scene sceneID="sJS-P7-Uwv">
             <objects>
-                <viewController id="JAn-ai-2Vn" customClass="ChannelViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="チャンネル一覧" id="JAn-ai-2Vn" customClass="ChannelViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YkV-ro-f0U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aXa-jb-Y3y"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZuK-YL-dTz"/>
+                    <navigationItem key="navigationItem" title="チャンネル一覧" id="eVw-zx-pb0">
+                        <barButtonItem key="backBarButtonItem" title="一覧" id="lGa-yj-GPT"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="channelCollectionView" destination="JQr-pZ-UFx" id="GJw-Yz-pNv"/>
                         <segue destination="dCj-AD-MEO" kind="show" identifier="toDetail" id="9zO-Yo-70y"/>
@@ -68,13 +70,13 @@
             </objects>
             <point key="canvasLocation" x="1078" y="135"/>
         </scene>
-        <!--ChannelDetailViewController-->
+        <!--ChannelDetailTabbar-->
         <scene sceneID="85M-ey-5tp">
             <objects>
-                <viewControllerPlaceholder storyboardName="ChannelDetail" referencedIdentifier="ChannelDetailViewController" id="dCj-AD-MEO" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="ChannelDetail" referencedIdentifier="ChannelDetailTabbar" id="dCj-AD-MEO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X7G-1b-Ymf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1484" y="135.832083958021"/>
+            <point key="canvasLocation" x="2004" y="106"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="paO-CS-TfT">
