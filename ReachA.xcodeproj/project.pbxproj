@@ -10,6 +10,8 @@
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
 		1EC67CA5201E540500EE3955 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA4201E540500EE3955 /* Twitter.framework */; };
+		1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */; };
+		1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */; };
 		1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */; };
 		2C28E1914D460667BA9DDC84 /* Pods_ReachA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */; };
 		DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA10F535200DD5FF00A5C9FC /* Top.storyboard */; };
@@ -30,6 +32,8 @@
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC67CA4201E540500EE3955 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
+		1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFetcher.swift; sourceTree = "<group>"; };
 		1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetail.storyboard; sourceTree = "<group>"; };
 		80E12CAB81C78D7E0BCBC0D0 /* Pods-ReachA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReachA/Pods-ReachA.debug.xcconfig"; sourceTree = "<group>"; };
 		ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReachA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +74,15 @@
 				1E6731A72014D9B200DB48DA /* TwitterUtility.swift */,
 			);
 			path = Utilily;
+			sourceTree = "<group>";
+		};
+		1EC67CA6201EDECA00EE3955 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */,
+				1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 		C89459A6E24664CCE79993C5 /* Pods */ = {
@@ -155,6 +168,7 @@
 		DAA4E994200C858300CE1183 /* ReachA */ = {
 			isa = PBXGroup;
 			children = (
+				1EC67CA6201EDECA00EE3955 /* Twitter */,
 				1E6731A62014D99900DB48DA /* Utilily */,
 				DA10F537200DD69300A5C9FC /* Screen */,
 				DA10F534200DD5E800A5C9FC /* Storyboard */,
@@ -297,12 +311,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReachA/Pods-ReachA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
@@ -319,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */,
 				DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */,
 				DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */,
 				DA10F53A200DD79100A5C9FC /* TopViewController.swift in Sources */,
@@ -326,6 +343,7 @@
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
+				1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */,
 				DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */,
 				DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */,
 			);

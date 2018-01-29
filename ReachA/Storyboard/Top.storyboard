@@ -86,19 +86,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ii9-7w-Kjs">
-                                <rect key="frame" x="146" y="147" width="82" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ii9-7w-Kjs">
+                                <rect key="frame" x="16" y="59" width="82" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="4Sk-Ja-Jap"/>
+                                    <constraint firstAttribute="height" constant="56" id="S4g-W2-A8T"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="tappedButton:" destination="uDg-HQ-Nfe" eventType="touchUpInside" id="sv8-Wq-29h"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WO1-bb-LXe">
+                                <rect key="frame" x="16" y="140" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Ggi-Mx-wDe"/>
+                                    <constraint firstAttribute="height" constant="21" id="hD1-uj-jYt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YgY-ul-NXk">
+                                <rect key="frame" x="16" y="169" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Qr5-gy-zHY"/>
+                                    <constraint firstAttribute="width" constant="240" id="Yq1-Dt-9Lm"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YgY-ul-NXk" firstAttribute="top" secondItem="WO1-bb-LXe" secondAttribute="bottom" constant="8" id="1wU-oa-4KS"/>
+                            <constraint firstItem="YgY-ul-NXk" firstAttribute="leading" secondItem="qED-ef-6tg" secondAttribute="leading" constant="16" id="6Qq-VQ-Lj8"/>
+                            <constraint firstItem="WO1-bb-LXe" firstAttribute="leading" secondItem="qED-ef-6tg" secondAttribute="leading" constant="16" id="HYM-AH-tIQ"/>
+                            <constraint firstItem="ii9-7w-Kjs" firstAttribute="top" secondItem="qED-ef-6tg" secondAttribute="top" constant="39" id="XlP-zS-UE6"/>
+                            <constraint firstItem="ii9-7w-Kjs" firstAttribute="leading" secondItem="qED-ef-6tg" secondAttribute="leading" constant="16" id="fuG-Fj-dQJ"/>
+                            <constraint firstItem="WO1-bb-LXe" firstAttribute="top" secondItem="ii9-7w-Kjs" secondAttribute="bottom" constant="25" id="gUp-lE-Y52"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qED-ef-6tg"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="Qqb-vq-0v0"/>
+                    <connections>
+                        <outlet property="iconImageView" destination="YgY-ul-NXk" id="ex9-1g-8TR"/>
+                        <outlet property="nameLabel" destination="WO1-bb-LXe" id="fGc-pZ-gFr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tjw-2f-IIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import SDWebImage
 
 class TopViewController: UIViewController {
 
-    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var iconImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,8 +20,18 @@ class TopViewController: UIViewController {
     }
 
     @IBAction func tappedButton(_ sender: UIButton) {
+
+        let twitterFetcher = TwitterFetcher()
         
-        TwitterUtility.hoge(vc: self)
+        twitterFetcher.fetchUser(
+            screenName: "yurucamp_anime",
+            successHandler: { (twitterUser:TwitterUser) in
+                
+                print(twitterUser)
+                
+                self.nameLabel.text = twitterUser.name
+                self.iconImageView.sd_setImage(with: URL(string:twitterUser.profileImageUrlHttps!), completed: nil)
+        })
         
         
     }
