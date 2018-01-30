@@ -34,7 +34,6 @@ class TwitterFetcher: NSObject {
                 
                 successHandler(user)
                 
-                
         }, failure: { error in
             
             print(error)
