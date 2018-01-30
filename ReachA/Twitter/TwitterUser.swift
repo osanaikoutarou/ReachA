@@ -49,17 +49,7 @@ class TwitterUser: NSObject {
 //},
 
 
-//"url" : "https://t.co/t6yUrc16cG",
-//"listed_count" : 724.0,
-//"name" : "TVアニメ「ゆるキャン△」公式",
-//"geo_enabled" : false,
-//"profile_use_background_image" : true,
-//"screen_name" : "yurucamp_anime",
-//"description" : "2018年1月4日より放送開始！TVアニメ「ゆるキャン△」の公式アカウントです。 原作コミック1巻～5巻好評発売中！最新巻の6巻は3月12日発売予定！ 毎月24日発売の「まんがタイムきららフォワード」（芳文社刊）にて大人気連載中 ©あｆろ・芳文社／野外活動サークル",
-//"notifications" : null,
-//"contributors_enabled" : false,
-//"has_extended_profile" : false,
-//"followers_count" : 36408.0,
+// 固定化されたツイートかな？
 //"status" : {
 //    "created_at" : "Tue Jan 30 03:06:29 +0000 2018",
 //    "in_reply_to_status_id" : null,
@@ -190,16 +180,7 @@ class TwitterUser: NSObject {
 //        ]
 //    }
 //},
-//"location" : "富士山のふもと",
-//"verified" : false,
-//"created_at" : "Fri Jun 02 07:48:35 +0000 2017",
-//"follow_request_sent" : null,
-//"id_str" : "870547677364101120",
-//"profile_banner_url" : "https://pbs.twimg.com/profile_banners/870547677364101120/1513174003",
-//"profile_background_image_url" : null,
-//"profile_text_color" : "333333",
-//"translator_type" : "none"
-
+8
 // 参考になりそう:http://syossan.hateblo.jp/entry/20110219/1298099350
 class TwitterUserDefinition {
     let timeZone:Date
@@ -226,11 +207,28 @@ class TwitterUserDefinition {
     let profileBackgroundImageUrlHttps:String
     let utcOffset:String        //ユーザが設定しているタイムゾーンとUTC（協定世界時）との差
     let profileImageUrl:String      // http
-    let statusesCount:NSInteger              //ツイート数
+    let statusesCount:Int              //ツイート数
     let defaultProfile:Bool     //?
     let following:Bool          // フォローしているかどうか　連携してないからnullだ
-    
-    
+    let url:String              // web url
+    let name:String             // ユーザー名
+    let geoEnabled:Bool         // ツイートに位置情報をつけるか
+    let profileUseBackgroundImage:Bool      // 背景画像を用いるかどうか
+    let screenName:String                   // ユーザー名
+    let description:String                  // 説明
+    let notifications:Bool                  // 指定ユーザからの通知メールを受け取るかどうか
+    let contributorsEnabled:Bool            // Twitterのライター機能を使用しているかどうか
+    let hasExtendedProfile:Bool         // ?
+    let followersCount:Int             // フォロワーの数
+    let location:String                 //ロケーション文字列
+    let verified:Bool                   // 認証済みアカウントかどうか
+    let createdAt:Date
+    let followRequestSent:Bool          // 鍵付きユーザに対し、フォロー申請したかどうか
+    let id_str:String
+    let profileBannerUrl:String
+    let profileBackgroundImageUrl:Bool
+    let profileTextColor:UIColor
+    let translatorType:String           // ?
     
     
     init() {
