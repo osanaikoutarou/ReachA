@@ -9,22 +9,36 @@
 import UIKit
 
 class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
-    }
-    
+
     @IBOutlet weak var channelCollectionView: UICollectionView!
+
+    var twitterUsers:[TwitterUser] = []
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         channelCollectionView.delegate = self
         channelCollectionView.dataSource = self
+        
+        let twitterFetcher = TwitterFetcher()
+        twitterFetcher.fetchUser(
+            screenName: "yurucamp_anime",
+            successHandler: { (tu:TwitterUser) in
+                self.twitterUsers = [tu]
+                self.channelCollectionView.reloadData()
+        })
+    }
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return twitterUsers.count * 10
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChannelCollectionView", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChannelCollectionViewCell", for: indexPath) as! ChannelCollectionViewCell
+        
+        cell.setup(user: self.twitterUsers[0])
         
         return cell
     }

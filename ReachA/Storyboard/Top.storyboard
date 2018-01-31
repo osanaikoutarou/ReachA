@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,23 +29,30 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChannelCollectionView" id="3nn-Ob-Qfm" customClass="ChannelCollectionViewCell" customModule="ReachA" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChannelCollectionViewCell" id="3nn-Ob-Qfm" customClass="ChannelCollectionViewCell" customModule="ReachA" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="165" height="189"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="165" height="189"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ほげ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCb-Hg-GYk">
-                                                    <rect key="frame" x="61" y="84" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kz7-V4-K7b">
+                                                    <rect key="frame" x="0.0" y="1" width="165" height="165"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="kz7-V4-K7b" secondAttribute="height" multiplier="1:1" id="Ubm-pz-adq"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.81771763389999996" green="1" blue="0.69095982140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="kz7-V4-K7b" firstAttribute="leading" secondItem="3nn-Ob-Qfm" secondAttribute="leading" id="0EI-ia-EKz"/>
+                                            <constraint firstAttribute="trailing" secondItem="kz7-V4-K7b" secondAttribute="trailing" id="4KQ-ft-ILP"/>
+                                            <constraint firstItem="kz7-V4-K7b" firstAttribute="top" secondItem="3nn-Ob-Qfm" secondAttribute="top" id="xsv-PG-v3W"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="iconImageView" destination="kz7-V4-K7b" id="vMk-Ig-ERu"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
