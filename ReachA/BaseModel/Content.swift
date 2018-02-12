@@ -7,3 +7,34 @@
 //
 
 import Foundation
+
+class Content {    
+}
+
+// アニメ
+class Anime : Content {
+}
+
+// comic
+class Comic : Content {
+}
+
+// web comic
+class WebComic : Content {
+}
+
+// 音楽
+class Music : Content {
+}
+
+// 映像
+class Video : Content {
+}
+
+// イベント
+class Event : Content {
+}
+
+// キャラクター
+class Caractor : Content {
+}

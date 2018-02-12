@@ -9,10 +9,15 @@
 import UIKit
 
 class CalendarDailyEventNormalCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet weak var iconImage: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        iconImage.layer.cornerRadius = 20
+        iconImage.clipsToBounds = true
+        
     }
 
 }

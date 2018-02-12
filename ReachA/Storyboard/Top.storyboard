@@ -84,7 +84,7 @@
                 <viewControllerPlaceholder storyboardName="ChannelDetail" referencedIdentifier="ChannelDetailTabbar" id="dCj-AD-MEO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X7G-1b-Ymf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2004" y="106"/>
+            <point key="canvasLocation" x="2001" y="135"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="paO-CS-TfT">
@@ -192,80 +192,22 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="pNk-S8-c9G" kind="relationship" relationship="rootViewController" id="QZb-nq-JKA"/>
+                        <segue destination="26b-ra-jHa" kind="relationship" relationship="rootViewController" id="SkD-BN-2Og"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gN3-8S-ejW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="402" y="948"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="YW9-3T-pqo">
+        <!--CalendarViewController-->
+        <scene sceneID="5ZU-zX-oLW">
             <objects>
-                <viewController id="pNk-S8-c9G" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3nX-0W-9aS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NEf-w3-Ppe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="71" id="7B1-vU-ToL">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="71"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7B1-vU-ToL" id="aSr-xT-8us">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2月" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqc-EA-xP4">
-                                                    <rect key="frame" x="15" y="11" width="272" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="105" id="BQC-O3-d2m">
-                                        <rect key="frame" x="0.0" y="99" width="375" height="105"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BQC-O3-d2m" id="3Qp-5B-Xz1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10日 土" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCJ-rs-MGn">
-                                                    <rect key="frame" x="15" y="11" width="109" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Xf-pn-Bwo">
-                                                    <rect key="frame" x="15" y="48" width="360" height="40"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </scrollView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="NEf-w3-Ppe" firstAttribute="bottom" secondItem="2e4-K9-9I7" secondAttribute="bottom" id="CPC-zT-KVY"/>
-                            <constraint firstItem="NEf-w3-Ppe" firstAttribute="trailing" secondItem="2e4-K9-9I7" secondAttribute="trailing" id="eq6-zA-xYs"/>
-                            <constraint firstItem="NEf-w3-Ppe" firstAttribute="leading" secondItem="2e4-K9-9I7" secondAttribute="leading" id="jfj-9a-nhM"/>
-                            <constraint firstItem="NEf-w3-Ppe" firstAttribute="top" secondItem="2e4-K9-9I7" secondAttribute="top" id="uq3-Wc-6NC"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="2e4-K9-9I7"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="d1f-Lg-UxE"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IHu-NG-3rk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Calendar" referencedIdentifier="CalendarViewController" id="26b-ra-jHa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wtZ-Ac-tQu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ynz-yn-Ls0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1168.8" y="947.67616191904051"/>
+            <point key="canvasLocation" x="1001" y="947"/>
         </scene>
     </scenes>
 </document>
