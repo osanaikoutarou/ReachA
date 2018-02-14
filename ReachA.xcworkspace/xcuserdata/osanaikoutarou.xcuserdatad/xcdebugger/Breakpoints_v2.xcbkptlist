@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ReachA/Twitter/TwitterUser.swift"
-            timestampString = "540148461.741222"
+            timestampString = "540330956.386224"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ReachA/Twitter/TwitterUser.swift"
-            timestampString = "540148461.741809"
+            timestampString = "540330956.3866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ReachA/Common/View/CalendarDailyEventsCollectionViewBase.swift"
-            timestampString = "540148461.742257"
+            timestampString = "540330956.386856"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -90,27 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ReachA/Common/View/CalendarDailyEventsCollectionViewBase.swift"
-            timestampString = "540148461.742501"
+            timestampString = "540330956.387141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ReachA/Common/View/CalendarDailyEventsCollectionViewBase.swift"
-            timestampString = "540148461.742709"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
