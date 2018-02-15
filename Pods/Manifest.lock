@@ -2,6 +2,7 @@ PODS:
   - SDWebImage (4.2.3):
     - SDWebImage/Core (= 4.2.3)
   - SDWebImage/Core (4.2.3)
+  - SwiftDate (4.5.1)
   - Swifter (2.1.0)
   - TwitterCore (3.1.0)
   - TwitterKit (3.3.0):
@@ -9,6 +10,7 @@ PODS:
 
 DEPENDENCIES:
   - SDWebImage
+  - SwiftDate
   - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
   - TwitterKit
 
@@ -23,10 +25,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
   Swifter: bbf4ebde56c9f8c13e6c7270bf6841a5f29dfda3
   TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
   TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
 
-PODFILE CHECKSUM: 8773521dea6e137535566109290e7d5a2b8d9832
+PODFILE CHECKSUM: 17cc5f6fe4026adc839e600bd9fd511a3b83232c
 
 COCOAPODS: 1.3.1
