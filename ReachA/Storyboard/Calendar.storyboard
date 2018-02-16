@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Calendar View Controller-->
         <scene sceneID="jS7-tc-jPp">
@@ -49,38 +54,53 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10日 土" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kl-B9-v7A">
-                                                    <rect key="frame" x="15" y="11" width="57" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kl-B9-v7A">
+                                                    <rect key="frame" x="14" y="85.5" width="28" height="29"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="eMP-Ms-zgG"/>
+                                                        <constraint firstAttribute="width" constant="28" id="7aY-7k-tRK"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jB4-Zt-UiS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="6" height="199.5"/>
+                                                    <color key="backgroundColor" red="1" green="0.35294117650000001" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="6" id="XcH-wD-jfh"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="土" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usm-ZZ-eiW">
+                                                    <rect key="frame" x="42" y="94.5" width="18" height="12"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="18" id="CmT-5m-vwk"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ke8-k1-XbV">
-                                                    <rect key="frame" x="40" y="52" width="325" height="137"/>
+                                                    <rect key="frame" x="68" y="8" width="299" height="183.5"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBu-rd-zLU" customClass="CalendarDailyEventsCollectionViewBase" customModule="ReachA" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="325" height="137"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="299" height="183.5"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
                                                     </subviews>
-                                                    <constraints>
-                                                        <constraint firstItem="wBu-rd-zLU" firstAttribute="leading" secondItem="Ke8-k1-XbV" secondAttribute="leading" id="7Cj-mA-0pZ"/>
-                                                        <constraint firstAttribute="trailing" secondItem="wBu-rd-zLU" secondAttribute="trailing" id="M6i-pS-A7X"/>
-                                                        <constraint firstItem="wBu-rd-zLU" firstAttribute="top" secondItem="Ke8-k1-XbV" secondAttribute="top" id="kSN-lv-6hk"/>
-                                                        <constraint firstAttribute="bottom" secondItem="wBu-rd-zLU" secondAttribute="bottom" id="phV-vU-l1I"/>
-                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Ke8-k1-XbV" firstAttribute="top" secondItem="5kl-B9-v7A" secondAttribute="bottom" constant="20" id="5H6-pm-kko"/>
-                                                <constraint firstItem="5kl-B9-v7A" firstAttribute="leading" secondItem="wUo-XV-4KN" secondAttribute="leading" constant="15" id="dzJ-sq-4SC"/>
-                                                <constraint firstItem="5kl-B9-v7A" firstAttribute="top" secondItem="wUo-XV-4KN" secondAttribute="top" constant="11" id="lG8-3z-nu3"/>
-                                                <constraint firstAttribute="trailing" secondItem="Ke8-k1-XbV" secondAttribute="trailing" constant="10" id="nzt-TM-y1u"/>
-                                                <constraint firstAttribute="bottom" secondItem="Ke8-k1-XbV" secondAttribute="bottom" constant="10.5" id="u9W-M6-3ed"/>
-                                                <constraint firstItem="Ke8-k1-XbV" firstAttribute="leading" secondItem="wUo-XV-4KN" secondAttribute="leading" constant="40" id="vcf-Zd-55J"/>
+                                                <constraint firstAttribute="bottom" secondItem="jB4-Zt-UiS" secondAttribute="bottom" id="2AF-5V-b5R"/>
+                                                <constraint firstItem="Usm-ZZ-eiW" firstAttribute="centerY" secondItem="wUo-XV-4KN" secondAttribute="centerY" id="4nk-wK-Jdg"/>
+                                                <constraint firstItem="jB4-Zt-UiS" firstAttribute="leading" secondItem="wUo-XV-4KN" secondAttribute="leading" id="IAm-E1-6XP"/>
+                                                <constraint firstAttribute="bottom" secondItem="Ke8-k1-XbV" secondAttribute="bottom" constant="8" id="QGK-as-oC1"/>
+                                                <constraint firstItem="Usm-ZZ-eiW" firstAttribute="leading" secondItem="5kl-B9-v7A" secondAttribute="trailing" id="XCR-H9-sGG"/>
+                                                <constraint firstItem="5kl-B9-v7A" firstAttribute="centerY" secondItem="wUo-XV-4KN" secondAttribute="centerY" id="daF-mw-yOJ"/>
+                                                <constraint firstItem="jB4-Zt-UiS" firstAttribute="top" secondItem="wUo-XV-4KN" secondAttribute="top" id="e2O-8d-RJ5"/>
+                                                <constraint firstAttribute="trailing" secondItem="Ke8-k1-XbV" secondAttribute="trailing" constant="8" id="eX3-pa-Pgf"/>
+                                                <constraint firstItem="Ke8-k1-XbV" firstAttribute="leading" secondItem="Usm-ZZ-eiW" secondAttribute="trailing" constant="8" id="fkI-6a-Nrj"/>
+                                                <constraint firstItem="5kl-B9-v7A" firstAttribute="leading" secondItem="jB4-Zt-UiS" secondAttribute="trailing" constant="8" id="jr5-P6-6ra"/>
+                                                <constraint firstItem="Ke8-k1-XbV" firstAttribute="top" secondItem="wUo-XV-4KN" secondAttribute="top" constant="8" id="rt8-hg-NqA"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

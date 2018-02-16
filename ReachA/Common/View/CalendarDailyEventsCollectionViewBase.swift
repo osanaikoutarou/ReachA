@@ -40,13 +40,13 @@ class CalendarDailyEventsCollectionViewBase: UIView , UICollectionViewDelegate, 
         super.awakeFromNib()
         
         eventCollectionView.register(cellType: CalendarDailyEventNormalCollectionViewCell.self)
-        setRightToLeft()
+//        setRightToLeft()
         
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize.init(width: 40, height: 40)
+        layout.itemSize = CGSize.init(width: 45, height: 45)
         layout.scrollDirection = .vertical
-        layout.minimumLineSpacing = 5
-        layout.minimumInteritemSpacing = 5
+        layout.minimumLineSpacing = 3
+        layout.minimumInteritemSpacing = 2
         eventCollectionView.collectionViewLayout = layout
         eventCollectionView.contentInset = UIEdgeInsets.zero
 
@@ -72,7 +72,7 @@ class CalendarDailyEventsCollectionViewBase: UIView , UICollectionViewDelegate, 
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(with: CalendarDailyEventNormalCollectionViewCell.self, for: indexPath)
-        cell.contentView.transform = CGAffineTransform(scaleX: -1, y: 1)
+//        cell.contentView.transform = CGAffineTransform(scaleX: -1, y: 1)
         return cell
     }
 }

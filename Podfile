@@ -5,6 +5,6 @@ target 'ReachA' do
 	pod 'TwitterKit'
 	pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git'	
 	pod 'SDWebImage'
-	#pod 'SwiftDate'
+	pod 'SwiftDate'
 end
 
