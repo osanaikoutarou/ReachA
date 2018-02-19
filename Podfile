@@ -6,5 +6,6 @@ target 'ReachA' do
 	pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git'	
 	pod 'SDWebImage'
 	pod 'SwiftDate'
+	pod 'RealmSwift'
 end
 
