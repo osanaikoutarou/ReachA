@@ -11,4 +11,18 @@ import RealmSwift
 
 class ContentEvent: Object {
     
+    @objc dynamic var startDate:Date?
+    @objc dynamic var endDate:Date?
+    @objc dynamic var title:String?
+    
+//    required init(startDate:Date, endDate:Date?, title:String) {
+//        self.startDate = startDate
+//        self.endDate = endDate
+//        self.title = title
+//    }
+    
+}
+
+class ContentEventRM: NSObject {
+    
 }
