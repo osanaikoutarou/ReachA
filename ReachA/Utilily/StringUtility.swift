@@ -14,3 +14,17 @@ extension String {
         return URL(string:self)!
     }
 }
+
+
+class hoge {
+    
+    func wa() {
+        self.abcde(aaa: "a", bbb: "b", from: "c", with: "d", hage: "e")
+    }
+    
+    func abcde(aaa:String, bbb:String, from ccc:String, with ddd:String, hage eee:String) {
+        
+        let www = ccc
+    }
+    
+}

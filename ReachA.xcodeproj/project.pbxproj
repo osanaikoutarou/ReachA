@@ -44,6 +44,9 @@
 		DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E999200C858400CE1183 /* Main.storyboard */; };
 		DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E99C200C858400CE1183 /* Assets.xcassets */; };
 		DAA4E9A0200C858400CE1183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E99E200C858400CE1183 /* LaunchScreen.storyboard */; };
+		DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682CC203D427F00416BE7 /* BaseRSDao.swift */; };
+		DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC682CF203D491200416BE7 /* Debug.storyboard */; };
+		DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +92,9 @@
 		DAA4E99C200C858400CE1183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA4E99F200C858400CE1183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA4E9A1200C858400CE1183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC682CC203D427F00416BE7 /* BaseRSDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRSDao.swift; sourceTree = "<group>"; };
+		DAC682CF203D491200416BE7 /* Debug.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
+		DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				1EFAC99D2039E20700BABB67 /* ContentEvent.swift */,
+				DAC682CC203D427F00416BE7 /* BaseRSDao.swift */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -276,6 +283,7 @@
 		DAA4E994200C858300CE1183 /* ReachA */ = {
 			isa = PBXGroup;
 			children = (
+				DAC682CE203D490400416BE7 /* Debug */,
 				1EFAC99C2039DC0800BABB67 /* DB */,
 				1EE9A2FF20303AAC00BAB029 /* Common */,
 				1E0022F12028876100475253 /* BaseModel */,
@@ -292,6 +300,23 @@
 				DA401C14200C924400CE2E1A /* TimelineViewController.swift */,
 			);
 			path = ReachA;
+			sourceTree = "<group>";
+		};
+		DAC682CE203D490400416BE7 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682D1203D496000416BE7 /* Top */,
+				DAC682CF203D491200416BE7 /* Debug.storyboard */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		DAC682D1203D496000416BE7 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */,
+			);
+			path = Top;
 			sourceTree = "<group>";
 		};
 		EE5D754AC17E760CC8CE45DE /* Frameworks */ = {
@@ -369,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */,
 				DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */,
 				DAA4E9A0200C858400CE1183 /* LaunchScreen.storyboard in Resources */,
 				DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */,
@@ -395,7 +421,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -473,7 +500,9 @@
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
 				1EFAC99E2039E20700BABB67 /* ContentEvent.swift in Sources */,
 				1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */,
+				DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */,
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
+				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,
 				1E0022F32028879600475253 /* Content.swift in Sources */,
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
@@ -610,7 +639,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.ReachA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -624,7 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.ReachA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
