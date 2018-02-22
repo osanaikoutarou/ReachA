@@ -21,6 +21,7 @@
 		1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */; };
 		1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */; };
 		1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CAD20222A5600EE3955 /* StringUtility.swift */; };
+		1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC996A203E81EB00CA9C3E /* DayEvents.swift */; };
 		1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */; };
 		1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30120303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift */; };
 		1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */; };
@@ -29,7 +30,7 @@
 		1EE9A31020306D8100BAB029 /* UICollectionViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */; };
 		1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A311203072EB00BAB029 /* ClassUtility.swift */; };
 		1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A31520307B2200BAB029 /* Calendar.storyboard */; };
-		1EFAC99E2039E20700BABB67 /* ContentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAC99D2039E20700BABB67 /* ContentEvent.swift */; };
+		1EFAC99E2039E20700BABB67 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAC99D2039E20700BABB67 /* Event.swift */; };
 		1EFAC9AB2039E9BD00BABB67 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */; };
 		2C28E1914D460667BA9DDC84 /* Pods_ReachA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */; };
 		DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA10F535200DD5FF00A5C9FC /* Top.storyboard */; };
@@ -64,6 +65,7 @@
 		1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
 		1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFetcher.swift; sourceTree = "<group>"; };
 		1EC67CAD20222A5600EE3955 /* StringUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
+		1ECC996A203E81EB00CA9C3E /* DayEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEvents.swift; sourceTree = "<group>"; };
 		1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetail.storyboard; sourceTree = "<group>"; };
 		1EE9A30120303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyEventsCollectionViewBase.swift; sourceTree = "<group>"; };
 		1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarDailyEventsCollectionViewBase.xib; sourceTree = "<group>"; };
@@ -72,7 +74,7 @@
 		1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewUtility.swift; sourceTree = "<group>"; };
 		1EE9A311203072EB00BAB029 /* ClassUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassUtility.swift; sourceTree = "<group>"; };
 		1EE9A31520307B2200BAB029 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
-		1EFAC99D2039E20700BABB67 /* ContentEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEvent.swift; sourceTree = "<group>"; };
+		1EFAC99D2039E20700BABB67 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		1EFAC9A42039E81400BABB67 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E12CAB81C78D7E0BCBC0D0 /* Pods-ReachA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReachA/Pods-ReachA.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,15 +114,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E0022F12028876100475253 /* BaseModel */ = {
+		1E0022F12028876100475253 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1ECC996C203E824B00CA9C3E /* Event */,
+				1ECC9969203E818500CA9C3E /* Date */,
 				1E0022F22028879600475253 /* Content.swift */,
 				1E0022F42028995400475253 /* Man.swift */,
 				1E0022F620289A2F00475253 /* Information.swift */,
 				1E0022F820289B8900475253 /* Organization.swift */,
 			);
-			path = BaseModel;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		1E0022FA2028A57700475253 /* Calendar */ = {
@@ -150,6 +154,22 @@
 				1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */,
 			);
 			path = Twitter;
+			sourceTree = "<group>";
+		};
+		1ECC9969203E818500CA9C3E /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC996A203E81EB00CA9C3E /* DayEvents.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		1ECC996C203E824B00CA9C3E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAC99D2039E20700BABB67 /* Event.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 		1EE9A2FF20303AAC00BAB029 /* Common */ = {
@@ -192,7 +212,6 @@
 		1EFAC99C2039DC0800BABB67 /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				1EFAC99D2039E20700BABB67 /* ContentEvent.swift */,
 				DAC682CC203D427F00416BE7 /* BaseRSDao.swift */,
 			);
 			path = DB;
@@ -286,7 +305,7 @@
 				DAC682CE203D490400416BE7 /* Debug */,
 				1EFAC99C2039DC0800BABB67 /* DB */,
 				1EE9A2FF20303AAC00BAB029 /* Common */,
-				1E0022F12028876100475253 /* BaseModel */,
+				1E0022F12028876100475253 /* Model */,
 				1EC67CA6201EDECA00EE3955 /* Twitter */,
 				1E6731A62014D99900DB48DA /* Utilily */,
 				DA10F537200DD69300A5C9FC /* Screen */,
@@ -497,8 +516,9 @@
 				1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */,
 				1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */,
 				1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */,
+				1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */,
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
-				1EFAC99E2039E20700BABB67 /* ContentEvent.swift in Sources */,
+				1EFAC99E2039E20700BABB67 /* Event.swift in Sources */,
 				1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */,
 				DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */,
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,

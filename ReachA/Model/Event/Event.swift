@@ -10,7 +10,7 @@ import UIKit
 import RealmSwift
 
 @objcMembers
-class ContentEvent: Object {
+class Event: Object {
     
     dynamic var id:String? = nil
     dynamic var start:Date? = nil
@@ -22,7 +22,7 @@ class ContentEvent: Object {
     dynamic var updatedAt:Date? = nil
 }
 
-class ContentEventDao: BaseRSDao {
+class EventDao: BaseRSDao {
     
     func write() {
         let contentEvent = ContentEvent()
