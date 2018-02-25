@@ -13,6 +13,10 @@ extension String {
     var url:URL {
         return URL(string:self)!
     }
+    
+    func sw4substring(to index:Int) -> String {
+        return String(self[..<self.index(self.startIndex, offsetBy: index)])
+    }
 }
 
 

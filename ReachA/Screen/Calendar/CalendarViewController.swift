@@ -12,15 +12,19 @@ class CalendarViewController: UIViewController, UITableViewDelegate,UITableViewD
     
     @IBOutlet weak var calendarTableView: UITableView!
     
+    var dayEvents:[DayEvents] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         calendarTableView.delegate = self
         calendarTableView.dataSource = self
+        
+        dayEvents = CalendarCreator().creatDayEvents(from: -2, to: 14)
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 30
+        return dayEvents.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -28,7 +32,10 @@ class CalendarViewController: UIViewController, UITableViewDelegate,UITableViewD
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CalendarDailyDayTableViewCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CalendarDailyDayTableViewCell", for: indexPath) as! CalendarDailyDayTableViewCell
+        
+        cell.setup(with: dayEvents[indexPath.row])
+        
         return cell
     }
     

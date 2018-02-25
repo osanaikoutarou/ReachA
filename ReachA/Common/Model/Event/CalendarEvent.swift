@@ -1,5 +1,5 @@
 //
-//  ContentEvent.swift
+//  CalendarEvent.swift
 //  ReachA
 //
 //  Created by 長内幸太郎 on 2018/02/19.
@@ -10,7 +10,7 @@ import UIKit
 import RealmSwift
 
 @objcMembers
-class Event: Object {
+class CalendarEvent: Object {
     
     dynamic var id:String? = nil
     dynamic var start:Date? = nil
@@ -25,19 +25,19 @@ class Event: Object {
 class EventDao: BaseRSDao {
     
     func write() {
-        let contentEvent = ContentEvent()
-        contentEvent.title = "テスト"
-        contentEvent.start = Date()
+        let calendarEvent = CalendarEvent()
+        calendarEvent.title = "テスト"
+        calendarEvent.start = Date()
         
         let realm = try! Realm()
         try! realm.write() {
-            realm.add(contentEvent)
+            realm.add(calendarEvent)
         }
     }
     
     func read() {
         let realm = try! Realm()
-        let data = realm.objects(ContentEvent.self)
+        let data = realm.objects(CalendarEvent.self)
         
         print(data)
     }
@@ -45,7 +45,7 @@ class EventDao: BaseRSDao {
     func update() {
         let realm = try! Realm()
 
-        let first = realm.objects(ContentEvent.self).first
+        let first = realm.objects(CalendarEvent.self).first
         
         try! realm.write {
             first?.title = "テストupdated"
@@ -54,7 +54,7 @@ class EventDao: BaseRSDao {
     
     func delete() {
         let realm = try! Realm()
-        if let first = realm.objects(ContentEvent.self).first {
+        if let first = realm.objects(CalendarEvent.self).first {
             try! realm.write {
                 realm.delete(first)
             }

@@ -12,11 +12,15 @@ class DebugTopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        let yesterday = DayEvents.init(daysAfterToday: -1)
+//        let today = DayEvents.init(daysAfterToday: 0)
+//        let tommorow = DayEvents.init(daysAfterToday: 1)
     }
     
     @IBAction func tappedButton1(_ sender: Any) {
         
-        let dao = ContentEventDao()
+        let dao = EventDao()
         
         dao.write()
         
@@ -26,7 +30,7 @@ class DebugTopViewController: UIViewController {
     
     @IBAction func tappedButton2(_ sender: Any) {
         
-        let dao = ContentEventDao()
+        let dao = EventDao()
         
         dao.read()
     }

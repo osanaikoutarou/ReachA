@@ -14,6 +14,7 @@
 		1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FB2028A59100475253 /* CalendarViewController.swift */; };
 		1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */; };
 		1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */; };
+		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
@@ -30,7 +31,7 @@
 		1EE9A31020306D8100BAB029 /* UICollectionViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */; };
 		1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A311203072EB00BAB029 /* ClassUtility.swift */; };
 		1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A31520307B2200BAB029 /* Calendar.storyboard */; };
-		1EFAC99E2039E20700BABB67 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAC99D2039E20700BABB67 /* Event.swift */; };
+		1EFAC99E2039E20700BABB67 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */; };
 		1EFAC9AB2039E9BD00BABB67 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */; };
 		2C28E1914D460667BA9DDC84 /* Pods_ReachA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */; };
 		DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA10F535200DD5FF00A5C9FC /* Top.storyboard */; };
@@ -58,6 +59,7 @@
 		1E0022FB2028A59100475253 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyDayTableViewCell.swift; sourceTree = "<group>"; };
 		1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyMonthTableViewCell.swift; sourceTree = "<group>"; };
+		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +76,7 @@
 		1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewUtility.swift; sourceTree = "<group>"; };
 		1EE9A311203072EB00BAB029 /* ClassUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassUtility.swift; sourceTree = "<group>"; };
 		1EE9A31520307B2200BAB029 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
-		1EFAC99D2039E20700BABB67 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
 		1EFAC9A42039E81400BABB67 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E12CAB81C78D7E0BCBC0D0 /* Pods-ReachA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReachA/Pods-ReachA.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,14 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
+		1E387CC12042A3EF0045C89D /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				1E387CC22042A42D0045C89D /* CalendarCreator.swift */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
 		1E6731A62014D99900DB48DA /* Utilily */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +177,7 @@
 		1ECC996C203E824B00CA9C3E /* Event */ = {
 			isa = PBXGroup;
 			children = (
-				1EFAC99D2039E20700BABB67 /* Event.swift */,
+				1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */,
 			);
 			path = Event;
 			sourceTree = "<group>";
@@ -175,6 +185,11 @@
 		1EE9A2FF20303AAC00BAB029 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1E6731A62014D99900DB48DA /* Utilily */,
+				1EC67CA6201EDECA00EE3955 /* Twitter */,
+				1EFAC99C2039DC0800BABB67 /* DB */,
+				1E0022F12028876100475253 /* Model */,
+				1E387CC12042A3EF0045C89D /* Creator */,
 				1EE9A30C20306B2D00BAB029 /* Extension */,
 				1EE9A30020303ABB00BAB029 /* View */,
 			);
@@ -303,11 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC682CE203D490400416BE7 /* Debug */,
-				1EFAC99C2039DC0800BABB67 /* DB */,
 				1EE9A2FF20303AAC00BAB029 /* Common */,
-				1E0022F12028876100475253 /* Model */,
-				1EC67CA6201EDECA00EE3955 /* Twitter */,
-				1E6731A62014D99900DB48DA /* Utilily */,
 				DA10F537200DD69300A5C9FC /* Screen */,
 				DA10F534200DD5E800A5C9FC /* Storyboard */,
 				DAA4E995200C858300CE1183 /* AppDelegate.swift */,
@@ -440,8 +451,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -518,7 +528,7 @@
 				1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */,
 				1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */,
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
-				1EFAC99E2039E20700BABB67 /* Event.swift in Sources */,
+				1EFAC99E2039E20700BABB67 /* CalendarEvent.swift in Sources */,
 				1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */,
 				DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */,
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
@@ -527,6 +537,7 @@
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
 				1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */,
+				1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */,
 				1EE9A31020306D8100BAB029 /* UICollectionViewUtility.swift in Sources */,
 				DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */,
 				1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */,

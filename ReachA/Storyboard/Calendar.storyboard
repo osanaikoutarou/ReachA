@@ -54,10 +54,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kl-B9-v7A">
-                                                    <rect key="frame" x="14" y="85.5" width="28" height="29"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kl-B9-v7A">
+                                                    <rect key="frame" x="14" y="85.5" width="30" height="29"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="28" id="7aY-7k-tRK"/>
+                                                        <constraint firstAttribute="width" constant="30" id="7aY-7k-tRK"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
@@ -70,8 +70,8 @@
                                                         <constraint firstAttribute="width" constant="6" id="XcH-wD-jfh"/>
                                                     </constraints>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="土" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usm-ZZ-eiW">
-                                                    <rect key="frame" x="42" y="94.5" width="18" height="12"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="土" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usm-ZZ-eiW">
+                                                    <rect key="frame" x="44" y="94.5" width="18" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="18" id="CmT-5m-vwk"/>
                                                     </constraints>
@@ -80,10 +80,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ke8-k1-XbV">
-                                                    <rect key="frame" x="68" y="8" width="299" height="183.5"/>
+                                                    <rect key="frame" x="70" y="8" width="297" height="183.5"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBu-rd-zLU" customClass="CalendarDailyEventsCollectionViewBase" customModule="ReachA" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="299" height="183.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="297" height="183.5"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
                                                     </subviews>
@@ -105,6 +105,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="dayLabel" destination="5kl-B9-v7A" id="ilD-rD-gps"/>
+                                            <outlet property="dayofweekLabel" destination="Usm-ZZ-eiW" id="cJg-cJ-sWE"/>
                                             <outlet property="eventsView" destination="wBu-rd-zLU" id="rdI-Qh-9rJ"/>
                                         </connections>
                                     </tableViewCell>

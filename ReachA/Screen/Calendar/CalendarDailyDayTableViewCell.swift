@@ -11,6 +11,8 @@ import UIKit
 class CalendarDailyDayTableViewCell: UITableViewCell {
 
     @IBOutlet weak var dayLabel: UILabel!
+    @IBOutlet weak var dayofweekLabel: UILabel!
+    
 //    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
     @IBOutlet weak var eventsView: CalendarDailyEventsCollectionViewBase!
     
@@ -20,8 +22,14 @@ class CalendarDailyDayTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-//        heightConstraint.constant = eventsView.eventCollectionView.collectionViewLayout.collectionViewContentSize.height
     }
-
+    
+    func setup(with dayEvents:DayEvents) {
+        
+        if let dayStr = dayEvents.date?.day {
+            dayLabel.text = String(describing: dayStr)
+        }
+        
+        dayofweekLabel.text = dayEvents.date?.weekdayName.sw4substring(to: 1)
+    }
 }
