@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Content : Account {
+class Content : Channel {
 }
 
 // アニメ

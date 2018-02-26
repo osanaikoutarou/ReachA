@@ -13,7 +13,7 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
     @IBOutlet weak var channelCollectionView: UICollectionView!
 
 //    var twitterUsers:[TwitterUser] = []
-    var accounts:[Account] = []
+    var channels:[Channel] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,14 +22,7 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
         channelCollectionView.dataSource = self
         
         
-        accounts = MockData().accounts()
-        for account in accounts {
-            account.setup(completion: { (succeess) in
-                channelCollectionView.reloadData()
-            })
-        }
-        
-        
+        channels = MockData().channels()
         
 //        let twitterFetcher = TwitterFetcher()
 //        twitterFetcher.fetchUser(
@@ -41,14 +34,14 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return twitterUsers.count * 10
+        return channels.count * 10
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChannelCollectionViewCell", for: indexPath) as! ChannelCollectionViewCell
         
-        cell.setup(user: self.twitterUsers[0])
+        cell.setup(channel: self.channels[indexPath.item % channels.count])
         
         return cell
     }

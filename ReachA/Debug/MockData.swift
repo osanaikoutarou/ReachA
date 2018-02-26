@@ -10,9 +10,9 @@ import UIKit
 
 class MockData: NSObject {
     
-    func accounts() -> [Account] {
+    func channels() -> [Channel] {
         
-        var result:[Account] = []
+        var result:[Channel] = []
         
         let yurukyan = Anime()
         yurukyan.name = "ゆるキャン△"

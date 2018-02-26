@@ -12,7 +12,7 @@ class ChannelCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var iconImageView: UIImageView!
     
-    var user:TwitterUser?
+    var channel:Channel?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,13 +20,17 @@ class ChannelCollectionViewCell: UICollectionViewCell {
         iconImageView.clipsToBounds = true
     }
     
-    func setup(user:TwitterUser) {
-        self.user = user
+    func setup(channel:Channel) {
+        self.channel = channel
         
-        iconImageView.sd_setImage(with: self.user?.profileImageUrlHttps?.url,
-                                  placeholderImage: nil,
-                                  options: .retryFailed,
-                                  completed: nil)
+        channel.setup(completion: { (succeess) in
+            if let twitterUser = self.channel?.twitterUser {
+                self.iconImageView.sd_setImage(with: twitterUser.profileImageUrlHttps?.url,
+                                               placeholderImage: nil,
+                                               options: .retryFailed,
+                                               completed: nil)
+            }
+        })
     }
     
 }

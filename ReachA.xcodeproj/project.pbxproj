@@ -125,7 +125,7 @@
 		1E0022F12028876100475253 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1E387CC42042BD000045C89D /* Account */,
+				1E387CC42042BD000045C89D /* Channel */,
 				1ECC996C203E824B00CA9C3E /* Event */,
 				1ECC9969203E818500CA9C3E /* Date */,
 			);
@@ -150,7 +150,7 @@
 			path = Creator;
 			sourceTree = "<group>";
 		};
-		1E387CC42042BD000045C89D /* Account */ = {
+		1E387CC42042BD000045C89D /* Channel */ = {
 			isa = PBXGroup;
 			children = (
 				1E387CC52042C1710045C89D /* Account.swift */,
@@ -159,7 +159,7 @@
 				1E0022F820289B8900475253 /* Organization.swift */,
 				1E0022F620289A2F00475253 /* Information.swift */,
 			);
-			path = Account;
+			path = Channel;
 			sourceTree = "<group>";
 		};
 		1E6731A62014D99900DB48DA /* Utilily */ = {

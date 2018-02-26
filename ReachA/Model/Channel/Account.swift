@@ -1,5 +1,5 @@
 //
-//  Account.swift
+//  Channel.swift
 //  ReachA
 //
 //  Created by 長内幸太郎 on 2018/02/25.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Account: NSObject {
+class Channel: NSObject {
     
     var id:String?                  // Account ID
     var name:String?                // Account name

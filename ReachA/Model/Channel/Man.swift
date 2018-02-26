@@ -8,6 +8,6 @@
 
 import Foundation
 
-class Man : Account {
+class Man : Channel {
     
 }
