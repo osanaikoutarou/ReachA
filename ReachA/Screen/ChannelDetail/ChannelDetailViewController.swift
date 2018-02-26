@@ -13,29 +13,21 @@ class ChannelDetailViewController: UIViewController,WKNavigationDelegate {
     
     @IBOutlet weak var wkWebView: WKWebView!
     
+    var channel:Channel? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "http://yurucamp.jp/")
-        let urlRequest = URLRequest(url: url!)
-        wkWebView.load(urlRequest)
+        if let channel = self.channel {
+            self.refresh(channel: channel)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func refresh(channel:Channel) {
+        if let url = channel.officialUrl?.url {
+            let urlRequest = URLRequest(url: url)
+            wkWebView.load(urlRequest)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

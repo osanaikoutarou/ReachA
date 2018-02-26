@@ -20,6 +20,12 @@ class ChannelCollectionViewCell: UICollectionViewCell {
         iconImageView.clipsToBounds = true
     }
     
+    override func layoutSubviews() {
+        iconImageView.layer.cornerRadius = iconImageView.frame.size.width/2.0
+        iconImageView.clipsToBounds = true
+        super.layoutSubviews()
+    }
+    
     func setup(channel:Channel) {
         self.channel = channel
         

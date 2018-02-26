@@ -122,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="682" y="-648"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Channel Tab Bar Controller-->
         <scene sceneID="dul-Ug-BOV">
             <objects>
-                <tabBarController storyboardIdentifier="ChannelDetailTabbar" id="ymY-on-yvB" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="ChannelDetailTabbar" id="ymY-on-yvB" customClass="ChannelTabBarController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GmJ-LQ-rhR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

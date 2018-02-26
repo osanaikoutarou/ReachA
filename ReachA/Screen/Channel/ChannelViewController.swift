@@ -21,8 +21,9 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
         channelCollectionView.delegate = self
         channelCollectionView.dataSource = self
         
-        
         channels = MockData().channels()
+        
+        channelCollectionView.setupFlowLayout(margin: 20, column: 4, baseSize: CGSize.init(width: 1, height: 1))
         
 //        let twitterFetcher = TwitterFetcher()
 //        twitterFetcher.fetchUser(
@@ -34,7 +35,7 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return channels.count * 10
+        return channels.count * 20
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -48,14 +49,15 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        self.performSegue(withIdentifier: "toDetail", sender: nil)
+        self.performSegue(withIdentifier: "toDetail", sender: channels[indexPath.item % channels.count])
     }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let next:UITabBarController = segue.destination as! UITabBarController
+        let selectedChannel = sender as! Channel
+        let next = segue.destination as! ChannelTabBarController
         next.hidesBottomBarWhenPushed = true
-        next.title = "ゆるキャン△"
+        next.setup(with: selectedChannel)
     }
 
 }
