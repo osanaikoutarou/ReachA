@@ -15,6 +15,9 @@
 		1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */; };
 		1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */; };
 		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
+		1E387CC62042C1710045C89D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC52042C1710045C89D /* Account.swift */; };
+		1E387CC82042C46A0045C89D /* WKWebViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC72042C46A0045C89D /* WKWebViewExtension.swift */; };
+		1E387CCB2042D8300045C89D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CCA2042D8300045C89D /* MockData.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
@@ -60,6 +63,9 @@
 		1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyDayTableViewCell.swift; sourceTree = "<group>"; };
 		1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyMonthTableViewCell.swift; sourceTree = "<group>"; };
 		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
+		1E387CC52042C1710045C89D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		1E387CC72042C46A0045C89D /* WKWebViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewExtension.swift; sourceTree = "<group>"; };
+		1E387CCA2042D8300045C89D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,12 +125,9 @@
 		1E0022F12028876100475253 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1E387CC42042BD000045C89D /* Account */,
 				1ECC996C203E824B00CA9C3E /* Event */,
 				1ECC9969203E818500CA9C3E /* Date */,
-				1E0022F22028879600475253 /* Content.swift */,
-				1E0022F42028995400475253 /* Man.swift */,
-				1E0022F620289A2F00475253 /* Information.swift */,
-				1E0022F820289B8900475253 /* Organization.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +148,18 @@
 				1E387CC22042A42D0045C89D /* CalendarCreator.swift */,
 			);
 			path = Creator;
+			sourceTree = "<group>";
+		};
+		1E387CC42042BD000045C89D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				1E387CC52042C1710045C89D /* Account.swift */,
+				1E0022F22028879600475253 /* Content.swift */,
+				1E0022F42028995400475253 /* Man.swift */,
+				1E0022F820289B8900475253 /* Organization.swift */,
+				1E0022F620289A2F00475253 /* Information.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		1E6731A62014D99900DB48DA /* Utilily */ = {
@@ -188,7 +203,6 @@
 				1E6731A62014D99900DB48DA /* Utilily */,
 				1EC67CA6201EDECA00EE3955 /* Twitter */,
 				1EFAC99C2039DC0800BABB67 /* DB */,
-				1E0022F12028876100475253 /* Model */,
 				1E387CC12042A3EF0045C89D /* Creator */,
 				1EE9A30C20306B2D00BAB029 /* Extension */,
 				1EE9A30020303ABB00BAB029 /* View */,
@@ -220,6 +234,7 @@
 			children = (
 				1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */,
 				1EE9A311203072EB00BAB029 /* ClassUtility.swift */,
+				1E387CC72042C46A0045C89D /* WKWebViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -318,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC682CE203D490400416BE7 /* Debug */,
+				1E0022F12028876100475253 /* Model */,
 				1EE9A2FF20303AAC00BAB029 /* Common */,
 				DA10F537200DD69300A5C9FC /* Screen */,
 				DA10F534200DD5E800A5C9FC /* Storyboard */,
@@ -337,6 +353,7 @@
 			children = (
 				DAC682D1203D496000416BE7 /* Top */,
 				DAC682CF203D491200416BE7 /* Debug.storyboard */,
+				1E387CCA2042D8300045C89D /* MockData.swift */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -518,6 +535,7 @@
 				1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */,
 				1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */,
 				1E0022F920289B8900475253 /* Organization.swift in Sources */,
+				1E387CC62042C1710045C89D /* Account.swift in Sources */,
 				DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */,
 				1E0022F720289A2F00475253 /* Information.swift in Sources */,
 				DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */,
@@ -525,6 +543,7 @@
 				DAA4E998200C858300CE1183 /* ViewController.swift in Sources */,
 				1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */,
 				1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */,
+				1E387CCB2042D8300045C89D /* MockData.swift in Sources */,
 				1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */,
 				1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */,
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
@@ -539,6 +558,7 @@
 				1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */,
 				1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */,
 				1EE9A31020306D8100BAB029 /* UICollectionViewUtility.swift in Sources */,
+				1E387CC82042C46A0045C89D /* WKWebViewExtension.swift in Sources */,
 				DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */,
 				1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */,
 				DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */,

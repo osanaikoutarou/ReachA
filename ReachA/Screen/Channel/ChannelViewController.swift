@@ -12,8 +12,8 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
 
     @IBOutlet weak var channelCollectionView: UICollectionView!
 
-    var twitterUsers:[TwitterUser] = []
-    
+//    var twitterUsers:[TwitterUser] = []
+    var accounts:[Account] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +21,23 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
         channelCollectionView.delegate = self
         channelCollectionView.dataSource = self
         
-        let twitterFetcher = TwitterFetcher()
-        twitterFetcher.fetchUser(
-            screenName: "yurucamp_anime",
-            successHandler: { (tu:TwitterUser) in
-                self.twitterUsers = [tu]
-                self.channelCollectionView.reloadData()
-        })
+        
+        accounts = MockData().accounts()
+        for account in accounts {
+            account.setup(completion: { (succeess) in
+                channelCollectionView.reloadData()
+            })
+        }
+        
+        
+        
+//        let twitterFetcher = TwitterFetcher()
+//        twitterFetcher.fetchUser(
+//            screenName: "yurucamp_anime",
+//            successHandler: { (tu:TwitterUser) in
+//                self.twitterUsers = [tu]
+//                self.channelCollectionView.reloadData()
+//        })
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

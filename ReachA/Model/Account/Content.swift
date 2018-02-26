@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Content {    
+class Content : Account {
 }
 
 // アニメ
