@@ -63,5 +63,6 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-*.DS_Strore
+*.DS_Strore*
+*.DS_Store*
 

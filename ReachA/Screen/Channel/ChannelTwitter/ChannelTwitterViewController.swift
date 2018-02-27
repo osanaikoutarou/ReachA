@@ -11,19 +11,29 @@ import TwitterKit
 
 class ChannelTwitterViewController: TWTRTimelineViewController {
 
+    var channel:Channel? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let client = TWTRAPIClient()
-//        self.dataSource = TWTRUserTimelineDataSource(screenName: "SIROyoutuber", apiClient: client)
+        
+        if let channel = self.channel {
+            self.refresh(channel: channel)
+        }
+    }
+    
+    func refresh(channel:Channel) {
+        self.channel = channel
+        
         self.showTweetActions = true
         
-        super.viewDidLoad()
         let client = TWTRAPIClient()
-        self.dataSource = TWTRUserTimelineDataSource(screenName: "yurucamp_anime", apiClient: client)
+        
+        if let twitterScreenName = channel.twitterScreenName {
+            self.dataSource = TWTRUserTimelineDataSource(screenName: twitterScreenName, apiClient: client)
+        }
         
         self.showTweetActions = true
     }
-    
     
 
 }

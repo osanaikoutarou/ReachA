@@ -16,8 +16,10 @@
 		1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */; };
 		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
 		1E387CC62042C1710045C89D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC52042C1710045C89D /* Account.swift */; };
-		1E387CC82042C46A0045C89D /* WKWebViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC72042C46A0045C89D /* WKWebViewExtension.swift */; };
 		1E387CCB2042D8300045C89D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CCA2042D8300045C89D /* MockData.swift */; };
+		1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3A85B0204515EA00CFB052 /* Official.storyboard */; };
+		1E3A85B72045163300CFB052 /* OfficialAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A85B62045163300CFB052 /* OfficialAnimeViewController.swift */; };
+		1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
@@ -31,8 +33,8 @@
 		1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */; };
 		1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30820303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift */; };
 		1EE9A30B20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A30920303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib */; };
-		1EE9A31020306D8100BAB029 /* UICollectionViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */; };
-		1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A311203072EB00BAB029 /* ClassUtility.swift */; };
+		1EE9A31020306D8100BAB029 /* UICollectionView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30F20306D8100BAB029 /* UICollectionView+Utility.swift */; };
+		1EE9A312203072EB00BAB029 /* Class+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A311203072EB00BAB029 /* Class+Utility.swift */; };
 		1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A31520307B2200BAB029 /* Calendar.storyboard */; };
 		1EFAC99E2039E20700BABB67 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */; };
 		1EFAC9AB2039E9BD00BABB67 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */; };
@@ -52,6 +54,8 @@
 		DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682CC203D427F00416BE7 /* BaseRSDao.swift */; };
 		DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC682CF203D491200416BE7 /* Debug.storyboard */; };
 		DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */; };
+		DAD5F4A42043E037002392F1 /* UICollectionView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */; };
+		DAD5F4A62043E8EA002392F1 /* ChannelTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F4A52043E8EA002392F1 /* ChannelTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,8 +68,10 @@
 		1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyMonthTableViewCell.swift; sourceTree = "<group>"; };
 		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
 		1E387CC52042C1710045C89D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		1E387CC72042C46A0045C89D /* WKWebViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewExtension.swift; sourceTree = "<group>"; };
 		1E387CCA2042D8300045C89D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		1E3A85B0204515EA00CFB052 /* Official.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Official.storyboard; sourceTree = "<group>"; };
+		1E3A85B62045163300CFB052 /* OfficialAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialAnimeViewController.swift; sourceTree = "<group>"; };
+		1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopViewController.swift; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,8 +85,8 @@
 		1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarDailyEventsCollectionViewBase.xib; sourceTree = "<group>"; };
 		1EE9A30820303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyEventNormalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1EE9A30920303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarDailyEventNormalCollectionViewCell.xib; sourceTree = "<group>"; };
-		1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewUtility.swift; sourceTree = "<group>"; };
-		1EE9A311203072EB00BAB029 /* ClassUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassUtility.swift; sourceTree = "<group>"; };
+		1EE9A30F20306D8100BAB029 /* UICollectionView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Utility.swift"; sourceTree = "<group>"; };
+		1EE9A311203072EB00BAB029 /* Class+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Utility.swift"; sourceTree = "<group>"; };
 		1EE9A31520307B2200BAB029 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
 		1EFAC9A42039E81400BABB67 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +111,8 @@
 		DAC682CC203D427F00416BE7 /* BaseRSDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRSDao.swift; sourceTree = "<group>"; };
 		DAC682CF203D491200416BE7 /* Debug.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
 		DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTopViewController.swift; sourceTree = "<group>"; };
+		DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Layout.swift"; sourceTree = "<group>"; };
+		DAD5F4A52043E8EA002392F1 /* ChannelTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +168,22 @@
 				1E0022F620289A2F00475253 /* Information.swift */,
 			);
 			path = Channel;
+			sourceTree = "<group>";
+		};
+		1E3A85B32045161500CFB052 /* Official */ = {
+			isa = PBXGroup;
+			children = (
+				1E3A85B62045163300CFB052 /* OfficialAnimeViewController.swift */,
+			);
+			path = Official;
+			sourceTree = "<group>";
+		};
+		1E3A85B92045191200CFB052 /* ChannelTop */ = {
+			isa = PBXGroup;
+			children = (
+				1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */,
+			);
+			path = ChannelTop;
 			sourceTree = "<group>";
 		};
 		1E6731A62014D99900DB48DA /* Utilily */ = {
@@ -232,9 +256,9 @@
 		1EE9A30C20306B2D00BAB029 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1EE9A30F20306D8100BAB029 /* UICollectionViewUtility.swift */,
-				1EE9A311203072EB00BAB029 /* ClassUtility.swift */,
-				1E387CC72042C46A0045C89D /* WKWebViewExtension.swift */,
+				1EE9A30F20306D8100BAB029 /* UICollectionView+Utility.swift */,
+				1EE9A311203072EB00BAB029 /* Class+Utility.swift */,
+				DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -262,6 +286,7 @@
 				DA10F535200DD5FF00A5C9FC /* Top.storyboard */,
 				1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */,
 				1EE9A31520307B2200BAB029 /* Calendar.storyboard */,
+				1E3A85B0204515EA00CFB052 /* Official.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -269,9 +294,8 @@
 		DA10F537200DD69300A5C9FC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				1E3A85B32045161500CFB052 /* Official */,
 				1E0022FA2028A57700475253 /* Calendar */,
-				DA8C333A2011C1BC00864192 /* ChannelTwitter */,
-				DA10F544200DDA5700A5C9FC /* ChannelDetail */,
 				DA10F53B200DD82400A5C9FC /* Channel */,
 				DA10F538200DD69E00A5C9FC /* Top */,
 			);
@@ -289,6 +313,9 @@
 		DA10F53B200DD82400A5C9FC /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				1E3A85B92045191200CFB052 /* ChannelTop */,
+				DA8C333A2011C1BC00864192 /* ChannelTwitter */,
+				DA10F544200DDA5700A5C9FC /* ChannelDetail */,
 				DA10F53C200DD8C800A5C9FC /* ChannelViewController.swift */,
 				DA10F53E200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift */,
 			);
@@ -299,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				DA10F545200DDA6B00A5C9FC /* ChannelDetailViewController.swift */,
+				DAD5F4A52043E8EA002392F1 /* ChannelTabBarController.swift */,
 			);
 			path = ChannelDetail;
 			sourceTree = "<group>";
@@ -448,6 +476,7 @@
 				1EE9A30B20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib in Resources */,
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
+				1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */,
 				DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */,
 				1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */,
 			);
@@ -530,12 +559,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD5F4A62043E8EA002392F1 /* ChannelTabBarController.swift in Sources */,
 				1E0022F52028995400475253 /* Man.swift in Sources */,
 				1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */,
 				1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */,
 				1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */,
 				1E0022F920289B8900475253 /* Organization.swift in Sources */,
 				1E387CC62042C1710045C89D /* Account.swift in Sources */,
+				DAD5F4A42043E037002392F1 /* UICollectionView+Layout.swift in Sources */,
 				DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */,
 				1E0022F720289A2F00475253 /* Information.swift in Sources */,
 				DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */,
@@ -544,24 +575,25 @@
 				1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */,
 				1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */,
 				1E387CCB2042D8300045C89D /* MockData.swift in Sources */,
-				1EE9A312203072EB00BAB029 /* ClassUtility.swift in Sources */,
+				1EE9A312203072EB00BAB029 /* Class+Utility.swift in Sources */,
 				1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */,
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
 				1EFAC99E2039E20700BABB67 /* CalendarEvent.swift in Sources */,
 				1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */,
 				DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */,
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
+				1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */,
 				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,
 				1E0022F32028879600475253 /* Content.swift in Sources */,
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
 				1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */,
 				1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */,
-				1EE9A31020306D8100BAB029 /* UICollectionViewUtility.swift in Sources */,
-				1E387CC82042C46A0045C89D /* WKWebViewExtension.swift in Sources */,
+				1EE9A31020306D8100BAB029 /* UICollectionView+Utility.swift in Sources */,
 				DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */,
 				1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */,
 				DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */,
+				1E3A85B72045163300CFB052 /* OfficialAnimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -672,7 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -685,11 +717,14 @@
 			baseConfigurationReference = 80E12CAB81C78D7E0BCBC0D0 /* Pods-ReachA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7MW83A3B2;
 				INFOPLIST_FILE = ReachA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.ReachA;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.rearcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -699,11 +734,14 @@
 			baseConfigurationReference = D67B261AA16330F7DA2C82B7 /* Pods-ReachA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7MW83A3B2;
 				INFOPLIST_FILE = ReachA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.ReachA;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.rearcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

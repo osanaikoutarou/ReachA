@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1kE-p6-WU2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Sfh-Nd-a3r">
+            <objects>
+                <navigationController storyboardIdentifier="OfficialNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1kE-p6-WU2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iAx-2u-2IS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="39K-9o-vDf" kind="relationship" relationship="rootViewController" id="pJf-pi-Wy8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5H-iX-vIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-570" y="172"/>
+        </scene>
+        <!--Official Anime View Controller-->
+        <scene sceneID="JAG-ac-2Mm">
+            <objects>
+                <viewController storyboardIdentifier="OfficialAnimeViewController" id="39K-9o-vDf" customClass="OfficialAnimeViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fbb-ic-QoE" customClass="Officials">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QRJ-Ht-iUC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-fP-jDW">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="Top" id="c98-UU-xu5"/>
+                                    <tabBarItem title="キャラ" id="vjY-1d-X6K"/>
+                                    <tabBarItem title="グッズ" id="q53-Yl-K9c"/>
+                                    <tabBarItem title="ストーリー" id="NEQ-Mm-n71"/>
+                                    <tabBarItem title="Item" id="zwG-CS-jzp"/>
+                                    <tabBarItem title="Item" id="kPf-Ox-X7r"/>
+                                    <tabBarItem title="Item" id="Xix-YW-S1R"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DVW-Wv-m2E" firstAttribute="bottom" secondItem="QRJ-Ht-iUC" secondAttribute="bottom" id="22s-26-RZP"/>
+                            <constraint firstItem="QRJ-Ht-iUC" firstAttribute="top" secondItem="DVW-Wv-m2E" secondAttribute="top" id="KWP-Ua-Pmb"/>
+                            <constraint firstItem="QRJ-Ht-iUC" firstAttribute="leading" secondItem="DVW-Wv-m2E" secondAttribute="leading" id="MD5-BD-7l6"/>
+                            <constraint firstItem="DVW-Wv-m2E" firstAttribute="trailing" secondItem="QRJ-Ht-iUC" secondAttribute="trailing" id="Ov2-Op-HV3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DVW-Wv-m2E"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S50-mi-nEz"/>
+                    <connections>
+                        <outlet property="wkWebView" destination="QRJ-Ht-iUC" id="Qfu-jk-6Y3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GsV-6D-ma4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="173"/>
+        </scene>
+    </scenes>
+</document>

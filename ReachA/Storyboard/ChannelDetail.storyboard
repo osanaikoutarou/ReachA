@@ -10,6 +10,45 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--コンテンツ-->
+        <scene sceneID="xRS-v2-Bd3">
+            <objects>
+                <viewController id="bcB-AM-n8U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cUk-3D-VJY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="動画" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpD-nq-8BQ">
+                                <rect key="frame" x="166" y="120" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="音楽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n40-7Y-vzF">
+                                <rect key="frame" x="170" y="149" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本など" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8VR-sh-rQj">
+                                <rect key="frame" x="170" y="178" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="F2F-ay-Axb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="コンテンツ" id="d7g-Cl-Qxg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAt-oZ-MDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680.79999999999995" y="40.929535232383813"/>
+        </scene>
         <!--公式HP-->
         <scene sceneID="80K-Bx-rya">
             <objects>
@@ -19,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHT-AT-nol">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -43,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGD-f5-AAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680.79999999999995" y="15.742128935532236"/>
+            <point key="canvasLocation" x="3316" y="-113"/>
         </scene>
         <!--Twitter-->
         <scene sceneID="3ZR-23-JT7">
@@ -90,6 +129,22 @@
             </objects>
             <point key="canvasLocation" x="681" y="1469"/>
         </scene>
+        <!--二次創作-->
+        <scene sceneID="2f4-om-VfN">
+            <objects>
+                <viewController id="4Nm-pG-6mH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pYp-Jm-0gB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="lRv-iM-0xX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="二次創作" id="BcZ-Ac-DE4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OkX-ks-5za" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="2207"/>
+        </scene>
         <!--マイページ-->
         <scene sceneID="diW-lo-xWm">
             <objects>
@@ -104,39 +159,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKZ-1d-NSO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="681" y="2177"/>
+            <point key="canvasLocation" x="2250" y="2086"/>
         </scene>
-        <!--Top-->
+        <!--Item-->
         <scene sceneID="ajO-LU-dCd">
             <objects>
-                <viewController id="UMb-lA-gVW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChannelTopViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UMb-lA-gVW" customClass="ChannelTopViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wvg-Y1-SxX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygA-fM-zAQ">
+                                <rect key="frame" x="159" y="229" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="公式Top"/>
+                                <connections>
+                                    <action selector="tappedOfficialButton:" destination="UMb-lA-gVW" eventType="touchUpInside" id="rq3-pU-u6v"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="PdV-di-gXH"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Top" id="6hj-Bn-gtz"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="9eq-mX-rtA"/>
+                    <navigationItem key="navigationItem" id="XBI-dj-iaP"/>
+                    <connections>
+                        <segue destination="DFk-Pc-rya" kind="show" identifier="toOfficial" id="448-xt-OwP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="43c-ms-iv6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="682" y="-648"/>
+            <point key="canvasLocation" x="660" y="-666"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--OfficialNav-->
+        <scene sceneID="Anl-NR-3OP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Official" referencedIdentifier="OfficialNav" id="DFk-Pc-rya" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MEa-p5-U8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2408" y="-666"/>
+        </scene>
+        <!--Channel Tab Bar Controller-->
         <scene sceneID="dul-Ug-BOV">
             <objects>
-                <tabBarController storyboardIdentifier="ChannelDetailTabbar" id="ymY-on-yvB" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="ChannelDetailTabbar" id="ymY-on-yvB" customClass="ChannelTabBarController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GmJ-LQ-rhR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="UMb-lA-gVW" kind="relationship" relationship="viewControllers" id="fkw-2P-Fgl"/>
-                        <segue destination="LCc-8b-d4D" kind="relationship" relationship="viewControllers" id="4Tt-7S-ngX"/>
-                        <segue destination="gwS-DR-bMU" kind="relationship" relationship="viewControllers" id="VOK-mE-ozz"/>
-                        <segue destination="0Fk-3J-weI" kind="relationship" relationship="viewControllers" id="HLs-Wc-5oU"/>
-                        <segue destination="DF3-wI-apS" kind="relationship" relationship="viewControllers" id="B3k-IU-OgI"/>
+                        <segue destination="UMb-lA-gVW" kind="relationship" relationship="viewControllers" id="I7m-VD-wme"/>
+                        <segue destination="bcB-AM-n8U" kind="relationship" relationship="viewControllers" id="M8A-uJ-qL7"/>
+                        <segue destination="gwS-DR-bMU" kind="relationship" relationship="viewControllers" id="VPf-PO-Yp2"/>
+                        <segue destination="0Fk-3J-weI" kind="relationship" relationship="viewControllers" id="PRY-0d-Gqe"/>
+                        <segue destination="4Nm-pG-6mH" kind="relationship" relationship="viewControllers" id="KNm-bi-8gv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LIt-jj-cC5" userLabel="First Responder" sceneMemberID="firstResponder"/>
