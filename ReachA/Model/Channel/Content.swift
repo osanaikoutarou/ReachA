@@ -9,6 +9,9 @@
 import Foundation
 
 class Content : Channel {
+    var url:String? = ""
+    var title:String? = ""
+    var date:Date? = nil
 }
 
 // アニメ
@@ -37,4 +40,10 @@ class Event : Content {
 
 // キャラクター
 class Caractor : Content {
+}
+
+/////////////////////////
+
+class YoutubeVideo : Video {
+    var youtubeId:String? = ""
 }

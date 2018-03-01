@@ -20,8 +20,15 @@
 		1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3A85B0204515EA00CFB052 /* Official.storyboard */; };
 		1E3A85B72045163300CFB052 /* OfficialAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A85B62045163300CFB052 /* OfficialAnimeViewController.swift */; };
 		1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */; };
+		1E5263FC2047B4C100EF3E18 /* ChannelVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5263FB2047B4C100EF3E18 /* ChannelVideosViewController.swift */; };
+		1E5263FE2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */; };
+		1E5264052047BD2B00EF3E18 /* UITableView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
+		1E86961A2048465100337DC0 /* Play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8696192048465100337DC0 /* Play.storyboard */; };
+		1E86961D2048472000337DC0 /* PlayYoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */; };
+		1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961F20485A5F00337DC0 /* YoutubeApp.swift */; };
+		1E86962220485A6E00337DC0 /* OtherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86962120485A6E00337DC0 /* OtherApp.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
 		1EC67CA5201E540500EE3955 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA4201E540500EE3955 /* Twitter.framework */; };
 		1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */; };
@@ -72,8 +79,15 @@
 		1E3A85B0204515EA00CFB052 /* Official.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Official.storyboard; sourceTree = "<group>"; };
 		1E3A85B62045163300CFB052 /* OfficialAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialAnimeViewController.swift; sourceTree = "<group>"; };
 		1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopViewController.swift; sourceTree = "<group>"; };
+		1E5263FB2047B4C100EF3E18 /* ChannelVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVideosViewController.swift; sourceTree = "<group>"; };
+		1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelContentVideoTableViewCell.swift; sourceTree = "<group>"; };
+		1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utility.swift"; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
+		1E8696192048465100337DC0 /* Play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Play.storyboard; sourceTree = "<group>"; };
+		1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayYoutubeViewController.swift; sourceTree = "<group>"; };
+		1E86961F20485A5F00337DC0 /* YoutubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeApp.swift; sourceTree = "<group>"; };
+		1E86962120485A6E00337DC0 /* OtherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherApp.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC67CA4201E540500EE3955 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
@@ -197,6 +211,8 @@
 		1E5263FA204722A800EF3E18 /* ChannelVideos */ = {
 			isa = PBXGroup;
 			children = (
+				1E5263FB2047B4C100EF3E18 /* ChannelVideosViewController.swift */,
+				1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */,
 			);
 			path = ChannelVideos;
 			sourceTree = "<group>";
@@ -209,6 +225,23 @@
 				1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */,
 			);
 			path = Utilily;
+			sourceTree = "<group>";
+		};
+		1E86961B204846E200337DC0 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		1E86961E20485A3F00337DC0 /* OtherApp */ = {
+			isa = PBXGroup;
+			children = (
+				1E86961F20485A5F00337DC0 /* YoutubeApp.swift */,
+				1E86962120485A6E00337DC0 /* OtherApp.swift */,
+			);
+			path = OtherApp;
 			sourceTree = "<group>";
 		};
 		1EC67CA6201EDECA00EE3955 /* Twitter */ = {
@@ -239,6 +272,7 @@
 		1EE9A2FF20303AAC00BAB029 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1E86961E20485A3F00337DC0 /* OtherApp */,
 				1E6731A62014D99900DB48DA /* Utilily */,
 				1EC67CA6201EDECA00EE3955 /* Twitter */,
 				1EFAC99C2039DC0800BABB67 /* DB */,
@@ -274,6 +308,7 @@
 				1EE9A30F20306D8100BAB029 /* UICollectionView+Utility.swift */,
 				1EE9A311203072EB00BAB029 /* Class+Utility.swift */,
 				DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */,
+				1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -302,6 +337,7 @@
 				1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */,
 				1EE9A31520307B2200BAB029 /* Calendar.storyboard */,
 				1E3A85B0204515EA00CFB052 /* Official.storyboard */,
+				1E8696192048465100337DC0 /* Play.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -309,6 +345,7 @@
 		DA10F537200DD69300A5C9FC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				1E86961B204846E200337DC0 /* Play */,
 				1E3A85B32045161500CFB052 /* Official */,
 				1E0022FA2028A57700475253 /* Calendar */,
 				DA10F53B200DD82400A5C9FC /* Channel */,
@@ -493,6 +530,7 @@
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
 				1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */,
+				1E86961A2048465100337DC0 /* Play.storyboard in Resources */,
 				DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */,
 				1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */,
 			);
@@ -576,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD5F4A62043E8EA002392F1 /* ChannelTabBarController.swift in Sources */,
+				1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */,
 				1E0022F52028995400475253 /* Man.swift in Sources */,
 				1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */,
 				1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */,
@@ -583,6 +622,7 @@
 				1E0022F920289B8900475253 /* Organization.swift in Sources */,
 				1E387CC62042C1710045C89D /* Account.swift in Sources */,
 				DAD5F4A42043E037002392F1 /* UICollectionView+Layout.swift in Sources */,
+				1E5264052047BD2B00EF3E18 /* UITableView+Utility.swift in Sources */,
 				DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */,
 				1E0022F720289A2F00475253 /* Information.swift in Sources */,
 				DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */,
@@ -595,19 +635,23 @@
 				1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */,
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
 				1EFAC99E2039E20700BABB67 /* CalendarEvent.swift in Sources */,
+				1E86961D2048472000337DC0 /* PlayYoutubeViewController.swift in Sources */,
 				1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */,
 				DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */,
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
 				1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */,
 				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,
 				1E0022F32028879600475253 /* Content.swift in Sources */,
+				1E5263FC2047B4C100EF3E18 /* ChannelVideosViewController.swift in Sources */,
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
 				1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */,
 				1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */,
+				1E5263FE2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift in Sources */,
 				1EE9A31020306D8100BAB029 /* UICollectionView+Utility.swift in Sources */,
 				DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */,
 				1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */,
+				1E86962220485A6E00337DC0 /* OtherApp.swift in Sources */,
 				DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */,
 				1E3A85B72045163300CFB052 /* OfficialAnimeViewController.swift in Sources */,
 			);

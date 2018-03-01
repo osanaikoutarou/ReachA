@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="XQu-yU-uBu">
+            <objects>
+                <viewController storyboardIdentifier="PlayYoutubeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Em-0o-I4E" customClass="PlayYoutubeViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7SV-3S-fAg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQH-Qu-lIZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DYg-fu-FCg">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="rdc-FR-XiX"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="toolbar_back" id="NSi-0P-gWT"/>
+                                    <barButtonItem image="toolbar_next" id="sWi-gD-8NH"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sQH-Qu-lIZ" firstAttribute="leading" secondItem="ypm-cA-Jmk" secondAttribute="leading" id="43u-oN-AyP"/>
+                            <constraint firstItem="sQH-Qu-lIZ" firstAttribute="bottom" secondItem="ypm-cA-Jmk" secondAttribute="bottom" id="5Pw-ac-8t2"/>
+                            <constraint firstItem="sQH-Qu-lIZ" firstAttribute="top" secondItem="7SV-3S-fAg" secondAttribute="top" id="DHg-2z-cTT"/>
+                            <constraint firstItem="DYg-fu-FCg" firstAttribute="trailing" secondItem="ypm-cA-Jmk" secondAttribute="trailing" id="HKK-yQ-c7L"/>
+                            <constraint firstItem="DYg-fu-FCg" firstAttribute="bottom" secondItem="ypm-cA-Jmk" secondAttribute="bottom" id="HKl-f1-Eik"/>
+                            <constraint firstItem="sQH-Qu-lIZ" firstAttribute="trailing" secondItem="ypm-cA-Jmk" secondAttribute="trailing" id="LTB-Do-zyP"/>
+                            <constraint firstItem="DYg-fu-FCg" firstAttribute="leading" secondItem="ypm-cA-Jmk" secondAttribute="leading" id="xNU-2J-SAJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ypm-cA-Jmk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="c8T-zY-wMb">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="ttP-tS-Eq8">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Fyf-oZ-jIn">
+                                <rect key="frame" x="317" y="7" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="youtube_social_icon_red"/>
+                                <connections>
+                                    <action selector="tappedYoutubeItem:" destination="0Em-0o-I4E" eventType="touchUpInside" id="SJs-of-Tbf"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="wkWebView" destination="sQH-Qu-lIZ" id="JgA-qV-xfs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1iz-AG-wr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="292" y="372.86356821589209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="toolbar_back" width="20" height="20"/>
+        <image name="toolbar_next" width="20" height="20"/>
+        <image name="youtube_social_icon_red" width="42" height="30"/>
+    </resources>
+</document>

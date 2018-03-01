@@ -229,6 +229,14 @@
             </objects>
             <point key="canvasLocation" x="660" y="-666"/>
         </scene>
+        <!--PlayYoutubeViewController-->
+        <scene sceneID="o5Z-wk-yeK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Play" referencedIdentifier="PlayYoutubeViewController" id="N64-lf-mwL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oBf-dd-WLj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="-1124"/>
+        </scene>
         <!--OfficialNav-->
         <scene sceneID="Anl-NR-3OP">
             <objects>
@@ -258,10 +266,10 @@
             </objects>
             <point key="canvasLocation" x="-268" y="-315"/>
         </scene>
-        <!--View Controller-->
+        <!--Channel Videos View Controller-->
         <scene sceneID="BKg-Mx-4Nh">
             <objects>
-                <viewController id="rTH-xQ-ke7" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChannelVideosViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rTH-xQ-ke7" customClass="ChannelVideosViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HDk-sX-FyC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,21 +278,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="vuL-cA-gpZ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelContentVideoTableViewCell" rowHeight="90" id="vuL-cA-gpZ" customClass="ChannelContentVideoTableViewCell" customModule="ReachA" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vuL-cA-gpZ" id="3sP-Gu-Ju5">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KMq-Sr-dDU">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KMq-Sr-dDU">
                                                     <rect key="frame" x="8" y="8" width="131" height="73.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="KMq-Sr-dDU" secondAttribute="height" multiplier="16:9" id="l6c-CU-JpH"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3時間前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-Ig-D0g">
-                                                    <rect key="frame" x="147" y="8" width="220" height="14.5"/>
+                                                    <rect key="frame" x="147" y="8" width="178" height="14.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="15" id="uit-hp-LxG"/>
                                                     </constraints>
@@ -292,6 +300,13 @@
                                                     <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youtube_social_icon_red" translatesAutoresizingMaskIntoConstraints="NO" id="vTC-bv-Dc3">
+                                                    <rect key="frame" x="347" y="6" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="ifD-Yb-1mH"/>
+                                                        <constraint firstAttribute="height" constant="20" id="laP-sN-2sm"/>
+                                                    </constraints>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="佐々木恵梨『ふゆびより』 (Music Video) TVアニメ「ゆるキャン」EDテーマ" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0er-de-xRB">
                                                     <rect key="frame" x="147" y="30" width="220" height="42"/>
                                                     <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
@@ -305,13 +320,21 @@
                                                 <constraint firstAttribute="trailing" secondItem="0er-de-xRB" secondAttribute="trailing" constant="8" id="EuY-lZ-mtg"/>
                                                 <constraint firstItem="uYf-Ig-D0g" firstAttribute="top" secondItem="3sP-Gu-Ju5" secondAttribute="top" constant="8" id="JaE-1E-RLE"/>
                                                 <constraint firstItem="0er-de-xRB" firstAttribute="leading" secondItem="KMq-Sr-dDU" secondAttribute="trailing" constant="8" id="ONR-qv-NWf"/>
+                                                <constraint firstAttribute="trailing" secondItem="vTC-bv-Dc3" secondAttribute="trailing" constant="8" id="PZh-5B-DE7"/>
+                                                <constraint firstItem="vTC-bv-Dc3" firstAttribute="top" secondItem="3sP-Gu-Ju5" secondAttribute="top" constant="6" id="W9i-Q2-ydu"/>
                                                 <constraint firstAttribute="bottom" secondItem="KMq-Sr-dDU" secondAttribute="bottom" constant="8" id="dG9-ab-3U2"/>
                                                 <constraint firstItem="KMq-Sr-dDU" firstAttribute="top" secondItem="3sP-Gu-Ju5" secondAttribute="top" constant="8" id="sOS-Qw-EVM"/>
-                                                <constraint firstAttribute="trailing" secondItem="uYf-Ig-D0g" secondAttribute="trailing" constant="8" id="sVj-CZ-Mkp"/>
+                                                <constraint firstAttribute="trailing" secondItem="uYf-Ig-D0g" secondAttribute="trailing" constant="50" id="sVj-CZ-Mkp"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0er-de-xRB" secondAttribute="bottom" constant="8" id="vRw-jQ-mTD"/>
                                                 <constraint firstItem="uYf-Ig-D0g" firstAttribute="leading" secondItem="KMq-Sr-dDU" secondAttribute="trailing" constant="8" id="xXv-qb-pGf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="createdDateLabel" destination="uYf-Ig-D0g" id="LIO-HC-YwV"/>
+                                            <outlet property="sourceIcon" destination="vTC-bv-Dc3" id="oAy-0a-Cyx"/>
+                                            <outlet property="thumbnailImageView" destination="KMq-Sr-dDU" id="Bbm-Hn-1zw"/>
+                                            <outlet property="titleLabel" destination="0er-de-xRB" id="LPZ-mN-W4K"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -323,7 +346,12 @@
                             <constraint firstAttribute="trailing" secondItem="8G0-fb-FP6" secondAttribute="trailing" id="Vd7-Zo-xwn"/>
                             <constraint firstItem="8G0-fb-FP6" firstAttribute="leading" secondItem="HDk-sX-FyC" secondAttribute="leading" id="f5h-NY-mzD"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="kLC-4z-Gyn"/>
                     </view>
+                    <connections>
+                        <outlet property="videoTableView" destination="8G0-fb-FP6" id="tgH-lN-SQM"/>
+                        <segue destination="N64-lf-mwL" kind="show" identifier="toPlayYoutube" id="sf4-7q-uOj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cp9-jj-ooz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -359,6 +387,7 @@
                             <constraint firstAttribute="bottom" secondItem="bBs-vZ-8KA" secondAttribute="bottom" id="QSP-Jt-nSy"/>
                             <constraint firstItem="bBs-vZ-8KA" firstAttribute="top" secondItem="hLZ-qB-bbw" secondAttribute="top" id="rvJ-mu-H4E"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="gHg-Xq-KHo"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oqr-jK-A27" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -395,6 +424,7 @@
                             <constraint firstAttribute="trailing" secondItem="9te-3c-poV" secondAttribute="trailing" id="ThT-qB-bVP"/>
                             <constraint firstItem="9te-3c-poV" firstAttribute="leading" secondItem="37n-lh-PQl" secondAttribute="leading" id="qPA-YP-Iap"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="Epe-qM-7V3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JiV-p0-rcp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -402,4 +432,7 @@
             <point key="canvasLocation" x="3417" y="824"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="youtube_social_icon_red" width="42" height="30"/>
+    </resources>
 </document>
