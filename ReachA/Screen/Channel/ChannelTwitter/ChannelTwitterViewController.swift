@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import WebKit
 import TwitterKit
 
-class ChannelTwitterViewController: TWTRTimelineViewController {
+class ChannelTwitterViewController: UIViewController {
 
+    @IBOutlet weak var wkWebView: WKWebView!
+    
     var channel:Channel? = nil
     
     override func viewDidLoad() {
@@ -22,18 +25,27 @@ class ChannelTwitterViewController: TWTRTimelineViewController {
     }
     
     func refresh(channel:Channel) {
-        self.channel = channel
-        
-        self.showTweetActions = true
-        
-        let client = TWTRAPIClient()
         
         if let twitterScreenName = channel.twitterScreenName {
-            self.dataSource = TWTRUserTimelineDataSource(screenName: twitterScreenName, apiClient: client)
+            let twitterTopUrl = "https://twitter.com/" + twitterScreenName + "?lang=ja"
+            let urlRequest = URLRequest(url: twitterTopUrl.url)
+            wkWebView.load(urlRequest)
         }
-        
-        self.showTweetActions = true
     }
+    
+//    func refresh(channel:Channel) {
+//        self.channel = channel
+//
+//        self.showTweetActions = true
+//
+//        let client = TWTRAPIClient()
+//
+//        if let twitterScreenName = channel.twitterScreenName {
+//            self.dataSource = TWTRUserTimelineDataSource(screenName: twitterScreenName, apiClient: client)
+//        }
+//
+//        self.showTweetActions = true
+//    }
     
 
 }

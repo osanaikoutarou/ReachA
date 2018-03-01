@@ -186,6 +186,21 @@
 			path = ChannelTop;
 			sourceTree = "<group>";
 		};
+		1E5263F92047229B00EF3E18 /* ChannelContents */ = {
+			isa = PBXGroup;
+			children = (
+				1E5263FA204722A800EF3E18 /* ChannelVideos */,
+			);
+			path = ChannelContents;
+			sourceTree = "<group>";
+		};
+		1E5263FA204722A800EF3E18 /* ChannelVideos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChannelVideos;
+			sourceTree = "<group>";
+		};
 		1E6731A62014D99900DB48DA /* Utilily */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +328,7 @@
 		DA10F53B200DD82400A5C9FC /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				1E5263F92047229B00EF3E18 /* ChannelContents */,
 				1E3A85B92045191200CFB052 /* ChannelTop */,
 				DA8C333A2011C1BC00864192 /* ChannelTwitter */,
 				DA10F544200DDA5700A5C9FC /* ChannelDetail */,
