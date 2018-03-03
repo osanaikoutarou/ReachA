@@ -35,7 +35,6 @@ xcuserdata/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 Pods/*
-!MDCSwipeToChoose
 
 # Carthage
 #
@@ -66,6 +65,6 @@ iOSInjectionProject/
 *.DS_Strore*
 *.DS_Store*
 
-Amazon-iOS-SDKs/
-ReachA/Secret/
+Amazon-iOS-SDKs/*
+ReachA/Secret/*
 
