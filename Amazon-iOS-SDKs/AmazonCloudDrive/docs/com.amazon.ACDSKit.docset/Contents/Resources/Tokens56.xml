@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ACDSKError.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ACDSKError</TokenIdentifier>
+			<Abstract type="html">Error codes for Amazon Cloud Drive SDK errors.</Abstract>
+			<DeclaredIn>ACDSKitConstants.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ACDSKErrorUnexpectedServerResponse</TokenIdentifier>
+            <Abstract type="html">     Error code for unexpected server response.
+     </Abstract>
+            <Declaration>ACDSKErrorUnexpectedServerResponse</Declaration>
+            
+            <DeclaredIn>ACDSKitConstants.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ACDSKErrorUnableToFetchRequest</TokenIdentifier>
+            <Abstract type="html">     Error code used when unable to fetch request.
+     </Abstract>
+            <Declaration>ACDSKErrorUnableToFetchRequest</Declaration>
+            
+            <DeclaredIn>ACDSKitConstants.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ACDSKErrorInvalidRequest</TokenIdentifier>
+            <Abstract type="html">     Error code for invalid request.
+     </Abstract>
+            <Declaration>ACDSKErrorInvalidRequest</Declaration>
+            
+            <DeclaredIn>ACDSKitConstants.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ACDSKErrorRetriableUnexpectedServerResponse</TokenIdentifier>
+            <Abstract type="html">     Error code for unexpected server response indicating that request is retriable.
+     </Abstract>
+            <Declaration>ACDSKErrorRetriableUnexpectedServerResponse</Declaration>
+            
+            <DeclaredIn>ACDSKitConstants.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

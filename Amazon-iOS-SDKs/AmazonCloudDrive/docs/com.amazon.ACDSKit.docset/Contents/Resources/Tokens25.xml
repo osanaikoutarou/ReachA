@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKGetChangesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetChangesRequest</TokenIdentifier>
+			<Abstract type="html">Request to get changes in a Cloud Drive account. Getting changes periodically will give the delta of the previously known state and the new state, providing an indication of how to update your local state to match the cloud state. Response includes changes since the given checkpoint, or all changes if no checkpoint is specified.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetChangesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/setIncludePurged:</TokenIdentifier>
+			<Abstract type="html">(optional) Whether to include purged nodes in the response. Defaults to NO.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL includePurged</Declaration>
+			
+			
+			<Anchor>//api/name/includePurged</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/includePurged</TokenIdentifier>
+			<Abstract type="html">(optional) Whether to include purged nodes in the response. Defaults to NO.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL includePurged</Declaration>
+			
+			
+			<Anchor>//api/name/includePurged</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKGetChangesRequest/includePurged</TokenIdentifier>
+			<Abstract type="html">(optional) Whether to include purged nodes in the response. Defaults to NO.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL includePurged</Declaration>
+			
+			
+			<Anchor>//api/name/includePurged</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/setChunkSize:</TokenIdentifier>
+			<Abstract type="html">(optional) The number of nodes to be returned in each chunk of the response.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSUInteger chunkSize</Declaration>
+			
+			
+			<Anchor>//api/name/chunkSize</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/chunkSize</TokenIdentifier>
+			<Abstract type="html">(optional) The number of nodes to be returned in each chunk of the response.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSUInteger chunkSize</Declaration>
+			
+			
+			<Anchor>//api/name/chunkSize</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKGetChangesRequest/chunkSize</TokenIdentifier>
+			<Abstract type="html">(optional) The number of nodes to be returned in each chunk of the response.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSUInteger chunkSize</Declaration>
+			
+			
+			<Anchor>//api/name/chunkSize</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/setMaxNodes:</TokenIdentifier>
+			<Abstract type="html">(optional) The maximum number of total nodes to be returned. This is not intended to be used for strict pagination as the number of nodes returned may exceed this number.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger maxNodes</Declaration>
+			
+			
+			<Anchor>//api/name/maxNodes</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/maxNodes</TokenIdentifier>
+			<Abstract type="html">(optional) The maximum number of total nodes to be returned. This is not intended to be used for strict pagination as the number of nodes returned may exceed this number.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger maxNodes</Declaration>
+			
+			
+			<Anchor>//api/name/maxNodes</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKGetChangesRequest/maxNodes</TokenIdentifier>
+			<Abstract type="html">(optional) The maximum number of total nodes to be returned. This is not intended to be used for strict pagination as the number of nodes returned may exceed this number.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger maxNodes</Declaration>
+			
+			
+			<Anchor>//api/name/maxNodes</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/setCheckpoint:</TokenIdentifier>
+			<Abstract type="html">(optional) A token representing a frontier of changed nodes.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *checkpoint</Declaration>
+			
+			
+			<Anchor>//api/name/checkpoint</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetChangesRequest/checkpoint</TokenIdentifier>
+			<Abstract type="html">(optional) A token representing a frontier of changed nodes.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *checkpoint</Declaration>
+			
+			
+			<Anchor>//api/name/checkpoint</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKGetChangesRequest/checkpoint</TokenIdentifier>
+			<Abstract type="html">(optional) A token representing a frontier of changed nodes.</Abstract>
+			<DeclaredIn>ACDSKGetChangesRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *checkpoint</Declaration>
+			
+			
+			<Anchor>//api/name/checkpoint</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

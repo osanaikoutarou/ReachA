@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKDownloadFileResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKDownloadFileResponse</TokenIdentifier>
+			<Abstract type="html">Response for request to download the contents of a file node.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKDownloadFileRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/setLocation:</TokenIdentifier>
+			<Abstract type="html">The path of the location of the downloaded file.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/location</TokenIdentifier>
+			<Abstract type="html">The path of the location of the downloaded file.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKDownloadFileResponse/location</TokenIdentifier>
+			<Abstract type="html">The path of the location of the downloaded file.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/setResponseContentType:</TokenIdentifier>
+			<Abstract type="html">The content-type header of the response.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *responseContentType</Declaration>
+			
+			
+			<Anchor>//api/name/responseContentType</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/responseContentType</TokenIdentifier>
+			<Abstract type="html">The content-type header of the response.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *responseContentType</Declaration>
+			
+			
+			<Anchor>//api/name/responseContentType</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKDownloadFileResponse/responseContentType</TokenIdentifier>
+			<Abstract type="html">The content-type header of the response.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *responseContentType</Declaration>
+			
+			
+			<Anchor>//api/name/responseContentType</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/setResponseContentDisposition:</TokenIdentifier>
+			<Abstract type="html">The content-disposition header of the response.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *responseContentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/responseContentDisposition</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/responseContentDisposition</TokenIdentifier>
+			<Abstract type="html">The content-disposition header of the response.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *responseContentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/responseContentDisposition</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKDownloadFileResponse/responseContentDisposition</TokenIdentifier>
+			<Abstract type="html">The content-disposition header of the response.</Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *responseContentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/responseContentDisposition</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKDownloadFileResponse/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDownloadFileResponse/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKDownloadFileResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

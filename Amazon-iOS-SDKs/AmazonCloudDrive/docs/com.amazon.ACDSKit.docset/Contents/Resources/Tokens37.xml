@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKListNodesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKListNodesResponse</TokenIdentifier>
+			<Abstract type="html">Response for request to list nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKListNodesRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesResponse/setData:</TokenIdentifier>
+			<Abstract type="html">Array of nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesResponse/data</TokenIdentifier>
+			<Abstract type="html">Array of nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKListNodesResponse/data</TokenIdentifier>
+			<Abstract type="html">Array of nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKListNodesResponse/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesResponse/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesResponse/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKListNodesResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

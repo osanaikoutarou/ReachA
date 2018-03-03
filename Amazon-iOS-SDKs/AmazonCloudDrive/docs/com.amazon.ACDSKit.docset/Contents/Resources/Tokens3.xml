@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKAccountInfoRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKAccountInfoRequest</TokenIdentifier>
+			<Abstract type="html">Request to get account info, including version of accepted terms of use and also account status.</Abstract>
+			<DeclaredIn>ACDSKAccountInfoRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKAccountInfoResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKImageProperties.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKImageProperties</TokenIdentifier>
+			<Abstract type="html">Image-specific metadata of a node.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKContentProperties</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setWidth:</TokenIdentifier>
+			<Abstract type="html">Width of the image, e.g. 3000.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/width</TokenIdentifier>
+			<Abstract type="html">Width of the image, e.g. 3000.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/width</TokenIdentifier>
+			<Abstract type="html">Width of the image, e.g. 3000.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setHeight:</TokenIdentifier>
+			<Abstract type="html">Height of the image, e.g. 2000.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/height</TokenIdentifier>
+			<Abstract type="html">Height of the image, e.g. 2000.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/height</TokenIdentifier>
+			<Abstract type="html">Height of the image, e.g. 2000.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setExposureTime:</TokenIdentifier>
+			<Abstract type="html">Exposure used to capture the image, e.g. 1/320.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureTime</Declaration>
+			
+			
+			<Anchor>//api/name/exposureTime</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/exposureTime</TokenIdentifier>
+			<Abstract type="html">Exposure used to capture the image, e.g. 1/320.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureTime</Declaration>
+			
+			
+			<Anchor>//api/name/exposureTime</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/exposureTime</TokenIdentifier>
+			<Abstract type="html">Exposure used to capture the image, e.g. 1/320.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureTime</Declaration>
+			
+			
+			<Anchor>//api/name/exposureTime</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setApertureValue:</TokenIdentifier>
+			<Abstract type="html">Aperture used to capture the image, e.g. 4.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *apertureValue</Declaration>
+			
+			
+			<Anchor>//api/name/apertureValue</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/apertureValue</TokenIdentifier>
+			<Abstract type="html">Aperture used to capture the image, e.g. 4.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *apertureValue</Declaration>
+			
+			
+			<Anchor>//api/name/apertureValue</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/apertureValue</TokenIdentifier>
+			<Abstract type="html">Aperture used to capture the image, e.g. 4.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *apertureValue</Declaration>
+			
+			
+			<Anchor>//api/name/apertureValue</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setFocalLength:</TokenIdentifier>
+			<Abstract type="html">Focal length used to capture the image, e.g. 200.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *focalLength</Declaration>
+			
+			
+			<Anchor>//api/name/focalLength</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/focalLength</TokenIdentifier>
+			<Abstract type="html">Focal length used to capture the image, e.g. 200.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *focalLength</Declaration>
+			
+			
+			<Anchor>//api/name/focalLength</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/focalLength</TokenIdentifier>
+			<Abstract type="html">Focal length used to capture the image, e.g. 200.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *focalLength</Declaration>
+			
+			
+			<Anchor>//api/name/focalLength</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setIsoSpeedRatings:</TokenIdentifier>
+			<Abstract type="html">ISO used to capture image, e.g. 200.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *isoSpeedRatings</Declaration>
+			
+			
+			<Anchor>//api/name/isoSpeedRatings</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/isoSpeedRatings</TokenIdentifier>
+			<Abstract type="html">ISO used to capture image, e.g. 200.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *isoSpeedRatings</Declaration>
+			
+			
+			<Anchor>//api/name/isoSpeedRatings</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/isoSpeedRatings</TokenIdentifier>
+			<Abstract type="html">ISO used to capture image, e.g. 200.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *isoSpeedRatings</Declaration>
+			
+			
+			<Anchor>//api/name/isoSpeedRatings</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setWhiteBalance:</TokenIdentifier>
+			<Abstract type="html">White balance used to capture the image, e.g. Auto.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *whiteBalance</Declaration>
+			
+			
+			<Anchor>//api/name/whiteBalance</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/whiteBalance</TokenIdentifier>
+			<Abstract type="html">White balance used to capture the image, e.g. Auto.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *whiteBalance</Declaration>
+			
+			
+			<Anchor>//api/name/whiteBalance</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/whiteBalance</TokenIdentifier>
+			<Abstract type="html">White balance used to capture the image, e.g. Auto.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *whiteBalance</Declaration>
+			
+			
+			<Anchor>//api/name/whiteBalance</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setLocation:</TokenIdentifier>
+			<Abstract type="html">Location of the image in latitude and longitude.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/location</TokenIdentifier>
+			<Abstract type="html">Location of the image in latitude and longitude.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/location</TokenIdentifier>
+			<Abstract type="html">Location of the image in latitude and longitude.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setSoftware:</TokenIdentifier>
+			<Abstract type="html">Software used to create the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *software</Declaration>
+			
+			
+			<Anchor>//api/name/software</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/software</TokenIdentifier>
+			<Abstract type="html">Software used to create the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *software</Declaration>
+			
+			
+			<Anchor>//api/name/software</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/software</TokenIdentifier>
+			<Abstract type="html">Software used to create the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *software</Declaration>
+			
+			
+			<Anchor>//api/name/software</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setDateTime:</TokenIdentifier>
+			<Abstract type="html">Date of the image. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTime</Declaration>
+			
+			
+			<Anchor>//api/name/dateTime</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/dateTime</TokenIdentifier>
+			<Abstract type="html">Date of the image. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTime</Declaration>
+			
+			
+			<Anchor>//api/name/dateTime</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/dateTime</TokenIdentifier>
+			<Abstract type="html">Date of the image. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTime</Declaration>
+			
+			
+			<Anchor>//api/name/dateTime</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setDateTimeOriginal:</TokenIdentifier>
+			<Abstract type="html">Original date of the image. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTimeOriginal</Declaration>
+			
+			
+			<Anchor>//api/name/dateTimeOriginal</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/dateTimeOriginal</TokenIdentifier>
+			<Abstract type="html">Original date of the image. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTimeOriginal</Declaration>
+			
+			
+			<Anchor>//api/name/dateTimeOriginal</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/dateTimeOriginal</TokenIdentifier>
+			<Abstract type="html">Original date of the image. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTimeOriginal</Declaration>
+			
+			
+			<Anchor>//api/name/dateTimeOriginal</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setDateTimeDigitized:</TokenIdentifier>
+			<Abstract type="html">Date the image was digitized. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTimeDigitized</Declaration>
+			
+			
+			<Anchor>//api/name/dateTimeDigitized</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/dateTimeDigitized</TokenIdentifier>
+			<Abstract type="html">Date the image was digitized. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTimeDigitized</Declaration>
+			
+			
+			<Anchor>//api/name/dateTimeDigitized</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/dateTimeDigitized</TokenIdentifier>
+			<Abstract type="html">Date the image was digitized. Formatted as ISO8601 date, e.g. 2015-04-03T02:01:00.123Z</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateTimeDigitized</Declaration>
+			
+			
+			<Anchor>//api/name/dateTimeDigitized</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setXResolution:</TokenIdentifier>
+			<Abstract type="html">Resolution of the image in the x-axis, e.g. 72.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *xResolution</Declaration>
+			
+			
+			<Anchor>//api/name/xResolution</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/xResolution</TokenIdentifier>
+			<Abstract type="html">Resolution of the image in the x-axis, e.g. 72.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *xResolution</Declaration>
+			
+			
+			<Anchor>//api/name/xResolution</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/xResolution</TokenIdentifier>
+			<Abstract type="html">Resolution of the image in the x-axis, e.g. 72.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *xResolution</Declaration>
+			
+			
+			<Anchor>//api/name/xResolution</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setYResolution:</TokenIdentifier>
+			<Abstract type="html">Resolution of the image in the y-axis, e.g. 72.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *yResolution</Declaration>
+			
+			
+			<Anchor>//api/name/yResolution</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/yResolution</TokenIdentifier>
+			<Abstract type="html">Resolution of the image in the y-axis, e.g. 72.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *yResolution</Declaration>
+			
+			
+			<Anchor>//api/name/yResolution</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/yResolution</TokenIdentifier>
+			<Abstract type="html">Resolution of the image in the y-axis, e.g. 72.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *yResolution</Declaration>
+			
+			
+			<Anchor>//api/name/yResolution</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setResolutionUnit:</TokenIdentifier>
+			<Abstract type="html">Resolution unit of the image, e.g. Pixels/Inch.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resolutionUnit</Declaration>
+			
+			
+			<Anchor>//api/name/resolutionUnit</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/resolutionUnit</TokenIdentifier>
+			<Abstract type="html">Resolution unit of the image, e.g. Pixels/Inch.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resolutionUnit</Declaration>
+			
+			
+			<Anchor>//api/name/resolutionUnit</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/resolutionUnit</TokenIdentifier>
+			<Abstract type="html">Resolution unit of the image, e.g. Pixels/Inch.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resolutionUnit</Declaration>
+			
+			
+			<Anchor>//api/name/resolutionUnit</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setMeteringMode:</TokenIdentifier>
+			<Abstract type="html">Metering mode used to capture the image, e.g. Partial.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *meteringMode</Declaration>
+			
+			
+			<Anchor>//api/name/meteringMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/meteringMode</TokenIdentifier>
+			<Abstract type="html">Metering mode used to capture the image, e.g. Partial.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *meteringMode</Declaration>
+			
+			
+			<Anchor>//api/name/meteringMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/meteringMode</TokenIdentifier>
+			<Abstract type="html">Metering mode used to capture the image, e.g. Partial.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *meteringMode</Declaration>
+			
+			
+			<Anchor>//api/name/meteringMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setGpsTimeStamp:</TokenIdentifier>
+			<Abstract type="html">GPS timestamp of the image, e.g. 20:16:40.123456789.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *gpsTimeStamp</Declaration>
+			
+			
+			<Anchor>//api/name/gpsTimeStamp</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/gpsTimeStamp</TokenIdentifier>
+			<Abstract type="html">GPS timestamp of the image, e.g. 20:16:40.123456789.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *gpsTimeStamp</Declaration>
+			
+			
+			<Anchor>//api/name/gpsTimeStamp</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/gpsTimeStamp</TokenIdentifier>
+			<Abstract type="html">GPS timestamp of the image, e.g. 20:16:40.123456789.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *gpsTimeStamp</Declaration>
+			
+			
+			<Anchor>//api/name/gpsTimeStamp</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setMake:</TokenIdentifier>
+			<Abstract type="html">Make of the device used to create the image, e.g. Nikon.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *make</Declaration>
+			
+			
+			<Anchor>//api/name/make</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/make</TokenIdentifier>
+			<Abstract type="html">Make of the device used to create the image, e.g. Nikon.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *make</Declaration>
+			
+			
+			<Anchor>//api/name/make</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/make</TokenIdentifier>
+			<Abstract type="html">Make of the device used to create the image, e.g. Nikon.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *make</Declaration>
+			
+			
+			<Anchor>//api/name/make</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setModel:</TokenIdentifier>
+			<Abstract type="html">Model of the device used to create the image, e.g. Nikon D3.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/model</TokenIdentifier>
+			<Abstract type="html">Model of the device used to create the image, e.g. Nikon D3.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/model</TokenIdentifier>
+			<Abstract type="html">Model of the device used to create the image, e.g. Nikon D3.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setSharpness:</TokenIdentifier>
+			<Abstract type="html">Sharpness of the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sharpness</Declaration>
+			
+			
+			<Anchor>//api/name/sharpness</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/sharpness</TokenIdentifier>
+			<Abstract type="html">Sharpness of the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sharpness</Declaration>
+			
+			
+			<Anchor>//api/name/sharpness</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/sharpness</TokenIdentifier>
+			<Abstract type="html">Sharpness of the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sharpness</Declaration>
+			
+			
+			<Anchor>//api/name/sharpness</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setExposureMode:</TokenIdentifier>
+			<Abstract type="html">Exposure mode used to capture the image, e.g. Auto Exposure.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureMode</Declaration>
+			
+			
+			<Anchor>//api/name/exposureMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/exposureMode</TokenIdentifier>
+			<Abstract type="html">Exposure mode used to capture the image, e.g. Auto Exposure.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureMode</Declaration>
+			
+			
+			<Anchor>//api/name/exposureMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/exposureMode</TokenIdentifier>
+			<Abstract type="html">Exposure mode used to capture the image, e.g. Auto Exposure.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureMode</Declaration>
+			
+			
+			<Anchor>//api/name/exposureMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setOrientation:</TokenIdentifier>
+			<Abstract type="html">Orientation of the image, e.g. 1.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/orientation</TokenIdentifier>
+			<Abstract type="html">Orientation of the image, e.g. 1.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/orientation</TokenIdentifier>
+			<Abstract type="html">Orientation of the image, e.g. 1.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setCaptureMode:</TokenIdentifier>
+			<Abstract type="html">Capture mode used to capture the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *captureMode</Declaration>
+			
+			
+			<Anchor>//api/name/captureMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/captureMode</TokenIdentifier>
+			<Abstract type="html">Capture mode used to capture the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *captureMode</Declaration>
+			
+			
+			<Anchor>//api/name/captureMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/captureMode</TokenIdentifier>
+			<Abstract type="html">Capture mode used to capture the image.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *captureMode</Declaration>
+			
+			
+			<Anchor>//api/name/captureMode</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setExposureProgram:</TokenIdentifier>
+			<Abstract type="html">Exposure program used to capture the image, e.g. Program Normal.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureProgram</Declaration>
+			
+			
+			<Anchor>//api/name/exposureProgram</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/exposureProgram</TokenIdentifier>
+			<Abstract type="html">Exposure program used to capture the image, e.g. Program Normal.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureProgram</Declaration>
+			
+			
+			<Anchor>//api/name/exposureProgram</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/exposureProgram</TokenIdentifier>
+			<Abstract type="html">Exposure program used to capture the image, e.g. Program Normal.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exposureProgram</Declaration>
+			
+			
+			<Anchor>//api/name/exposureProgram</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setSensingMethod:</TokenIdentifier>
+			<Abstract type="html">Sensing method used to capture the image, e.g. One-chip color area.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sensingMethod</Declaration>
+			
+			
+			<Anchor>//api/name/sensingMethod</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/sensingMethod</TokenIdentifier>
+			<Abstract type="html">Sensing method used to capture the image, e.g. One-chip color area.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sensingMethod</Declaration>
+			
+			
+			<Anchor>//api/name/sensingMethod</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/sensingMethod</TokenIdentifier>
+			<Abstract type="html">Sensing method used to capture the image, e.g. One-chip color area.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sensingMethod</Declaration>
+			
+			
+			<Anchor>//api/name/sensingMethod</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setFlash:</TokenIdentifier>
+			<Abstract type="html">Flash status used to capture image, e.g. Off.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flash</Declaration>
+			
+			
+			<Anchor>//api/name/flash</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/flash</TokenIdentifier>
+			<Abstract type="html">Flash status used to capture image, e.g. Off.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flash</Declaration>
+			
+			
+			<Anchor>//api/name/flash</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/flash</TokenIdentifier>
+			<Abstract type="html">Flash status used to capture image, e.g. Off.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flash</Declaration>
+			
+			
+			<Anchor>//api/name/flash</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/setColorSpace:</TokenIdentifier>
+			<Abstract type="html">Color space of the image, e.g. sRGB.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *colorSpace</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpace</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/colorSpace</TokenIdentifier>
+			<Abstract type="html">Color space of the image, e.g. sRGB.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *colorSpace</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpace</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKImageProperties/colorSpace</TokenIdentifier>
+			<Abstract type="html">Color space of the image, e.g. sRGB.</Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *colorSpace</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpace</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKImageProperties/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKImageProperties/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKImageProperties.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

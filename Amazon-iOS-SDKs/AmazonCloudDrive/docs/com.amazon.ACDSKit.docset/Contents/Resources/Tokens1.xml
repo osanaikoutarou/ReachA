@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKAccountEndpointRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKAccountEndpointRequest</TokenIdentifier>
+			<Abstract type="html">Request to get endpoints to use for current customer for all other API calls. This request is made on your behalf as necessary. There is generally no need to explicitly make such a request.</Abstract>
+			<DeclaredIn>ACDSKAccountEndpointRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKAccountEndpointResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

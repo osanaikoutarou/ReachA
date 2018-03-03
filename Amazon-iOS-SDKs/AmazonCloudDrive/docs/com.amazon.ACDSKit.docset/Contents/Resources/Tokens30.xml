@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKGetPropertyResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetPropertyResponse</TokenIdentifier>
+			<Abstract type="html">Response for request to get a property of a node.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetPropertyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetPropertyResponse/setKey:</TokenIdentifier>
+			<Abstract type="html">Property key.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetPropertyResponse/key</TokenIdentifier>
+			<Abstract type="html">Property key.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKGetPropertyResponse/key</TokenIdentifier>
+			<Abstract type="html">Property key.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetPropertyResponse/setValue:</TokenIdentifier>
+			<Abstract type="html">Property value.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetPropertyResponse/value</TokenIdentifier>
+			<Abstract type="html">Property value.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKGetPropertyResponse/value</TokenIdentifier>
+			<Abstract type="html">Property value.</Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKGetPropertyResponse/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetPropertyResponse/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKGetPropertyResponse/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKGetPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

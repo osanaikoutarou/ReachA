@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKCreateNodeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKCreateNodeRequest</TokenIdentifier>
+			<Abstract type="html">Request to create a node. Can be used to create a folder.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKCreateNodeResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/setName:</TokenIdentifier>
+			<Abstract type="html">(required) Name of the node. Max length is 256 characters.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/name</TokenIdentifier>
+			<Abstract type="html">(required) Name of the node. Max length is 256 characters.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKCreateNodeRequest/name</TokenIdentifier>
+			<Abstract type="html">(required) Name of the node. Max length is 256 characters.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/setKind:</TokenIdentifier>
+			<Abstract type="html">(required) Kind of the node. Possible values include: FILE, ASSET, FOLDER, ALBUM.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/kind</TokenIdentifier>
+			<Abstract type="html">(required) Kind of the node. Possible values include: FILE, ASSET, FOLDER, ALBUM.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKCreateNodeRequest/kind</TokenIdentifier>
+			<Abstract type="html">(required) Kind of the node. Possible values include: FILE, ASSET, FOLDER, ALBUM.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/setLabels:</TokenIdentifier>
+			<Abstract type="html">(optional) Labels associated with the node, e.g. @&quot;ExampleLabel&quot;. Max length of each label is 256 characters. Max number of labels is 10.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *labels</Declaration>
+			
+			
+			<Anchor>//api/name/labels</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/labels</TokenIdentifier>
+			<Abstract type="html">(optional) Labels associated with the node, e.g. @&quot;ExampleLabel&quot;. Max length of each label is 256 characters. Max number of labels is 10.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *labels</Declaration>
+			
+			
+			<Anchor>//api/name/labels</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKCreateNodeRequest/labels</TokenIdentifier>
+			<Abstract type="html">(optional) Labels associated with the node, e.g. @&quot;ExampleLabel&quot;. Max length of each label is 256 characters. Max number of labels is 10.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *labels</Declaration>
+			
+			
+			<Anchor>//api/name/labels</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/setProperties:</TokenIdentifier>
+			<Abstract type="html">(optional) Key-value pairs associated with the node. Can be used to store arbitrary metadata about the node.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/properties</TokenIdentifier>
+			<Abstract type="html">(optional) Key-value pairs associated with the node. Can be used to store arbitrary metadata about the node.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKCreateNodeRequest/properties</TokenIdentifier>
+			<Abstract type="html">(optional) Key-value pairs associated with the node. Can be used to store arbitrary metadata about the node.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/setParents:</TokenIdentifier>
+			<Abstract type="html">(optional) List of parent node IDs. If no parent node ID is provided, the node will be located in the default root folder.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *parents</Declaration>
+			
+			
+			<Anchor>//api/name/parents</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/parents</TokenIdentifier>
+			<Abstract type="html">(optional) List of parent node IDs. If no parent node ID is provided, the node will be located in the default root folder.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *parents</Declaration>
+			
+			
+			<Anchor>//api/name/parents</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKCreateNodeRequest/parents</TokenIdentifier>
+			<Abstract type="html">(optional) List of parent node IDs. If no parent node ID is provided, the node will be located in the default root folder.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *parents</Declaration>
+			
+			
+			<Anchor>//api/name/parents</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/setLocalID:</TokenIdentifier>
+			<Abstract type="html">(optional) Globally unique client local ID. This can be used to influence the node ID of the node to be created. The same local ID will always map to the same node ID. Attempting to create a node using a local ID that was already used to create a node previously will result in an error. Example usage is to set local ID to the unique path of the folder in the local filesystem that is being mapped to Cloud Drive. Should be URL encoded. Max length is 100 characters.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *localID</Declaration>
+			
+			
+			<Anchor>//api/name/localID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKCreateNodeRequest/localID</TokenIdentifier>
+			<Abstract type="html">(optional) Globally unique client local ID. This can be used to influence the node ID of the node to be created. The same local ID will always map to the same node ID. Attempting to create a node using a local ID that was already used to create a node previously will result in an error. Example usage is to set local ID to the unique path of the folder in the local filesystem that is being mapped to Cloud Drive. Should be URL encoded. Max length is 100 characters.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *localID</Declaration>
+			
+			
+			<Anchor>//api/name/localID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKCreateNodeRequest/localID</TokenIdentifier>
+			<Abstract type="html">(optional) Globally unique client local ID. This can be used to influence the node ID of the node to be created. The same local ID will always map to the same node ID. Attempting to create a node using a local ID that was already used to create a node previously will result in an error. Example usage is to set local ID to the unique path of the folder in the local filesystem that is being mapped to Cloud Drive. Should be URL encoded. Max length is 100 characters.</Abstract>
+			<DeclaredIn>ACDSKCreateNodeRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *localID</Declaration>
+			
+			
+			<Anchor>//api/name/localID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

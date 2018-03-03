@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKListNodesInTrashResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKListNodesInTrashResponse</TokenIdentifier>
+			<Abstract type="html">Response for request to list nodes in the trash.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKListNodesInTrashRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashResponse/setData:</TokenIdentifier>
+			<Abstract type="html">Array of nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashResponse/data</TokenIdentifier>
+			<Abstract type="html">Array of nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKListNodesInTrashResponse/data</TokenIdentifier>
+			<Abstract type="html">Array of nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKListNodesInTrashResponse/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashResponse/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashResponse/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

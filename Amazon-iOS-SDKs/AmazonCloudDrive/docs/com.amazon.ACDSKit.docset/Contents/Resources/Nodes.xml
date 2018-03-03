@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>ACDSKit</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>ACDSKAccountEndpointRequest</Name>
+            <Path>Classes/ACDSKAccountEndpointRequest.html</Path>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>ACDSKAccountEndpointResponse</Name>
+            <Path>Classes/ACDSKAccountEndpointResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountEndpointResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountEndpointResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountEndpointResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountEndpointResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountEndpointResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>ACDSKAccountInfoRequest</Name>
+            <Path>Classes/ACDSKAccountInfoRequest.html</Path>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>ACDSKAccountInfoResponse</Name>
+            <Path>Classes/ACDSKAccountInfoResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountInfoResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountInfoResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountInfoResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountInfoResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountInfoResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>ACDSKAccountQuotaRequest</Name>
+            <Path>Classes/ACDSKAccountQuotaRequest.html</Path>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>ACDSKAccountQuotaResponse</Name>
+            <Path>Classes/ACDSKAccountQuotaResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountQuotaResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountQuotaResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountQuotaResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountQuotaResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountQuotaResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>ACDSKAccountUsageDetail</Name>
+            <Path>Classes/ACDSKAccountUsageDetail.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageDetail.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageDetail.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageDetail.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageDetail.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageDetail.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>ACDSKAccountUsageRequest</Name>
+            <Path>Classes/ACDSKAccountUsageRequest.html</Path>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>ACDSKAccountUsageResponse</Name>
+            <Path>Classes/ACDSKAccountUsageResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>ACDSKAccountUsageSummary</Name>
+            <Path>Classes/ACDSKAccountUsageSummary.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageSummary.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageSummary.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageSummary.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageSummary.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAccountUsageSummary.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>ACDSKAddChildToParentRequest</Name>
+            <Path>Classes/ACDSKAddChildToParentRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAddChildToParentRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAddChildToParentRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAddChildToParentRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>ACDSKAddPropertyRequest</Name>
+            <Path>Classes/ACDSKAddPropertyRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>ACDSKAddPropertyResponse</Name>
+            <Path>Classes/ACDSKAddPropertyResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKAddPropertyResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>ACDSKBackgroundSessionEventHandler</Name>
+            <Path>Classes/ACDSKBackgroundSessionEventHandler.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKBackgroundSessionEventHandler.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKBackgroundSessionEventHandler.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKBackgroundSessionEventHandler.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKBackgroundSessionEventHandler.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKBackgroundSessionEventHandler.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>ACDSKChangeChunk</Name>
+            <Path>Classes/ACDSKChangeChunk.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKChangeChunk.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKChangeChunk.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKChangeChunk.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKChangeChunk.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKChangeChunk.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>ACDSKClient</Name>
+            <Path>Classes/ACDSKClient.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKClient.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKClient.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKClient.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKClient.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>ACDSKContentProperties</Name>
+            <Path>Classes/ACDSKContentProperties.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKContentProperties.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKContentProperties.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKContentProperties.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKContentProperties.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKContentProperties.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>ACDSKCreateNodeRequest</Name>
+            <Path>Classes/ACDSKCreateNodeRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKCreateNodeRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKCreateNodeRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKCreateNodeRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>ACDSKCreateNodeResponse</Name>
+            <Path>Classes/ACDSKCreateNodeResponse.html</Path>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>ACDSKDeletePropertyRequest</Name>
+            <Path>Classes/ACDSKDeletePropertyRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKDeletePropertyRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKDeletePropertyRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDeletePropertyRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>ACDSKDocumentProperties</Name>
+            <Path>Classes/ACDSKDocumentProperties.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKDocumentProperties.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKDocumentProperties.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDocumentProperties.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDocumentProperties.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDocumentProperties.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>ACDSKDownloadFileRequest</Name>
+            <Path>Classes/ACDSKDownloadFileRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileRequest.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileRequest.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="23" type="file" documentType="reference">
+            <Name>ACDSKDownloadFileResponse</Name>
+            <Path>Classes/ACDSKDownloadFileResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKDownloadFileResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>ACDSKEmptyResponse</Name>
+            <Path>Classes/ACDSKEmptyResponse.html</Path>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>ACDSKGetChangesRequest</Name>
+            <Path>Classes/ACDSKGetChangesRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>ACDSKGetChangesResponse</Name>
+            <Path>Classes/ACDSKGetChangesResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetChangesResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>ACDSKGetNodeRequest</Name>
+            <Path>Classes/ACDSKGetNodeRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetNodeRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetNodeRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetNodeRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="28" type="file" documentType="reference">
+            <Name>ACDSKGetNodeResponse</Name>
+            <Path>Classes/ACDSKGetNodeResponse.html</Path>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>ACDSKGetPropertyRequest</Name>
+            <Path>Classes/ACDSKGetPropertyRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="30" type="file" documentType="reference">
+            <Name>ACDSKGetPropertyResponse</Name>
+            <Path>Classes/ACDSKGetPropertyResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKGetPropertyResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="31" type="file" documentType="reference">
+            <Name>ACDSKImageProperties</Name>
+            <Path>Classes/ACDSKImageProperties.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKImageProperties.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKImageProperties.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKImageProperties.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKImageProperties.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKImageProperties.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="32" type="file" documentType="reference">
+            <Name>ACDSKListChildrenRequest</Name>
+            <Path>Classes/ACDSKListChildrenRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="33" type="file" documentType="reference">
+            <Name>ACDSKListChildrenResponse</Name>
+            <Path>Classes/ACDSKListChildrenResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListChildrenResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="34" type="file" documentType="reference">
+            <Name>ACDSKListNodesInTrashRequest</Name>
+            <Path>Classes/ACDSKListNodesInTrashRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="35" type="file" documentType="reference">
+            <Name>ACDSKListNodesInTrashResponse</Name>
+            <Path>Classes/ACDSKListNodesInTrashResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesInTrashResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="36" type="file" documentType="reference">
+            <Name>ACDSKListNodesRequest</Name>
+            <Path>Classes/ACDSKListNodesRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="37" type="file" documentType="reference">
+            <Name>ACDSKListNodesResponse</Name>
+            <Path>Classes/ACDSKListNodesResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListNodesResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="38" type="file" documentType="reference">
+            <Name>ACDSKListPropertiesRequest</Name>
+            <Path>Classes/ACDSKListPropertiesRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="39" type="file" documentType="reference">
+            <Name>ACDSKListPropertiesResponse</Name>
+            <Path>Classes/ACDSKListPropertiesResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKListPropertiesResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="40" type="file" documentType="reference">
+            <Name>ACDSKMoveNodeToTrashRequest</Name>
+            <Path>Classes/ACDSKMoveNodeToTrashRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKMoveNodeToTrashRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKMoveNodeToTrashRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKMoveNodeToTrashRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="41" type="file" documentType="reference">
+            <Name>ACDSKMoveNodeToTrashResponse</Name>
+            <Path>Classes/ACDSKMoveNodeToTrashResponse.html</Path>
+            
+        </Node>
+		<Node id="42" type="file" documentType="reference">
+            <Name>ACDSKNode</Name>
+            <Path>Classes/ACDSKNode.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKNode.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKNode.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKNode.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKNode.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKNode.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="43" type="file" documentType="reference">
+            <Name>ACDSKPaginatedResponse</Name>
+            <Path>Classes/ACDSKPaginatedResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKPaginatedResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKPaginatedResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKPaginatedResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKPaginatedResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKPaginatedResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="44" type="file" documentType="reference">
+            <Name>ACDSKRemoveChildFromParentRequest</Name>
+            <Path>Classes/ACDSKRemoveChildFromParentRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKRemoveChildFromParentRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKRemoveChildFromParentRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKRemoveChildFromParentRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="45" type="file" documentType="reference">
+            <Name>ACDSKRequest</Name>
+            <Path>Classes/ACDSKRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="46" type="file" documentType="reference">
+            <Name>ACDSKResponse</Name>
+            <Path>Classes/ACDSKResponse.html</Path>
+            
+        </Node>
+		<Node id="47" type="file" documentType="reference">
+            <Name>ACDSKRestoreNodeFromTrashRequest</Name>
+            <Path>Classes/ACDSKRestoreNodeFromTrashRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKRestoreNodeFromTrashRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKRestoreNodeFromTrashRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKRestoreNodeFromTrashRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="48" type="file" documentType="reference">
+            <Name>ACDSKRestoreNodeFromTrashResponse</Name>
+            <Path>Classes/ACDSKRestoreNodeFromTrashResponse.html</Path>
+            
+        </Node>
+		<Node id="49" type="file" documentType="reference">
+            <Name>ACDSKSetFileMetadataRequest</Name>
+            <Path>Classes/ACDSKSetFileMetadataRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKSetFileMetadataRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKSetFileMetadataRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKSetFileMetadataRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="50" type="file" documentType="reference">
+            <Name>ACDSKTask</Name>
+            <Path>Classes/ACDSKTask.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKTask.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKTask.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKTask.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKTask.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="51" type="file" documentType="reference">
+            <Name>ACDSKUpdateNodeRequest</Name>
+            <Path>Classes/ACDSKUpdateNodeRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKUpdateNodeRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKUpdateNodeRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKUpdateNodeRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="52" type="file" documentType="reference">
+            <Name>ACDSKUpdateNodeResponse</Name>
+            <Path>Classes/ACDSKUpdateNodeResponse.html</Path>
+            
+        </Node>
+		<Node id="53" type="file" documentType="reference">
+            <Name>ACDSKUploadFileRequest</Name>
+            <Path>Classes/ACDSKUploadFileRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKUploadFileRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKUploadFileRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKUploadFileRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKUploadFileRequest.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKUploadFileRequest.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="54" type="file" documentType="reference">
+            <Name>ACDSKUploadFileResponse</Name>
+            <Path>Classes/ACDSKUploadFileResponse.html</Path>
+            
+        </Node>
+		<Node id="55" type="file" documentType="reference">
+            <Name>ACDSKVideoProperties</Name>
+            <Path>Classes/ACDSKVideoProperties.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ACDSKVideoProperties.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ACDSKVideoProperties.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKVideoProperties.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKVideoProperties.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ACDSKVideoProperties.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        
+        <Node id="56" type="file" documentType="reference">
+            <Name>ACDSKError</Name>
+            <Path>Constants/ACDSKError.html</Path>
+            
+        </Node>
+		<Node id="57" type="file" documentType="reference">
+            <Name>AMZNCDSKURLError</Name>
+            <Path>Constants/AMZNCDSKURLError.html</Path>
+            
+        </Node>
+		
+        
+	</Library>
+</DocSetNodes>

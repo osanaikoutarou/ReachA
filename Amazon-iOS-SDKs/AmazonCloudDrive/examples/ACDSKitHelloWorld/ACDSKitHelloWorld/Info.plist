@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJhcHBGYW1pbHlJZCI6ImFtem4xLmFwcGxpY2F0aW9uLjhmZGNjMDhmZmMzZDRkMGQ5NjE3ZWY5NTAwNWE2MmM4IiwiaWQiOiI1OWE2N2U2ZS1mODE2LTExZTQtYjM5My1lYjQwMjlmZDk3YmYiLCJhcHBJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC43MjY4OThmNTU1YjU0MDQ1YmE3ZDM5ZDJjNzk0MTdhYSIsImJ1bmRsZVNlZWRJZCI6ImNvbS5hbWF6b24uQUNEU0tpdEhlbGxvV29ybGQiLCJlbmRwb2ludHMiOnsiYXV0aHoiOiJodHRwczovL3d3dy5hbWF6b24uY29tL2FwL29hIiwidG9rZW5FeGNoYW5nZSI6Imh0dHBzOi8vYXBpLmFtYXpvbi5jb20vYXV0aC9vMi90b2tlbiJ9LCJpc3MiOiJBbWF6b24iLCJidW5kbGVJZCI6ImNvbS5hbWF6b24uQUNEU0tpdEhlbGxvV29ybGQiLCJ0cnVzdFBvb2wiOm51bGwsInZlciI6IjMiLCJhcHBWYXJpYW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuNzI2ODk4ZjU1NWI1NDA0NWJhN2QzOWQyYzc5NDE3YWEiLCJ0eXBlIjoiQVBJS2V5IiwiaWF0IjoiMTQzMTM3MzU2MDUxNCIsImNsaWVudElkIjoiYW16bjEuYXBwbGljYXRpb24tb2EyLWNsaWVudC42Mjg2NmYzYmQxOTI0M2MyODM0NWZkZWU2MzdhNTRkMiJ9.cDdTgEEiTDwgWjercxuE5oA3/12/Hs+veED3A170vAPqYoz/hruKb7LlO2SrIXDGV9Uca0ZKj4MET+CLp7sUoslGxYmlJUZEco8DM8ZSKUNYWT/FeUaTLXbLasIaAtl5iL6pXMMyRzlXYnNhjMIw5XgkwxSPrNe20hjepDeJF8/WSAs83AJKSUA8NFlDQ240ZTBb9CWVj0wUf7ZTqNzn1nBv+bAtOhRs1N6J7Qe5BWUyPno6hwjOYjye+dxjustVmgEICnFSn9ymVvQAcBtTWjbEYvxh9potxs1Hz188f7RYQN+bmNkWqn3GqLJnXrrNOtVYW+wzHPTUY+iE/7IIqw==</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.amazon.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.amazon.$(PRODUCT_NAME:rfc1034identifier)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.amazon.$(PRODUCT_NAME:rfc1034identifier)</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

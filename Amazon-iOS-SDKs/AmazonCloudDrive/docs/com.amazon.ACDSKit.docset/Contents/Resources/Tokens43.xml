@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKPaginatedResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKPaginatedResponse</TokenIdentifier>
+			<Abstract type="html">Response for requests that support pagination.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKPaginatedResponse/setCount:</TokenIdentifier>
+			<Abstract type="html">Total number of items across all pages.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int64_t count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKPaginatedResponse/count</TokenIdentifier>
+			<Abstract type="html">Total number of items across all pages.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int64_t count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKPaginatedResponse/count</TokenIdentifier>
+			<Abstract type="html">Total number of items across all pages.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int64_t count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKPaginatedResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A token indicating where the contents of the next page should begin. Set to the startToken of the following request to list additional nodes.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKPaginatedResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A token indicating where the contents of the next page should begin. Set to the startToken of the following request to list additional nodes.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKPaginatedResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A token indicating where the contents of the next page should begin. Set to the startToken of the following request to list additional nodes.</Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKPaginatedResponse/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKPaginatedResponse/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKPaginatedResponse/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKPaginatedResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

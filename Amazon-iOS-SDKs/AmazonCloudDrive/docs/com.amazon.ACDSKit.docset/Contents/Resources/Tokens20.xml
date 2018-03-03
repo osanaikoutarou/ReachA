@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKDeletePropertyRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKDeletePropertyRequest</TokenIdentifier>
+			<Abstract type="html">Request to delete a single property (key-value pair) from a node. App must have write access for the property. A successful request results in an empty response.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKEmptyResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKAddPropertyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDeletePropertyRequest/setNodeID:</TokenIdentifier>
+			<Abstract type="html">(required) The ID of the node from which the property should be deleted.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *nodeID</Declaration>
+			
+			
+			<Anchor>//api/name/nodeID</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDeletePropertyRequest/nodeID</TokenIdentifier>
+			<Abstract type="html">(required) The ID of the node from which the property should be deleted.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *nodeID</Declaration>
+			
+			
+			<Anchor>//api/name/nodeID</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKDeletePropertyRequest/nodeID</TokenIdentifier>
+			<Abstract type="html">(required) The ID of the node from which the property should be deleted.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *nodeID</Declaration>
+			
+			
+			<Anchor>//api/name/nodeID</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDeletePropertyRequest/setOwner:</TokenIdentifier>
+			<Abstract type="html">(required) The owner of the property. Should be the friendlyName of your registered app. If you forgot your app&apos;s friendlyName, you can find it in the createdBy value of a node that your app created. Does not need to be URL encoded - this will be done automatically.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDeletePropertyRequest/owner</TokenIdentifier>
+			<Abstract type="html">(required) The owner of the property. Should be the friendlyName of your registered app. If you forgot your app&apos;s friendlyName, you can find it in the createdBy value of a node that your app created. Does not need to be URL encoded - this will be done automatically.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKDeletePropertyRequest/owner</TokenIdentifier>
+			<Abstract type="html">(required) The owner of the property. Should be the friendlyName of your registered app. If you forgot your app&apos;s friendlyName, you can find it in the createdBy value of a node that your app created. Does not need to be URL encoded - this will be done automatically.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDeletePropertyRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">(required) The key of the property. Key should be composed of alphanumeric characters and the underscore &quot;_&quot;. Max length is 50 characters.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKDeletePropertyRequest/key</TokenIdentifier>
+			<Abstract type="html">(required) The key of the property. Key should be composed of alphanumeric characters and the underscore &quot;_&quot;. Max length is 50 characters.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKDeletePropertyRequest/key</TokenIdentifier>
+			<Abstract type="html">(required) The key of the property. Key should be composed of alphanumeric characters and the underscore &quot;_&quot;. Max length is 50 characters.</Abstract>
+			<DeclaredIn>ACDSKDeletePropertyRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

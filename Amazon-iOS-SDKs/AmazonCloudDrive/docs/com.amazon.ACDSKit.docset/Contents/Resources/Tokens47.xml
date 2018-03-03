@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKRestoreNodeFromTrashRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKRestoreNodeFromTrashRequest</TokenIdentifier>
+			<Abstract type="html">Request to restore a node from the trash.</Abstract>
+			<DeclaredIn>ACDSKRestoreNodeFromTrashRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKRestoreNodeFromTrashResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKRestoreNodeFromTrashRequest/setNodeID:</TokenIdentifier>
+			<Abstract type="html">(required) ID of the node.</Abstract>
+			<DeclaredIn>ACDSKRestoreNodeFromTrashRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *nodeID</Declaration>
+			
+			
+			<Anchor>//api/name/nodeID</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKRestoreNodeFromTrashRequest/nodeID</TokenIdentifier>
+			<Abstract type="html">(required) ID of the node.</Abstract>
+			<DeclaredIn>ACDSKRestoreNodeFromTrashRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *nodeID</Declaration>
+			
+			
+			<Anchor>//api/name/nodeID</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKRestoreNodeFromTrashRequest/nodeID</TokenIdentifier>
+			<Abstract type="html">(required) ID of the node.</Abstract>
+			<DeclaredIn>ACDSKRestoreNodeFromTrashRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *nodeID</Declaration>
+			
+			
+			<Anchor>//api/name/nodeID</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

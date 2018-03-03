@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKAddPropertyResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKAddPropertyResponse</TokenIdentifier>
+			<Abstract type="html">Response for request to add single property (key-value pair) to a node.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKAddPropertyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/setKey:</TokenIdentifier>
+			<Abstract type="html">The key of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/key</TokenIdentifier>
+			<Abstract type="html">The key of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKAddPropertyResponse/key</TokenIdentifier>
+			<Abstract type="html">The key of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/setValue:</TokenIdentifier>
+			<Abstract type="html">The value of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/value</TokenIdentifier>
+			<Abstract type="html">The value of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKAddPropertyResponse/value</TokenIdentifier>
+			<Abstract type="html">The value of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/setLocation:</TokenIdentifier>
+			<Abstract type="html">The location of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/location</TokenIdentifier>
+			<Abstract type="html">The location of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKAddPropertyResponse/location</TokenIdentifier>
+			<Abstract type="html">The location of the property.</Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKAddPropertyResponse/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddPropertyResponse/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKAddPropertyResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

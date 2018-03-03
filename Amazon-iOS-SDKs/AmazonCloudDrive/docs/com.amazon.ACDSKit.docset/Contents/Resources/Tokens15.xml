@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKChangeChunk.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKChangeChunk</TokenIdentifier>
+			<Abstract type="html">Chunk of nodes that had changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetChangesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/setReset:</TokenIdentifier>
+			<Abstract type="html">A flag from the service to indicate that the client should start over getting changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/reset</TokenIdentifier>
+			<Abstract type="html">A flag from the service to indicate that the client should start over getting changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKChangeChunk/reset</TokenIdentifier>
+			<Abstract type="html">A flag from the service to indicate that the client should start over getting changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/setNodes:</TokenIdentifier>
+			<Abstract type="html">Array of nodes that had changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *nodes</Declaration>
+			
+			
+			<Anchor>//api/name/nodes</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/nodes</TokenIdentifier>
+			<Abstract type="html">Array of nodes that had changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *nodes</Declaration>
+			
+			
+			<Anchor>//api/name/nodes</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKChangeChunk/nodes</TokenIdentifier>
+			<Abstract type="html">Array of nodes that had changes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSArray *nodes</Declaration>
+			
+			
+			<Anchor>//api/name/nodes</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/setCheckpoint:</TokenIdentifier>
+			<Abstract type="html">A token representing a frontier of changed nodes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetChangesRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSString *checkpoint</Declaration>
+			
+			
+			<Anchor>//api/name/checkpoint</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/checkpoint</TokenIdentifier>
+			<Abstract type="html">A token representing a frontier of changed nodes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetChangesRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSString *checkpoint</Declaration>
+			
+			
+			<Anchor>//api/name/checkpoint</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKChangeChunk/checkpoint</TokenIdentifier>
+			<Abstract type="html">A token representing a frontier of changed nodes.</Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKGetChangesRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) NSString *checkpoint</Declaration>
+			
+			
+			<Anchor>//api/name/checkpoint</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ACDSKChangeChunk/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKChangeChunk/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ACDSKChangeChunk.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

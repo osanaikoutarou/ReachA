@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKRestoreNodeFromTrashResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKRestoreNodeFromTrashResponse</TokenIdentifier>
+			<Abstract type="html">Response for request to restore a node from the trash. Consists entirely of the node itself that was just restored.</Abstract>
+			<DeclaredIn>ACDSKRestoreNodeFromTrashResponse.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKRestoreNodeFromTrashRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

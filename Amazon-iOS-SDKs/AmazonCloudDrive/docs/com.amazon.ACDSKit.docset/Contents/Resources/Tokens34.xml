@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKListNodesInTrashRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKListNodesInTrashRequest</TokenIdentifier>
+			<Abstract type="html">Request to list nodes in the trash.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKListNodesInTrashResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashRequest/setLimit:</TokenIdentifier>
+			<Abstract type="html">(optional) Limit for the number of nodes to include. Defaults to 200.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashRequest/limit</TokenIdentifier>
+			<Abstract type="html">(optional) Limit for the number of nodes to include. Defaults to 200.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKListNodesInTrashRequest/limit</TokenIdentifier>
+			<Abstract type="html">(optional) Limit for the number of nodes to include. Defaults to 200.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashRequest/setStartToken:</TokenIdentifier>
+			<Abstract type="html">(optional) A token indicating where the contents of the listing should begin. Set to the nextToken from the response to the previous request to list additional nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKPaginatedResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *startToken</Declaration>
+			
+			
+			<Anchor>//api/name/startToken</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKListNodesInTrashRequest/startToken</TokenIdentifier>
+			<Abstract type="html">(optional) A token indicating where the contents of the listing should begin. Set to the nextToken from the response to the previous request to list additional nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKPaginatedResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *startToken</Declaration>
+			
+			
+			<Anchor>//api/name/startToken</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKListNodesInTrashRequest/startToken</TokenIdentifier>
+			<Abstract type="html">(optional) A token indicating where the contents of the listing should begin. Set to the nextToken from the response to the previous request to list additional nodes.</Abstract>
+			<DeclaredIn>ACDSKListNodesInTrashRequest.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKPaginatedResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *startToken</Declaration>
+			
+			
+			<Anchor>//api/name/startToken</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKEmptyResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKEmptyResponse</TokenIdentifier>
+			<Abstract type="html">Response that contains no specific data.</Abstract>
+			<DeclaredIn>ACDSKEmptyResponse.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

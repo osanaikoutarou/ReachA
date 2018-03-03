@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ACDSKAddChildToParentRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ACDSKAddChildToParentRequest</TokenIdentifier>
+			<Abstract type="html">Request to add a node as a child of a parent node. Can be used to add a file (or folder) to a folder. A successful request results in an empty response.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKEmptyResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ACDSKNode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddChildToParentRequest/setParentID:</TokenIdentifier>
+			<Abstract type="html">(required) ID of parent node to which child node should be added.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *parentID</Declaration>
+			
+			
+			<Anchor>//api/name/parentID</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddChildToParentRequest/parentID</TokenIdentifier>
+			<Abstract type="html">(required) ID of parent node to which child node should be added.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *parentID</Declaration>
+			
+			
+			<Anchor>//api/name/parentID</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKAddChildToParentRequest/parentID</TokenIdentifier>
+			<Abstract type="html">(required) ID of parent node to which child node should be added.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *parentID</Declaration>
+			
+			
+			<Anchor>//api/name/parentID</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddChildToParentRequest/setChildID:</TokenIdentifier>
+			<Abstract type="html">(required) ID of child node to add to parent node.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *childID</Declaration>
+			
+			
+			<Anchor>//api/name/childID</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ACDSKAddChildToParentRequest/childID</TokenIdentifier>
+			<Abstract type="html">(required) ID of child node to add to parent node.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *childID</Declaration>
+			
+			
+			<Anchor>//api/name/childID</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ACDSKAddChildToParentRequest/childID</TokenIdentifier>
+			<Abstract type="html">(required) ID of child node to add to parent node.</Abstract>
+			<DeclaredIn>ACDSKAddChildToParentRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *childID</Declaration>
+			
+			
+			<Anchor>//api/name/childID</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
