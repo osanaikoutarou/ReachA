@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KBd-2y-700">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top-->
+        <scene sceneID="ZIt-4C-ULH">
+            <objects>
+                <viewController storyboardIdentifier="ChannelTopViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KBd-2y-700" customClass="ChannelTopViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bRc-z1-LU2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize_image" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-Rj-8gl">
+                                <rect key="frame" x="0.0" y="20" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Xbx-6I-dT2"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dWv-T5-uFE">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="dWv-T5-uFE" secondAttribute="trailing" id="422-mh-KJn"/>
+                            <constraint firstItem="Jxl-Rj-8gl" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="62c-fd-4wy"/>
+                            <constraint firstItem="Jxl-Rj-8gl" firstAttribute="top" secondItem="oGk-hw-0nf" secondAttribute="top" id="DLv-2S-vpr"/>
+                            <constraint firstItem="oGk-hw-0nf" firstAttribute="bottom" secondItem="dWv-T5-uFE" secondAttribute="bottom" id="VUE-ka-mE3"/>
+                            <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="Jxl-Rj-8gl" secondAttribute="trailing" id="WJ3-uC-9P5"/>
+                            <constraint firstItem="dWv-T5-uFE" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="ieZ-o7-g2R"/>
+                            <constraint firstItem="dWv-T5-uFE" firstAttribute="top" secondItem="oGk-hw-0nf" secondAttribute="top" id="uag-La-8ig"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oGk-hw-0nf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Top" id="Wc3-DK-pNH"/>
+                    <navigationItem key="navigationItem" id="lcD-bP-518"/>
+                    <connections>
+                        <segue destination="LgJ-13-To6" kind="show" identifier="toOfficial" id="SKN-ck-Lph">
+                            <nil key="action"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kez-Is-2yn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xSe-Sr-raX">
+                    <rect key="frame" x="0.0" y="0.0" width="56" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="公式Top"/>
+                    <connections>
+                        <action selector="tappedOfficialButton:" destination="KBd-2y-700" eventType="touchUpInside" id="Y6o-5p-rW2"/>
+                    </connections>
+                </button>
+            </objects>
+            <point key="canvasLocation" x="660" y="-666"/>
+        </scene>
+        <!--OfficialNav-->
+        <scene sceneID="odD-wn-yca">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Official" referencedIdentifier="OfficialNav" id="LgJ-13-To6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1vO-xh-bv2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2408" y="-666"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="resize_image" width="566" height="800"/>
+    </resources>
+</document>

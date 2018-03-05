@@ -14,6 +14,9 @@
 		1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FB2028A59100475253 /* CalendarViewController.swift */; };
 		1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */; };
 		1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */; };
+		1E079DAA204D96CC007C8AE8 /* ChannelDetailTop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */; };
+		1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */; };
+		1E079DAE204D9843007C8AE8 /* ChannelDetailContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */; };
 		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
 		1E387CC62042C1710045C89D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC52042C1710045C89D /* Account.swift */; };
 		1E387CCB2042D8300045C89D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CCA2042D8300045C89D /* MockData.swift */; };
@@ -73,6 +76,9 @@
 		1E0022FB2028A59100475253 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyDayTableViewCell.swift; sourceTree = "<group>"; };
 		1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyMonthTableViewCell.swift; sourceTree = "<group>"; };
+		1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailTop.storyboard; sourceTree = "<group>"; };
+		1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailContents.storyboard; sourceTree = "<group>"; };
+		1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailContentsViewController.swift; sourceTree = "<group>"; };
 		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
 		1E387CC52042C1710045C89D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		1E387CCA2042D8300045C89D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -204,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				1E5263FA204722A800EF3E18 /* ChannelVideos */,
+				1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */,
 			);
 			path = ChannelContents;
 			sourceTree = "<group>";
@@ -338,6 +345,8 @@
 				1EE9A31520307B2200BAB029 /* Calendar.storyboard */,
 				1E3A85B0204515EA00CFB052 /* Official.storyboard */,
 				1E8696192048465100337DC0 /* Play.storyboard */,
+				1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */,
+				1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -525,12 +534,14 @@
 				DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */,
 				DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */,
 				DAA4E9A0200C858400CE1183 /* LaunchScreen.storyboard in Resources */,
+				1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */,
 				DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */,
 				1EE9A30B20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib in Resources */,
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
 				1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */,
 				1E86961A2048465100337DC0 /* Play.storyboard in Resources */,
+				1E079DAA204D96CC007C8AE8 /* ChannelDetailTop.storyboard in Resources */,
 				DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */,
 				1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */,
 			);
@@ -654,6 +665,7 @@
 				1E86962220485A6E00337DC0 /* OtherApp.swift in Sources */,
 				DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */,
 				1E3A85B72045163300CFB052 /* OfficialAnimeViewController.swift in Sources */,
+				1E079DAE204D9843007C8AE8 /* ChannelDetailContentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
