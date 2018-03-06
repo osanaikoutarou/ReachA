@@ -18,22 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize_image" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-Rj-8gl">
-                                <rect key="frame" x="0.0" y="20" width="375" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize_image" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-Rj-8gl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Xbx-6I-dT2"/>
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dWv-T5-uFE">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="dWv-T5-uFE" secondAttribute="trailing" id="422-mh-KJn"/>
                             <constraint firstItem="Jxl-Rj-8gl" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="62c-fd-4wy"/>
-                            <constraint firstItem="Jxl-Rj-8gl" firstAttribute="top" secondItem="oGk-hw-0nf" secondAttribute="top" id="DLv-2S-vpr"/>
+                            <constraint firstItem="Jxl-Rj-8gl" firstAttribute="top" secondItem="bRc-z1-LU2" secondAttribute="top" id="DLv-2S-vpr"/>
                             <constraint firstItem="oGk-hw-0nf" firstAttribute="bottom" secondItem="dWv-T5-uFE" secondAttribute="bottom" id="VUE-ka-mE3"/>
                             <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="Jxl-Rj-8gl" secondAttribute="trailing" id="WJ3-uC-9P5"/>
                             <constraint firstItem="dWv-T5-uFE" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="ieZ-o7-g2R"/>
@@ -44,6 +45,8 @@
                     <tabBarItem key="tabBarItem" title="Top" id="Wc3-DK-pNH"/>
                     <navigationItem key="navigationItem" id="lcD-bP-518"/>
                     <connections>
+                        <outlet property="channelImageView" destination="Jxl-Rj-8gl" id="3UP-zw-gjd"/>
+                        <outlet property="channelImageViewHeight" destination="Xbx-6I-dT2" id="NiC-Yb-I32"/>
                         <segue destination="LgJ-13-To6" kind="show" identifier="toOfficial" id="SKN-ck-Lph">
                             <nil key="action"/>
                         </segue>
@@ -59,7 +62,7 @@
                     </connections>
                 </button>
             </objects>
-            <point key="canvasLocation" x="660" y="-666"/>
+            <point key="canvasLocation" x="660" y="-666.11694152923542"/>
         </scene>
         <!--OfficialNav-->
         <scene sceneID="odD-wn-yca">

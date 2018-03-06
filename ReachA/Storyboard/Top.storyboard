@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="1170" y="135"/>
         </scene>
-        <!--ChannelDetailTabbar-->
+        <!--ChannelTabBarController-->
         <scene sceneID="85M-ey-5tp">
             <objects>
-                <viewControllerPlaceholder storyboardName="ChannelDetail" referencedIdentifier="ChannelDetailTabbar" id="dCj-AD-MEO" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="ChannelDetail" referencedIdentifier="ChannelTabBarController" id="dCj-AD-MEO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X7G-1b-Ymf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2001" y="135"/>

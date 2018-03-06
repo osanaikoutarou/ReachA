@@ -17,6 +17,7 @@
 		1E079DAA204D96CC007C8AE8 /* ChannelDetailTop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */; };
 		1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */; };
 		1E079DAE204D9843007C8AE8 /* ChannelDetailContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */; };
+		1E079DB3204E5346007C8AE8 /* UIImageView+Fit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */; };
 		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
 		1E387CC62042C1710045C89D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC52042C1710045C89D /* Account.swift */; };
 		1E387CCB2042D8300045C89D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CCA2042D8300045C89D /* MockData.swift */; };
@@ -79,6 +80,7 @@
 		1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailTop.storyboard; sourceTree = "<group>"; };
 		1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailContents.storyboard; sourceTree = "<group>"; };
 		1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailContentsViewController.swift; sourceTree = "<group>"; };
+		1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Fit.swift"; sourceTree = "<group>"; };
 		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
 		1E387CC52042C1710045C89D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		1E387CCA2042D8300045C89D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -168,6 +170,14 @@
 				1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		1E079DAF204E5303007C8AE8 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */,
+			);
+			path = ImageView;
 			sourceTree = "<group>";
 		};
 		1E387CC12042A3EF0045C89D /* Creator */ = {
@@ -293,6 +303,7 @@
 		1EE9A30020303ABB00BAB029 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1E079DAF204E5303007C8AE8 /* ImageView */,
 				1EE9A30520303CEF00BAB029 /* CollectionViewCell */,
 				1EE9A30120303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift */,
 				1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */,
@@ -632,6 +643,7 @@
 				1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */,
 				1E0022F920289B8900475253 /* Organization.swift in Sources */,
 				1E387CC62042C1710045C89D /* Account.swift in Sources */,
+				1E079DB3204E5346007C8AE8 /* UIImageView+Fit.swift in Sources */,
 				DAD5F4A42043E037002392F1 /* UICollectionView+Layout.swift in Sources */,
 				1E5264052047BD2B00EF3E18 /* UITableView+Utility.swift in Sources */,
 				DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */,

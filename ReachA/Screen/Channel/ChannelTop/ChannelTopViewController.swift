@@ -12,15 +12,26 @@ class ChannelTopViewController: UIViewController {
 
     var channel2:Channel?
     
+    @IBOutlet weak var channelImageView: UIImageView!
+    @IBOutlet weak var channelImageViewHeight: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        channelImageView.layoutIfNeeded()
+        channelImageViewHeight.constant = channelImageView.heightWhenFitWidth()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        setupNavBar()
+    }
+    
+    func setupNavBar() {
+        self.navigationController?.title = ""
+        clearNavBar()
+    }
+    func clearNavBar() {
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
     }
     
     @IBAction func tappedOfficialButton(_ sender: Any) {

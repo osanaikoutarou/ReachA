@@ -22,7 +22,7 @@ class ChannelTabBarController: UITabBarController {
     
     func setup(with channel:Channel) {
         self.channel1 = channel
-        self.title = channel.name
+//        self.title = channel.name
     }
     
     func refreshAll() {

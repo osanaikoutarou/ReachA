@@ -14,6 +14,7 @@ class CalendarDailyEventNormalCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var smallIconView: UIView!
     @IBOutlet weak var smallIconImageView: UIImageView!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
