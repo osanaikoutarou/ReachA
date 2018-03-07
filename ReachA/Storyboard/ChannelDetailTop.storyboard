@@ -18,27 +18,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize_image" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-Rj-8gl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CyH-8f-Yfs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize_image" translatesAutoresizingMaskIntoConstraints="NO" id="kIK-XM-QwD">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dX3-kb-s3J">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bU5-W6-Yxb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize_image" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-Rj-8gl">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Xbx-6I-dT2"/>
+                                    <constraint firstAttribute="trailing" secondItem="kIK-XM-QwD" secondAttribute="trailing" id="CUs-LB-lvJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jxl-Rj-8gl" secondAttribute="trailing" id="Eog-WF-aaK"/>
+                                    <constraint firstItem="Jxl-Rj-8gl" firstAttribute="leading" secondItem="CyH-8f-Yfs" secondAttribute="leading" id="FB6-Ui-noa"/>
+                                    <constraint firstItem="Jxl-Rj-8gl" firstAttribute="top" secondItem="CyH-8f-Yfs" secondAttribute="top" id="HvB-RM-IxQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="dX3-kb-s3J" secondAttribute="bottom" id="Idp-O7-knY"/>
+                                    <constraint firstItem="dX3-kb-s3J" firstAttribute="leading" secondItem="CyH-8f-Yfs" secondAttribute="leading" id="ObA-In-rI6"/>
+                                    <constraint firstAttribute="trailing" secondItem="dX3-kb-s3J" secondAttribute="trailing" id="PeA-uy-PiA"/>
+                                    <constraint firstAttribute="height" constant="300" id="R3r-MH-xSi"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jxl-Rj-8gl" secondAttribute="bottom" id="TB9-Di-UYn"/>
+                                    <constraint firstAttribute="bottom" secondItem="kIK-XM-QwD" secondAttribute="bottom" id="Z7M-aK-kpL"/>
+                                    <constraint firstItem="dX3-kb-s3J" firstAttribute="top" secondItem="CyH-8f-Yfs" secondAttribute="top" id="k2f-L8-snE"/>
+                                    <constraint firstItem="kIK-XM-QwD" firstAttribute="leading" secondItem="CyH-8f-Yfs" secondAttribute="leading" id="kzB-7O-eNf"/>
+                                    <constraint firstItem="kIK-XM-QwD" firstAttribute="top" secondItem="CyH-8f-Yfs" secondAttribute="top" id="xMV-PS-wgF"/>
                                 </constraints>
-                            </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dWv-T5-uFE">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dWv-T5-uFE">
+                                <rect key="frame" x="0.0" y="420" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="dWv-T5-uFE" secondAttribute="trailing" id="422-mh-KJn"/>
-                            <constraint firstItem="Jxl-Rj-8gl" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="62c-fd-4wy"/>
-                            <constraint firstItem="Jxl-Rj-8gl" firstAttribute="top" secondItem="bRc-z1-LU2" secondAttribute="top" id="DLv-2S-vpr"/>
-                            <constraint firstItem="oGk-hw-0nf" firstAttribute="bottom" secondItem="dWv-T5-uFE" secondAttribute="bottom" id="VUE-ka-mE3"/>
-                            <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="Jxl-Rj-8gl" secondAttribute="trailing" id="WJ3-uC-9P5"/>
-                            <constraint firstItem="dWv-T5-uFE" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="ieZ-o7-g2R"/>
-                            <constraint firstItem="dWv-T5-uFE" firstAttribute="top" secondItem="oGk-hw-0nf" secondAttribute="top" id="uag-La-8ig"/>
+                            <constraint firstItem="CyH-8f-Yfs" firstAttribute="leading" secondItem="oGk-hw-0nf" secondAttribute="leading" id="BpZ-fF-Pxn"/>
+                            <constraint firstItem="oGk-hw-0nf" firstAttribute="trailing" secondItem="CyH-8f-Yfs" secondAttribute="trailing" id="D1J-K5-xwX"/>
+                            <constraint firstItem="CyH-8f-Yfs" firstAttribute="top" secondItem="bRc-z1-LU2" secondAttribute="top" id="a9V-HQ-fha"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="oGk-hw-0nf"/>
                     </view>
@@ -46,7 +73,6 @@
                     <navigationItem key="navigationItem" id="lcD-bP-518"/>
                     <connections>
                         <outlet property="channelImageView" destination="Jxl-Rj-8gl" id="3UP-zw-gjd"/>
-                        <outlet property="channelImageViewHeight" destination="Xbx-6I-dT2" id="NiC-Yb-I32"/>
                         <segue destination="LgJ-13-To6" kind="show" identifier="toOfficial" id="SKN-ck-Lph">
                             <nil key="action"/>
                         </segue>

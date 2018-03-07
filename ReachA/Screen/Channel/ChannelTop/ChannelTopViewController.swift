@@ -19,7 +19,7 @@ class ChannelTopViewController: UIViewController {
         super.viewDidLoad()
 
         channelImageView.layoutIfNeeded()
-        channelImageViewHeight.constant = channelImageView.heightWhenFitWidth()
+//        channelImageViewHeight.constant = channelImageView.heightWhenFitWidth()
 
         setupNavBar()
     }
