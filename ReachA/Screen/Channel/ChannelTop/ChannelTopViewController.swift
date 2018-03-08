@@ -8,20 +8,25 @@
 
 import UIKit
 
-class ChannelTopViewController: UIViewController {
+class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
 
     var channel2:Channel?
     
     @IBOutlet weak var channelImageView: UIImageView!
     @IBOutlet weak var channelImageViewHeight: NSLayoutConstraint!
+    @IBOutlet weak var channelTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         channelImageView.layoutIfNeeded()
 //        channelImageViewHeight.constant = channelImageView.heightWhenFitWidth()
-
         setupNavBar()
+        
+        channelTableView.contentInset = UIEdgeInsetsMake(channelImageViewHeight.constant, 0, 0, 0)
+        channelTableView.delegate = self
+        channelTableView.dataSource = self
     }
     
     func setupNavBar() {
@@ -44,5 +49,17 @@ class ChannelTopViewController: UIViewController {
         officialTop.channel = self.channel2
     }
     
-
+    //MARK:tableview
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 100
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "")
+        cell.contentView.backgroundColor = UIColor.white
+        return cell
+    }
 }

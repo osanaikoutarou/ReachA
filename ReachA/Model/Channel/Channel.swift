@@ -12,14 +12,27 @@ enum StatesType {
 }
 
 enum ChannelType {
-    case animeChannel
+    case normal
+    // content
+    case anime
+    case comic
+    case webComic
+    case music
+    case video
+    case event
+    case caractor
+    case otherContent   //まだまだある
+    // man
+    // organization
+    // information
+    
 }
 
 class Channel: NSObject {
     
     var id:String?                  // Account ID
     var name:String?                // Account name
-    var type:ChannelType = .animeChannel
+    var type:ChannelType?
     var officialUrl:String?         // 公式サイトのURL
     var wikipedia:String?           // wikipediaのURL
     var twitterScreenName:String?   // Twitter
@@ -28,10 +41,10 @@ class Channel: NSObject {
     var descriptionText:String = ""
     var isFollow:Bool = false
     var statesType:StatesType?
-    var tags:[String]
+    var tags:[String] = []
     
-    var sigInfos:[String]?
-    var relatedChannels:[Channel]
+    var sigInfos:[String] = []
+    var relatedChannels:[Channel] = []
     
     //TODO:放送時間、スケジュール、放送局、放送地域、評価感想、自分の評価感想
     
