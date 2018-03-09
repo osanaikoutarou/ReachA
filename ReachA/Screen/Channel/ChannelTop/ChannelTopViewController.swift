@@ -8,12 +8,12 @@
 
 import UIKit
 
-class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate {
     
-
     var channel2:Channel?
     
     @IBOutlet weak var channelImageView: UIImageView!
+    @IBOutlet weak var channelImageViewTop: NSLayoutConstraint!
     @IBOutlet weak var channelImageViewHeight: NSLayoutConstraint!
     @IBOutlet weak var channelTableView: UITableView!
     
@@ -62,4 +62,19 @@ class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableView
         cell.contentView.backgroundColor = UIColor.white
         return cell
     }
+    
+    //MARK:scrollView
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let v = scrollView.contentOffset.y + 300        // なんで60?
+        print(v)
+        print("--")
+        print(scrollView.contentOffset.y)
+        
+        channelImageViewTop.constant = min(0, max(-150,-v/2.0))
+        channelImageViewHeight.constant = max(300, 300-v)
+        
+        channelImageView.alpha = min(1.0, (30-(v-270))/30.0)
+    }
+    
 }
