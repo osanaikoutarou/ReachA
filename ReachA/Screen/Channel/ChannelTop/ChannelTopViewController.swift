@@ -49,6 +49,13 @@ class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableView
         return 100
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if indexPath.row == 1 {
+            return ChannelTopSegmentTableViewCell.height()
+        }
+        if indexPath.row == 2 {
+            return ChannelTopComicTableViewCell.height()
+        }
+        
         return 50
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -58,30 +65,38 @@ class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableView
             return cell
         }
         if indexPath.row == 1 {
-            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
-            cell.prepareForReuse()
-            cell.label1?.text = "type:アニメ"
+            let cell = tableView.dequeueReusableCell(with: ChannelTopSegmentTableViewCell.self, for: indexPath)
             return cell
         }
         if indexPath.row == 2 {
-            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
-            cell.prepareForReuse()
-            cell.label1?.text = channel2?.officialUrl
+            let cell = tableView.dequeueReusableCell(with: ChannelTopComicTableViewCell.self, for: indexPath)
             return cell
         }
         if indexPath.row == 3 {
             let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
             cell.prepareForReuse()
-            cell.label1?.text = channel2?.twitterScreenName
+            cell.label1?.text = "type:アニメ"
             return cell
         }
         if indexPath.row == 4 {
             let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
             cell.prepareForReuse()
-            cell.label1?.text = channel2?.wikipedia
+            cell.label1?.text = channel2?.officialUrl
             return cell
         }
         if indexPath.row == 5 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = channel2?.twitterScreenName
+            return cell
+        }
+        if indexPath.row == 6 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = channel2?.wikipedia
+            return cell
+        }
+        if indexPath.row == 7 {
             let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
             cell.prepareForReuse()
             cell.label1?.text = channel2?.descriptionText
@@ -96,7 +111,7 @@ class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableView
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        if indexPath.row == 4 {
+        if indexPath.row == 6 {
             segueToWikipedia()
         }
     }

@@ -20,6 +20,7 @@
 		1E079DB3204E5346007C8AE8 /* UIImageView+Fit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */; };
 		1E223A222055312400557A2B /* WikipediaMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E223A212055312400557A2B /* WikipediaMenuViewController.swift */; };
 		1E223A242055366000557A2B /* WikipediaBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E223A232055366000557A2B /* WikipediaBaseViewController.swift */; };
+		1E223A262055510F00557A2B /* ChannelTopSegmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E223A252055510F00557A2B /* ChannelTopSegmentTableViewCell.swift */; };
 		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
 		1E387CC62042C1710045C89D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC52042C1710045C89D /* Channel.swift */; };
 		1E387CCB2042D8300045C89D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CCA2042D8300045C89D /* MockData.swift */; };
@@ -29,6 +30,7 @@
 		1E5263FC2047B4C100EF3E18 /* ChannelVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5263FB2047B4C100EF3E18 /* ChannelVideosViewController.swift */; };
 		1E5263FE2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */; };
 		1E5264052047BD2B00EF3E18 /* UITableView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */; };
+		1E56E223205574A5006CDE86 /* ChannelTopComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
 		1E86961A2048465100337DC0 /* Play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8696192048465100337DC0 /* Play.storyboard */; };
@@ -90,6 +92,7 @@
 		1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Fit.swift"; sourceTree = "<group>"; };
 		1E223A212055312400557A2B /* WikipediaMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaMenuViewController.swift; sourceTree = "<group>"; };
 		1E223A232055366000557A2B /* WikipediaBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaBaseViewController.swift; sourceTree = "<group>"; };
+		1E223A252055510F00557A2B /* ChannelTopSegmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopSegmentTableViewCell.swift; sourceTree = "<group>"; };
 		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
 		1E387CC52042C1710045C89D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		1E387CCA2042D8300045C89D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 		1E5263FB2047B4C100EF3E18 /* ChannelVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVideosViewController.swift; sourceTree = "<group>"; };
 		1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelContentVideoTableViewCell.swift; sourceTree = "<group>"; };
 		1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utility.swift"; sourceTree = "<group>"; };
+		1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopComicTableViewCell.swift; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
 		1E8696192048465100337DC0 /* Play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Play.storyboard; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 			children = (
 				1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */,
 				1EF83BEE2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift */,
+				1E223A252055510F00557A2B /* ChannelTopSegmentTableViewCell.swift */,
+				1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */,
 			);
 			path = ChannelTop;
 			sourceTree = "<group>";
@@ -700,6 +706,7 @@
 				1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */,
 				1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */,
 				1E387CCB2042D8300045C89D /* MockData.swift in Sources */,
+				1E223A262055510F00557A2B /* ChannelTopSegmentTableViewCell.swift in Sources */,
 				1EE9A312203072EB00BAB029 /* Class+Utility.swift in Sources */,
 				1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */,
 				1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */,
@@ -714,6 +721,7 @@
 				1E0022F32028879600475253 /* Content.swift in Sources */,
 				1E223A242055366000557A2B /* WikipediaBaseViewController.swift in Sources */,
 				1E5263FC2047B4C100EF3E18 /* ChannelVideosViewController.swift in Sources */,
+				1E56E223205574A5006CDE86 /* ChannelTopComicTableViewCell.swift in Sources */,
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
 				1EF83BF920543C16003E4C5C /* WKWebView+Utility.swift in Sources */,

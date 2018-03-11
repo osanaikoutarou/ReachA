@@ -12,6 +12,7 @@
     <customFonts key="customFonts">
         <array key="HiraginoKakuGothic.ttc">
             <string>HiraginoSans-W3</string>
+            <string>HiraginoSans-W6</string>
         </array>
     </customFonts>
     <scenes>
@@ -90,8 +91,117 @@
                                             <outlet property="followButton" destination="V2w-vA-RF7" id="MNo-d5-GYW"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelTopSegmentTableViewCell" id="EvX-jw-isp" customClass="ChannelTopSegmentTableViewCell" customModule="ReachA" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="140" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EvX-jw-isp" id="vP4-Dq-Vwb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="r8s-6H-BuH">
+                                                    <rect key="frame" x="15" y="8" width="345" height="29"/>
+                                                    <segments>
+                                                        <segment title="情報"/>
+                                                        <segment title="ニュース"/>
+                                                        <segment title="カレンダー"/>
+                                                    </segments>
+                                                </segmentedControl>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="r8s-6H-BuH" firstAttribute="centerY" secondItem="vP4-Dq-Vwb" secondAttribute="centerY" id="N84-6y-5Dv"/>
+                                                <constraint firstItem="r8s-6H-BuH" firstAttribute="leading" secondItem="vP4-Dq-Vwb" secondAttribute="leading" constant="15" id="aph-0Y-x14"/>
+                                                <constraint firstAttribute="trailing" secondItem="r8s-6H-BuH" secondAttribute="trailing" constant="15" id="cjt-Bi-kP7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ChannelTopComicTableViewCell" rowHeight="120" id="g1Z-xg-VFn" customClass="ChannelTopComicTableViewCell" customModule="ReachA" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="184" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g1Z-xg-VFn" id="WH2-gb-UEh">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="119.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_9784832246355" translatesAutoresizingMaskIntoConstraints="NO" id="eAf-9H-vmi">
+                                                    <rect key="frame" x="10" y="10" width="70" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="QhG-s0-zPZ"/>
+                                                        <constraint firstAttribute="width" constant="70" id="wzu-aY-uDf"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原作（漫画）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keK-jt-2gL">
+                                                    <rect key="frame" x="90" y="10" width="84" height="14"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyi-Oc-Ie2">
+                                                    <rect key="frame" x="90" y="39" width="40" height="14"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="Qqv-iE-9C5"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出版社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mll-R1-H29">
+                                                    <rect key="frame" x="90" y="63" width="42" height="14"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="掲載誌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lR-MG-l5e">
+                                                    <rect key="frame" x="90" y="87" width="42" height="14"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srg-7j-bcR">
+                                                    <rect key="frame" x="152" y="36" width="42" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="Vuq-gk-29A"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                                    <state key="normal" title="あｆろ"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyu-cj-1Ng">
+                                                    <rect key="frame" x="152" y="60" width="42" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="VEH-ZK-AuC"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                                    <state key="normal" title="芳文社"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSq-hK-oWj">
+                                                    <rect key="frame" x="152" y="84" width="195" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="0Ty-AG-xSQ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                                    <state key="normal" title="まんがタイムきららフォワード"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9lR-MG-l5e" firstAttribute="leading" secondItem="eAf-9H-vmi" secondAttribute="trailing" constant="10" id="04y-8e-SQq"/>
+                                                <constraint firstItem="srg-7j-bcR" firstAttribute="leading" secondItem="Mll-R1-H29" secondAttribute="trailing" constant="20" id="6JF-Ry-gM8"/>
+                                                <constraint firstItem="eAf-9H-vmi" firstAttribute="leading" secondItem="WH2-gb-UEh" secondAttribute="leading" constant="10" id="7rE-bo-ZSG"/>
+                                                <constraint firstItem="jSq-hK-oWj" firstAttribute="centerY" secondItem="9lR-MG-l5e" secondAttribute="centerY" id="Eum-be-7Ly"/>
+                                                <constraint firstItem="srg-7j-bcR" firstAttribute="centerY" secondItem="Nyi-Oc-Ie2" secondAttribute="centerY" id="M1Y-a6-Ol6"/>
+                                                <constraint firstItem="jSq-hK-oWj" firstAttribute="leading" secondItem="Hyu-cj-1Ng" secondAttribute="leading" id="OR8-Mz-lMv"/>
+                                                <constraint firstItem="Hyu-cj-1Ng" firstAttribute="centerY" secondItem="Mll-R1-H29" secondAttribute="centerY" id="QjJ-Ru-x0L"/>
+                                                <constraint firstItem="Mll-R1-H29" firstAttribute="leading" secondItem="Nyi-Oc-Ie2" secondAttribute="leading" id="Zg3-dE-t9t"/>
+                                                <constraint firstItem="eAf-9H-vmi" firstAttribute="top" secondItem="WH2-gb-UEh" secondAttribute="top" constant="10" id="bCO-PL-DDc"/>
+                                                <constraint firstItem="9lR-MG-l5e" firstAttribute="top" secondItem="Mll-R1-H29" secondAttribute="bottom" constant="10" id="jC5-AA-VAv"/>
+                                                <constraint firstItem="Nyi-Oc-Ie2" firstAttribute="leading" secondItem="eAf-9H-vmi" secondAttribute="trailing" constant="10" id="lfV-z0-bQj"/>
+                                                <constraint firstItem="keK-jt-2gL" firstAttribute="leading" secondItem="eAf-9H-vmi" secondAttribute="trailing" constant="10" id="mGB-0D-6uv"/>
+                                                <constraint firstItem="Mll-R1-H29" firstAttribute="top" secondItem="Nyi-Oc-Ie2" secondAttribute="bottom" constant="10" id="mTo-Cp-mQI"/>
+                                                <constraint firstItem="keK-jt-2gL" firstAttribute="top" secondItem="WH2-gb-UEh" secondAttribute="top" constant="10" id="ogK-3b-YDD"/>
+                                                <constraint firstItem="Nyi-Oc-Ie2" firstAttribute="top" secondItem="keK-jt-2gL" secondAttribute="bottom" constant="15" id="wtm-th-gHB"/>
+                                                <constraint firstItem="Hyu-cj-1Ng" firstAttribute="leading" secondItem="srg-7j-bcR" secondAttribute="leading" id="zFB-Sv-Hq0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SimpleCommonTableViewCell" rowHeight="112" id="3RX-7P-Aot" customClass="SimpleCommonTableViewCell" customModule="ReachA" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="140" width="375" height="112"/>
+                                        <rect key="frame" x="0.0" y="304" width="375" height="112"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3RX-7P-Aot" id="sSH-H8-2fe">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="111.5"/>
@@ -174,6 +284,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book_9784832246355" width="214" height="304"/>
         <image name="resize_image" width="566" height="800"/>
     </resources>
 </document>
