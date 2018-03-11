@@ -18,6 +18,8 @@
 		1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */; };
 		1E079DAE204D9843007C8AE8 /* ChannelDetailContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */; };
 		1E079DB3204E5346007C8AE8 /* UIImageView+Fit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */; };
+		1E223A222055312400557A2B /* WikipediaMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E223A212055312400557A2B /* WikipediaMenuViewController.swift */; };
+		1E223A242055366000557A2B /* WikipediaBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E223A232055366000557A2B /* WikipediaBaseViewController.swift */; };
 		1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC22042A42D0045C89D /* CalendarCreator.swift */; };
 		1E387CC62042C1710045C89D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CC52042C1710045C89D /* Channel.swift */; };
 		1E387CCB2042D8300045C89D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E387CCA2042D8300045C89D /* MockData.swift */; };
@@ -47,6 +49,11 @@
 		1EE9A31020306D8100BAB029 /* UICollectionView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30F20306D8100BAB029 /* UICollectionView+Utility.swift */; };
 		1EE9A312203072EB00BAB029 /* Class+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A311203072EB00BAB029 /* Class+Utility.swift */; };
 		1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A31520307B2200BAB029 /* Calendar.storyboard */; };
+		1EF83BEF2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF83BEE2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift */; };
+		1EF83BF22052D840003E4C5C /* SimpleCommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF83BF12052D840003E4C5C /* SimpleCommonTableViewCell.swift */; };
+		1EF83BF420542DC4003E4C5C /* Wikipedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF83BF320542DC4003E4C5C /* Wikipedia.storyboard */; };
+		1EF83BF720542E19003E4C5C /* WikipediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF83BF620542E19003E4C5C /* WikipediaViewController.swift */; };
+		1EF83BF920543C16003E4C5C /* WKWebView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF83BF820543C16003E4C5C /* WKWebView+Utility.swift */; };
 		1EFAC99E2039E20700BABB67 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */; };
 		1EFAC9AB2039E9BD00BABB67 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */; };
 		2C28E1914D460667BA9DDC84 /* Pods_ReachA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD377EC316EA4DF56308AA /* Pods_ReachA.framework */; };
@@ -81,6 +88,8 @@
 		1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailContents.storyboard; sourceTree = "<group>"; };
 		1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailContentsViewController.swift; sourceTree = "<group>"; };
 		1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Fit.swift"; sourceTree = "<group>"; };
+		1E223A212055312400557A2B /* WikipediaMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaMenuViewController.swift; sourceTree = "<group>"; };
+		1E223A232055366000557A2B /* WikipediaBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaBaseViewController.swift; sourceTree = "<group>"; };
 		1E387CC22042A42D0045C89D /* CalendarCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCreator.swift; sourceTree = "<group>"; };
 		1E387CC52042C1710045C89D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		1E387CCA2042D8300045C89D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -110,6 +119,11 @@
 		1EE9A30F20306D8100BAB029 /* UICollectionView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Utility.swift"; sourceTree = "<group>"; };
 		1EE9A311203072EB00BAB029 /* Class+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Utility.swift"; sourceTree = "<group>"; };
 		1EE9A31520307B2200BAB029 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		1EF83BEE2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopFollowTableViewCell.swift; sourceTree = "<group>"; };
+		1EF83BF12052D840003E4C5C /* SimpleCommonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCommonTableViewCell.swift; sourceTree = "<group>"; };
+		1EF83BF320542DC4003E4C5C /* Wikipedia.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Wikipedia.storyboard; sourceTree = "<group>"; };
+		1EF83BF620542E19003E4C5C /* WikipediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaViewController.swift; sourceTree = "<group>"; };
+		1EF83BF820543C16003E4C5C /* WKWebView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Utility.swift"; sourceTree = "<group>"; };
 		1EFAC99D2039E20700BABB67 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
 		1EFAC9A42039E81400BABB67 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFAC9AC2039E9BD00BABB67 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				1E3A85BA2045192200CFB052 /* ChannelTopViewController.swift */,
+				1EF83BEE2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift */,
 			);
 			path = ChannelTop;
 			sourceTree = "<group>";
@@ -303,6 +318,7 @@
 		1EE9A30020303ABB00BAB029 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1EF83BF02052D81E003E4C5C /* TableViewCell */,
 				1E079DAF204E5303007C8AE8 /* ImageView */,
 				1EE9A30520303CEF00BAB029 /* CollectionViewCell */,
 				1EE9A30120303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift */,
@@ -327,8 +343,27 @@
 				1EE9A311203072EB00BAB029 /* Class+Utility.swift */,
 				DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */,
 				1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */,
+				1EF83BF820543C16003E4C5C /* WKWebView+Utility.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		1EF83BF02052D81E003E4C5C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EF83BF12052D840003E4C5C /* SimpleCommonTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1EF83BF520542E06003E4C5C /* Wikipedia */ = {
+			isa = PBXGroup;
+			children = (
+				1EF83BF620542E19003E4C5C /* WikipediaViewController.swift */,
+				1E223A212055312400557A2B /* WikipediaMenuViewController.swift */,
+				1E223A232055366000557A2B /* WikipediaBaseViewController.swift */,
+			);
+			path = Wikipedia;
 			sourceTree = "<group>";
 		};
 		1EFAC99C2039DC0800BABB67 /* DB */ = {
@@ -358,6 +393,7 @@
 				1E8696192048465100337DC0 /* Play.storyboard */,
 				1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */,
 				1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */,
+				1EF83BF320542DC4003E4C5C /* Wikipedia.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -365,6 +401,7 @@
 		DA10F537200DD69300A5C9FC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				1EF83BF520542E06003E4C5C /* Wikipedia */,
 				1E86961B204846E200337DC0 /* Play */,
 				1E3A85B32045161500CFB052 /* Official */,
 				1E0022FA2028A57700475253 /* Calendar */,
@@ -548,6 +585,7 @@
 				1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */,
 				DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */,
 				1EE9A30B20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib in Resources */,
+				1EF83BF420542DC4003E4C5C /* Wikipedia.storyboard in Resources */,
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
 				1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */,
@@ -605,9 +643,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReachA/Pods-ReachA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
@@ -615,9 +656,12 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
@@ -649,8 +693,10 @@
 				DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */,
 				1E0022F720289A2F00475253 /* Information.swift in Sources */,
 				DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */,
+				1EF83BF720542E19003E4C5C /* WikipediaViewController.swift in Sources */,
 				DA10F53A200DD79100A5C9FC /* TopViewController.swift in Sources */,
 				DAA4E998200C858300CE1183 /* ViewController.swift in Sources */,
+				1EF83BEF2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift in Sources */,
 				1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */,
 				1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */,
 				1E387CCB2042D8300045C89D /* MockData.swift in Sources */,
@@ -662,12 +708,16 @@
 				1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */,
 				DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */,
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
+				1EF83BF22052D840003E4C5C /* SimpleCommonTableViewCell.swift in Sources */,
 				1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */,
 				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,
 				1E0022F32028879600475253 /* Content.swift in Sources */,
+				1E223A242055366000557A2B /* WikipediaBaseViewController.swift in Sources */,
 				1E5263FC2047B4C100EF3E18 /* ChannelVideosViewController.swift in Sources */,
 				1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */,
 				DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */,
+				1EF83BF920543C16003E4C5C /* WKWebView+Utility.swift in Sources */,
+				1E223A222055312400557A2B /* WikipediaMenuViewController.swift in Sources */,
 				1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */,
 				1E387CC32042A42D0045C89D /* CalendarCreator.swift in Sources */,
 				1E5263FE2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift in Sources */,

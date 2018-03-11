@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Wikipedia Base View Controller-->
+        <scene sceneID="iU8-gg-3Q1">
+            <objects>
+                <viewController storyboardIdentifier="WikipediaBaseViewController" automaticallyAdjustsScrollViewInsets="NO" id="6I8-xe-I8U" customClass="WikipediaBaseViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P01-30-QC2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.35294117650000001" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UaI-TX-S9X"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cvp-Lc-hif">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="eOY-ee-OgJ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GOB-Nz-1um">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="tappedCloseButton:" destination="6I8-xe-I8U" eventType="touchUpInside" id="fOg-dh-WwA"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="C55-PC-BGJ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3ge-AX-wyc">
+                                <rect key="frame" x="326" y="5.5" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu"/>
+                                <connections>
+                                    <action selector="tappedMenuButton:" destination="6I8-xe-I8U" eventType="touchUpInside" id="6a6-Gf-YSB"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3rS-6T-JlZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8.8000000000000007" y="-187.55622188905548"/>
+        </scene>
+        <!--Wikipedia View Controller-->
+        <scene sceneID="f7X-bo-L5e">
+            <objects>
+                <viewController storyboardIdentifier="WikipediaViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bLx-RG-HsC" customClass="WikipediaViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xgF-UT-8dC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwI-ic-ZhP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nwI-ic-ZhP" firstAttribute="top" secondItem="xgF-UT-8dC" secondAttribute="top" id="Anx-ti-tbr"/>
+                            <constraint firstItem="nwI-ic-ZhP" firstAttribute="leading" secondItem="okW-XW-l99" secondAttribute="leading" id="FYk-xR-bhN"/>
+                            <constraint firstItem="nwI-ic-ZhP" firstAttribute="trailing" secondItem="okW-XW-l99" secondAttribute="trailing" id="YtZ-1f-t2n"/>
+                            <constraint firstItem="nwI-ic-ZhP" firstAttribute="bottom" secondItem="okW-XW-l99" secondAttribute="bottom" id="qPM-7w-FnF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="okW-XW-l99"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="UYC-I9-Qru"/>
+                    <connections>
+                        <outlet property="wkWebView" destination="nwI-ic-ZhP" id="Uac-IU-9H0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tb7-Vb-F59" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="-186.65667166416793"/>
+        </scene>
+        <!--Wikipedia Menu View Controller-->
+        <scene sceneID="wfr-St-zyh">
+            <objects>
+                <viewController storyboardIdentifier="WikipediaMenuViewController" automaticallyAdjustsScrollViewInsets="NO" id="rCn-AZ-aVc" customClass="WikipediaMenuViewController" customModule="ReachA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="juJ-cs-tdn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhS-pK-aj3">
+                                <rect key="frame" x="34" y="161" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="5nr-qS-fZT"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lF5-GM-Uh6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514.4000000000001" y="-187.55622188905548"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="c9s-oZ-BY1">
+            <objects>
+                <navigationController storyboardIdentifier="WikipediaNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="EG7-ns-0bS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="17G-YW-X0q">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6I8-xe-I8U" kind="relationship" relationship="rootViewController" id="Nqe-ri-0Pk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFs-Dc-DMV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-756" y="-188"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu" width="33" height="33"/>
+    </resources>
+</document>

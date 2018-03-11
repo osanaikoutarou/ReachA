@@ -43,38 +43,95 @@ class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableView
         self.performSegue(withIdentifier: "toOfficial", sender: nil)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let nav = segue.destination as! UINavigationController
-        let officialTop = nav.topViewController as! OfficialAnimeViewController
-        officialTop.channel = self.channel2
-    }
-    
     //MARK:tableview
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 100
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
+        return 50
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if indexPath.row == 0 {
+            let cell = tableView.dequeueReusableCell(with: ChannelTopFollowTableViewCell.self, for: indexPath)
+            return cell
+        }
+        if indexPath.row == 1 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = "type:アニメ"
+            return cell
+        }
+        if indexPath.row == 2 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = channel2?.officialUrl
+            return cell
+        }
+        if indexPath.row == 3 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = channel2?.twitterScreenName
+            return cell
+        }
+        if indexPath.row == 4 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = channel2?.wikipedia
+            return cell
+        }
+        if indexPath.row == 5 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.prepareForReuse()
+            cell.label1?.text = channel2?.descriptionText
+            return cell
+        }
+
         let cell = UITableViewCell(style: .default, reuseIdentifier: "")
         cell.contentView.backgroundColor = UIColor.white
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        if indexPath.row == 4 {
+            segueToWikipedia()
+        }
+    }
+    
+    //MARK:sege
+    
+    func segueToWikipedia() {
+        performSegue(withIdentifier: "toWikipedia", sender: nil)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (segue.identifier == "toOfficial") {
+            let nav = segue.destination as! UINavigationController
+            let officialTop = nav.topViewController as! OfficialAnimeViewController
+            officialTop.channel = self.channel2
+        }
+        if (segue.identifier == "toWikipedia") {
+//            let wikiVc = segue.destination as! WikipediaViewController
+//            wikiVc.setupWithTitle(title: "ゆるキャン△")
+        }
+        
+    }
+
     //MARK:scrollView
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let v = scrollView.contentOffset.y + 300        // なんで60?
-        print(v)
-        print("--")
-        print(scrollView.contentOffset.y)
         
         channelImageViewTop.constant = min(0, max(-150,-v/2.0))
         channelImageViewHeight.constant = max(300, 300-v)
         
-        channelImageView.alpha = min(1.0, (30-(v-270))/30.0)
+        channelImageView.alpha = min(1.0, (60-(v-300))/60.0)
     }
+    
+
     
 }

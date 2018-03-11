@@ -7,5 +7,8 @@ target 'ReachA' do
 	pod 'SDWebImage'
 	pod 'SwiftDate'
 	pod 'RealmSwift'
+	pod 'R.swift'
+	pod 'ObjectMapper'
+	pod 'SlideMenuControllerSwift'
 end
 

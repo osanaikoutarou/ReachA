@@ -1,4 +1,8 @@
 PODS:
+  - ObjectMapper (3.1.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
   - Realm (3.1.0):
     - Realm/Headers (= 3.1.0)
   - Realm/Headers (3.1.0)
@@ -7,6 +11,7 @@ PODS:
   - SDWebImage (4.2.3):
     - SDWebImage/Core (= 4.2.3)
   - SDWebImage/Core (4.2.3)
+  - SlideMenuControllerSwift (4.0.0)
   - SwiftDate (4.5.1)
   - Swifter (2.1.0)
   - TwitterCore (3.1.0)
@@ -14,8 +19,11 @@ PODS:
     - TwitterCore (>= 3.1.0)
 
 DEPENDENCIES:
+  - ObjectMapper
+  - R.swift
   - RealmSwift
   - SDWebImage
+  - SlideMenuControllerSwift
   - SwiftDate
   - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
   - TwitterKit
@@ -30,14 +38,18 @@ CHECKOUT OPTIONS:
     :git: https://github.com/mattdonnelly/Swifter.git
 
 SPEC CHECKSUMS:
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
   Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
   RealmSwift: e868fee9b10e5490ad94b6b6ecd9027944da1824
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
   Swifter: bbf4ebde56c9f8c13e6c7270bf6841a5f29dfda3
   TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
   TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
 
-PODFILE CHECKSUM: a29c95c38088dfee7f7cc451a550b3e762e640ff
+PODFILE CHECKSUM: 984947e421e0385cde5c5dccd9da335878e4d370
 
 COCOAPODS: 1.3.1
