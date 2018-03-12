@@ -17,6 +17,13 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let interactivePopGestureRecognizer = self.navigationController?.interactivePopGestureRecognizer {
+            
+            interactivePopGestureRecognizer.cancelsTouchesInView = false
+            interactivePopGestureRecognizer.delaysTouchesEnded = false
+            interactivePopGestureRecognizer.delaysTouchesEnded = false
+        }
 
         channelCollectionView.delegate = self
         channelCollectionView.dataSource = self

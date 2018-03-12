@@ -64,6 +64,8 @@
 		DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F53C200DD8C800A5C9FC /* ChannelViewController.swift */; };
 		DA10F53F200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F53E200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift */; };
 		DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F545200DDA6B00A5C9FC /* ChannelDetailViewController.swift */; };
+		DA2F3B2E20565C6B0054BC26 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3B2D20565C6B0054BC26 /* CircleImageView.swift */; };
+		DA2F3B3120565F440054BC26 /* BorderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3B3020565F440054BC26 /* BorderLabel.swift */; };
 		DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA401C14200C924400CE2E1A /* TimelineViewController.swift */; };
 		DA8C333C2011C1DE00864192 /* ChannelTwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C333B2011C1DE00864192 /* ChannelTwitterViewController.swift */; };
 		DAA4E996200C858300CE1183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E995200C858300CE1183 /* AppDelegate.swift */; };
@@ -71,6 +73,7 @@
 		DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E999200C858400CE1183 /* Main.storyboard */; };
 		DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E99C200C858400CE1183 /* Assets.xcassets */; };
 		DAA4E9A0200C858400CE1183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E99E200C858400CE1183 /* LaunchScreen.storyboard */; };
+		DABA87C3205650D400106BD9 /* ChannelList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABA87C2205650D400106BD9 /* ChannelList.storyboard */; };
 		DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682CC203D427F00416BE7 /* BaseRSDao.swift */; };
 		DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC682CF203D491200416BE7 /* Debug.storyboard */; };
 		DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */; };
@@ -139,6 +142,8 @@
 		DA10F53C200DD8C800A5C9FC /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		DA10F53E200DD8DF00A5C9FC /* ChannelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA10F545200DDA6B00A5C9FC /* ChannelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailViewController.swift; sourceTree = "<group>"; };
+		DA2F3B2D20565C6B0054BC26 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		DA2F3B3020565F440054BC26 /* BorderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLabel.swift; sourceTree = "<group>"; };
 		DA401C14200C924400CE2E1A /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		DA8C333B2011C1DE00864192 /* ChannelTwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTwitterViewController.swift; sourceTree = "<group>"; };
 		DAA4E992200C858300CE1183 /* ReachA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +153,7 @@
 		DAA4E99C200C858400CE1183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA4E99F200C858400CE1183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA4E9A1200C858400CE1183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA87C2205650D400106BD9 /* ChannelList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelList.storyboard; sourceTree = "<group>"; };
 		DAC682CC203D427F00416BE7 /* BaseRSDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRSDao.swift; sourceTree = "<group>"; };
 		DAC682CF203D491200416BE7 /* Debug.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
 		DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTopViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				1E079DB2204E5346007C8AE8 /* UIImageView+Fit.swift */,
+				DA2F3B2D20565C6B0054BC26 /* CircleImageView.swift */,
 			);
 			path = ImageView;
 			sourceTree = "<group>";
@@ -324,6 +331,7 @@
 		1EE9A30020303ABB00BAB029 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DA2F3B2F20565F230054BC26 /* Label */,
 				1EF83BF02052D81E003E4C5C /* TableViewCell */,
 				1E079DAF204E5303007C8AE8 /* ImageView */,
 				1EE9A30520303CEF00BAB029 /* CollectionViewCell */,
@@ -400,6 +408,7 @@
 				1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */,
 				1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */,
 				1EF83BF320542DC4003E4C5C /* Wikipedia.storyboard */,
+				DABA87C2205650D400106BD9 /* ChannelList.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -428,6 +437,7 @@
 		DA10F53B200DD82400A5C9FC /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				DABA87C1205650C400106BD9 /* ChannelList */,
 				1E5263F92047229B00EF3E18 /* ChannelContents */,
 				1E3A85B92045191200CFB052 /* ChannelTop */,
 				DA8C333A2011C1BC00864192 /* ChannelTwitter */,
@@ -445,6 +455,14 @@
 				DAD5F4A52043E8EA002392F1 /* ChannelTabBarController.swift */,
 			);
 			path = ChannelDetail;
+			sourceTree = "<group>";
+		};
+		DA2F3B2F20565F230054BC26 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F3B3020565F440054BC26 /* BorderLabel.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 		DA8C333A2011C1BC00864192 /* ChannelTwitter */ = {
@@ -490,6 +508,13 @@
 				DA401C14200C924400CE2E1A /* TimelineViewController.swift */,
 			);
 			path = ReachA;
+			sourceTree = "<group>";
+		};
+		DABA87C1205650C400106BD9 /* ChannelList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChannelList;
 			sourceTree = "<group>";
 		};
 		DAC682CE203D490400416BE7 /* Debug */ = {
@@ -591,6 +616,7 @@
 				1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */,
 				DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */,
 				1EE9A30B20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib in Resources */,
+				DABA87C3205650D400106BD9 /* ChannelList.storyboard in Resources */,
 				1EF83BF420542DC4003E4C5C /* Wikipedia.storyboard in Resources */,
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
@@ -617,7 +643,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -689,6 +716,7 @@
 				1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */,
 				1E0022F52028995400475253 /* Man.swift in Sources */,
 				1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */,
+				DA2F3B3120565F440054BC26 /* BorderLabel.swift in Sources */,
 				1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */,
 				1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */,
 				1E0022F920289B8900475253 /* Organization.swift in Sources */,
@@ -717,6 +745,7 @@
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
 				1EF83BF22052D840003E4C5C /* SimpleCommonTableViewCell.swift in Sources */,
 				1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */,
+				DA2F3B2E20565C6B0054BC26 /* CircleImageView.swift in Sources */,
 				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,
 				1E0022F32028879600475253 /* Content.swift in Sources */,
 				1E223A242055366000557A2B /* WikipediaBaseViewController.swift in Sources */,
