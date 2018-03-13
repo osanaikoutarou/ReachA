@@ -102,6 +102,18 @@ class ChannelTopViewController: UIViewController,UITableViewDelegate,UITableView
             cell.label1?.text = channel2?.descriptionText
             return cell
         }
+        if indexPath.row == 8 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.label1?.text = "キャラクター"
+            cell.accessoryType = .disclosureIndicator
+            return cell
+        }
+        if indexPath.row == 9 {
+            let cell = tableView.dequeueReusableCell(with: SimpleCommonTableViewCell.self, for: indexPath)
+            cell.label1?.text = "会社・スタッフ"
+            cell.accessoryType = .disclosureIndicator
+            return cell
+        }
 
         let cell = UITableViewCell(style: .default, reuseIdentifier: "")
         cell.contentView.backgroundColor = UIColor.white

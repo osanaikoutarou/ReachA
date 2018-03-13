@@ -38,6 +38,16 @@ class TwitterFetcher: NSObject {
             
             print(error)
         })
+    }
+    
+    func hoge() {
         
+        swifter.searchTweet(using: "ゆるキャン filter:images", geocode: nil, lang: nil, locale: nil, resultType: "popular", count: 100, until: nil, sinceID: nil, maxID: nil, includeEntities: false, callback: nil, tweetMode: .extended, success: { (json:JSON, searchMetadata:JSON) in
+            
+            print(json)
+            
+        }) { (error:Error) in
+            print(error)
+        }
     }
 }
