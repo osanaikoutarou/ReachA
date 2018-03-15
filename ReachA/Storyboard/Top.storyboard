@@ -122,6 +122,14 @@
                                     <constraint firstAttribute="width" constant="240" id="Yq1-Dt-9Lm"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vej-8J-8qE">
+                                <rect key="frame" x="113" y="361" width="181" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sandbox"/>
+                                <connections>
+                                    <segue destination="LO6-Hb-vuq" kind="show" id="0tS-By-rcw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -143,6 +151,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tjw-2f-IIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="404" y="-528.48575712143929"/>
+        </scene>
+        <!--Debug-->
+        <scene sceneID="tUf-Yd-mhO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Debug" id="LO6-Hb-vuq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0K-vy-nMd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="-698"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="f3w-GJ-dSW">

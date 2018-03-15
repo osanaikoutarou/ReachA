@@ -34,6 +34,14 @@
                                     <action selector="tappedButton2:" destination="6v9-rH-Co4" eventType="touchUpInside" id="5iF-qC-EKq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vn-rR-NHJ">
+                                <rect key="frame" x="13" y="157" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TwitterSearch"/>
+                                <connections>
+                                    <action selector="tappedTwitterSearchTestButton:" destination="6v9-rH-Co4" eventType="touchUpInside" id="T0I-8t-kGs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Qf8-2V-6eD"/>

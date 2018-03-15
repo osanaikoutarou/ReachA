@@ -35,5 +35,12 @@ class DebugTopViewController: UIViewController {
         dao.read()
     }
     
+    @IBAction func tappedTwitterSearchTestButton(_ sender: Any) {
+        
+        let twitterFetcher = TwitterFetcher()
+        twitterFetcher.hoge()
+
+    }
+    
 
 }
