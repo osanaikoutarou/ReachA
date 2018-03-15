@@ -39,7 +39,7 @@
 		1E86962220485A6E00337DC0 /* OtherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86962120485A6E00337DC0 /* OtherApp.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
 		1EC67CA5201E540500EE3955 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA4201E540500EE3955 /* Twitter.framework */; };
-		1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */; };
+		1EC67CA8201EDEE800EE3955 /* TwitterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */; };
 		1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */; };
 		1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CAD20222A5600EE3955 /* StringUtility.swift */; };
 		1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC996A203E81EB00CA9C3E /* DayEvents.swift */; };
@@ -114,7 +114,7 @@
 		1E86962120485A6E00337DC0 /* OtherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherApp.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC67CA4201E540500EE3955 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
+		1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModels.swift; sourceTree = "<group>"; };
 		1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFetcher.swift; sourceTree = "<group>"; };
 		1EC67CAD20222A5600EE3955 /* StringUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
 		1ECC996A203E81EB00CA9C3E /* DayEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEvents.swift; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 		1EC67CA6201EDECA00EE3955 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
-				1EC67CA7201EDEE800EE3955 /* TwitterUser.swift */,
+				1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */,
 				1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */,
 			);
 			path = Twitter;
@@ -714,7 +714,7 @@
 				DAD5F4A62043E8EA002392F1 /* ChannelTabBarController.swift in Sources */,
 				1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */,
 				1E0022F52028995400475253 /* Man.swift in Sources */,
-				1EC67CA8201EDEE800EE3955 /* TwitterUser.swift in Sources */,
+				1EC67CA8201EDEE800EE3955 /* TwitterModels.swift in Sources */,
 				DA2F3B3120565F440054BC26 /* BorderLabel.swift in Sources */,
 				1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */,
 				1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  TwitterUser.swift
+//  TwitterModels.swift
 //  ReachA
 //
 //  Created by 長内幸太郎 on 2018/01/29.
@@ -8,6 +8,7 @@
 
 import UIKit
 import Swifter
+import ObjectMapper
 
 class TwitterUser: NSObject {
 
@@ -30,6 +31,8 @@ class TwitterUser: NSObject {
     }
     
 }
+
+
 
 // 参考になりそう:http://syossan.hateblo.jp/entry/20110219/1298099350
 class TwitterUserRaw {
@@ -124,6 +127,63 @@ class TwitterUserRaw {
         translatorType = json["translator_type"].string
     }
 }
+
+// Tweet
+class TwitterTweet: Mappable {
+    let inReplyToStatusIdStr:String?
+    let isQuoteStatus:Bool?
+    let source:String?
+    let lang:String?
+//    let place
+    let retweetCount:Int?
+    let favorited:Bool?
+    let inReplyToScreenName:String? // リプライ先のユーザーネーム
+    let id:Int?
+    let displayTextRange:[Double]?
+    let retweeted:Bool?
+//    let geo:
+    let inReplyToUserId:Int?
+//    let metadata:
+    let user:TwitterUser?
+    let FavoriteCount:Int?
+//    let coordinates:
+    let possiblySensitive:Bool?
+    let createdAt:Date?
+    let 
+    
+}
+
+// ExtendedEntity
+class TwitterExtendedEntity: Mappable {
+    let media:TwitterMedia?
+    let indices:[Double]?
+    let url:String?
+}
+
+// Media
+// https://docs.google.com/spreadsheets/d/1dK8cK8M_XDN0RjguwBggo-FPgKDwoHUWRqoBzQN_AKU/edit#gid=0
+class TwitterMedia: Mappable {
+    
+    let idStr:String?
+    let mediaUrlHttps:String?
+    let mediaUrl:String?
+    let expandedUrl:String?   //tweetのurl
+    let displayUrl:String?
+    let type:String?
+    let indices:[Double]?
+    let sizes:TwitterMediaSize?
+
+}
+
+class TwitterMediaSize: Mappable {
+    
+}
+
+class TwitterEntity: Mappable {
+    // user内　後回し
+}
+
+
 
 //"id" : 8.70547677364101e+17,
 //"entities" : {
