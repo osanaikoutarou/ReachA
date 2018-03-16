@@ -9,6 +9,7 @@
 import UIKit
 import TwitterKit
 import Swifter
+import ObjectMapper
 
 class TwitterFetcher: NSObject {
 
@@ -22,29 +23,40 @@ class TwitterFetcher: NSObject {
     
     func fetchUser(screenName:String, successHandler: @escaping (TwitterUser) -> Void) {
         
-        swifter.showUser(
-            for: .screenName(screenName),
-            includeEntities: true,
-            success: { (json:JSON) in
-                
-                print(json)
-                
-                let user = TwitterUser()
-                user.setup(json: json)
-                
-                successHandler(user)
-                
-        }, failure: { error in
-            
-            print(error)
-        })
+//        swifter.showUser(
+//            for: .screenName(screenName),
+//            includeEntities: true,
+//            success: { (json:JSON) in
+//
+//                print(json)
+//
+//                let user = TwitterUser()
+//                user.setup(json: json)
+//
+//                successHandler(user)
+//
+//        }, failure: { error in
+//
+//            print(error)
+//        })
     }
     
     func hoge() {
         //https://search.twitter.com/search.json?q=from%3Agoogle%20since%3A2012-01-31%20filter%3Aimages&include_entities=true
         swifter.searchTweet(using: "ゆるキャン filter:images", geocode: nil, lang: nil, locale: nil, resultType: "popular", count: 100, until: nil, sinceID: nil, maxID: nil, includeEntities: true, callback: nil, tweetMode: .extended, success: { (json:JSON, searchMetadata:JSON) in
+
+            var tweets:[TwitterTweet] = []
+            for j in json.array! {
+                let t = TwitterTweet.init(json: j)
+                tweets.append(t)
+            }
+
+            for t:TwitterTweet in tweets {
+                
+                print(t.fullText!)
+                
+            }
             
-            print(json)
             
         }) { (error:Error) in
             print(error)

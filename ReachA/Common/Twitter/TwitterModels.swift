@@ -10,79 +10,299 @@ import UIKit
 import Swifter
 import ObjectMapper
 
+//class TwitterUser: NSObject {
+
+//    var json:JSON?
+//    var twitterUserRaw:TwitterUserRaw?
+//
+//    // 要素
+//    var name:String?                     // なまえ
+//    var profileImageUrlHttps:String?     // アイコン
+//
+//    func setup(json:JSON) {
+//        twitterUserRaw = TwitterUserRaw(json: json)
+//
+//        if var twitterUserRaw = twitterUserRaw {
+//            name = twitterUserRaw.name
+//            profileImageUrlHttps = twitterUserRaw.profileImageUrlHttps!.replacingOccurrences(of:"_normal.jpg", with:".jpg")
+//
+//            print(twitterUserRaw)
+//        }
+//    }
+
+//}
+
+
+// 参考になりそう:http://syossan.hateblo.jp/entry/20110219/1298099350
 class TwitterUser: NSObject {
-
-    var json:JSON?
-    var twitterUserRaw:TwitterUserRaw?
+    var timeZone:String?
+    var protected:Bool?
+    var profileSidebarBorderColor:String?   //サイドバーボーダーカラー
+    var profileLinkColor:String?            //プロフィールリンクカラー
+    var lang:String?                         //言語
+    var favouritesCount:Int?              //ふぁぼった数
+    var defaultProfileImage:String?     //?
+    var profileBackgroundColor:String?  // 背景
+    var profileLocation:String?
+    var profileBackgroundTile:Bool?  //画像をタイル状にするか
+    var profileSidebarFillColor:String? //ユーザマイページサイドバーの背景色
+    var isTranslator:Bool?               //Interested in helping translate Twitter? Check out the Translation Center.」のリンク
+    var isTranslationEnabled:Bool?
+    var profileImageUrlHttps:String?
+    var friendsCount:Int?       // フォロー数
+    var profileBackgroundImageUrlHttps:String?
+    var utcOffset:String?        //ユーザが設定しているタイムゾーンとUTC（協定世界時）との差
+    var profileImageUrl:String?      // http
+    var statusesCount:Int?              //ツイート数
+    var defaultProfile:Bool?     //?
+    var following:Bool?          // フォローしているかどうか　連携してないからnullだ
+    var url:String?              // web url
+    var name:String?             // ユーザー名
+    var geoEnabled:Bool?         // ツイートに位置情報をつけるか
+    var profileUseBackgroundImage:Bool?      // 背景画像を用いるかどうか
+    var screenName:String?                   // ユーザー名
+    var descriptionStr:String?                  // 説明
+    var notifications:Bool?                  // 指定ユーザからの通知メールを受け取るかどうか
+    var contributorsEnabled:Bool?            // Twitterのライター機能を使用しているかどうか
+    var hasExtendedProfile:Bool?         // ?
+    var followersCount:Int?             // フォロワーの数
+    var location:String?                 //ロケーション文字列
+    var verified:Bool?                   // 認証済みアカウントかどうか
+    var createdAt:String?
+    var followRequestSent:Bool?          // 鍵付きユーザに対し、フォロー申請したかどうか
+    var id:Int?
+    var idStr:String?
+    var profileBannerUrl:String?
+    var profileBackgroundImageUrl:Bool?
+    var profivarextColor:String?
+    var translatorType:String?           // ?
     
-    // 要素
-    var name:String?                     // なまえ
-    var profileImageUrlHttps:String?     // アイコン
+    
+    init(json:JSON) {
+        timeZone = json["time_zone"].string
+        protected = json["protected"].bool
+        profileSidebarBorderColor = json["profile_sidebar_border_color"].string
+        profileLinkColor = json["profile_link_color"].string
+        lang = json["lang"].string
+        favouritesCount = json["favorites_count"].integer
+        defaultProfileImage = json["default_profile_image"].string
+        profileBackgroundColor = json["profile_background_color"].string
+        profileLocation = json["profile_location"].string
+        profileBackgroundTile = json["profile_background_tile"].bool
+        profileSidebarFillColor = json["profile_sidebar_fill_color"].string
+        isTranslator = json["is_translator"].bool
+        isTranslationEnabled = json["is_translation_enabled"].bool
+        profileImageUrlHttps = json["profile_image_url_https"].string
+        friendsCount = json["friends_count"].integer
+        profileBackgroundImageUrlHttps = json["profile_background_image_url_https"].string
+        utcOffset = json["utc_offset"].string
+        profileImageUrl = json["profile_image_url"].string
+        statusesCount = json["statuses_count"].integer
+        defaultProfile = json["default_profile"].bool
+        following = json["following"].bool
+        url = json["url"].string
+        name = json["name"].string
+        geoEnabled = json["geo_enabled"].bool
+        profileUseBackgroundImage = json["profile_use_background_image"].bool
+        screenName = json["screen_name"].string
+        descriptionStr = json["description"].string
+        notifications = json["notifications"].bool
+        contributorsEnabled = json["contributors_enabled"].bool
+        hasExtendedProfile = json["has_extended_profile"].bool
+        followersCount = json["followers_count"].integer
+        location = json["location"].string
+        verified = json["verified"].bool
+        createdAt = json["created_at"].string
+        followRequestSent = json["follow_request_sent"].bool
+        idStr = json["id_str"].string
+        profileBannerUrl = json["profile_banner_url"].string
+        profileBackgroundImageUrl = json["profile_background_image_url"].bool
+        profivarextColor = json["profile_text_color"].string
+        translatorType = json["translator_type"].string
+    }
+}
 
-    func setup(json:JSON) {
-        twitterUserRaw = TwitterUserRaw(json: json)
+// Tweet
+class TwitterTweet: NSObject {
+    var id:Int?
+    var inReplyToStatusIdStr:String?
+    var isQuoteStatus:Bool?
+    var source:String?
+    var lang:String?
+    //    var place
+    var retweetCount:Int?
+    var favorited:Bool?
+    var inReplyToScreenName:String? // リプライ先のユーザーネーム
+    var displayTextRange:[Double]?
+    var retweeted:Bool?
+    //    var geo:
+    var inReplyToUserId:Int?
+    //    var metadata:
+    var user:TwitterUser?
+    var favoriteCount:Int?
+    //    var coordinates:
+    var possiblySensitive:Bool?
+    var createdAt:String?
+//    var contributors:
+    var inReplyToUserIdStr:String?
+    var truncated:Bool?
+    var fullText:String?
+    var extendedEntities:[TwitterExtendedEntity]?
+    
+    init(json:JSON) {
+        inReplyToStatusIdStr    = json["in_reply_to_status_id_str"].string
+        isQuoteStatus           = json["is_quote_status"].bool
+        source                  = json["source"].string
+        lang                    = json["lang"].string
+        //    place
+        retweetCount            = json["retweet_count"].integer
+        favorited               = json["favorited"].bool
+        inReplyToScreenName     = json["in_reply_to_screen_name"].string
+        id                      = json["id"].integer
+//        displayTextRange        = json["display_text_range"].array
+        retweeted               = json["retweeted"].bool
+        //    geo:
+        inReplyToUserId         = json["in_reply_to_user_id"].integer
+        //    metadata:
+        user                    = TwitterUser.init(json:json["user"])
+        favoriteCount           = json["favorite_count"].integer
+        //    coordinates:
+        possiblySensitive       = json["possibly_sensitive"].bool
+        createdAt               = json["created_at"].string
         
-        if let twitterUserRaw = twitterUserRaw {
-            name = twitterUserRaw.name
-            profileImageUrlHttps = twitterUserRaw.profileImageUrlHttps!.replacingOccurrences(of:"_normal.jpg", with:".jpg")
-            
-            print(twitterUserRaw)
-        }
+        inReplyToStatusIdStr    = json["in_reply_to_status_id_str"].string
+        truncated               = json["truncated"].bool
+        fullText                = json["full_text"].string
     }
     
 }
 
+// ExtendedEntity
+class TwitterExtendedEntity: NSObject {
+    var media:TwitterMedia?
+    var indices:[Double]?
+    var url:String?
+    
+    init(json:JSON) {
+        media   = TwitterMedia.init(json:json["media"])
+//        indices <- json["indices"].double
+        url     = json["url"].string
+    }
+}
 
+// Media
+// https://docs.google.com/spreadsheets/d/1dK8cK8M_XDN0RjguwBggo-FPgKDwoHUWRqoBzQN_AKU/edit#gid=0
+class TwitterMedia: NSObject {
+    
+    var idStr:String?
+    var mediaUrlHttps:String?
+    var mediaUrl:String?
+    var expandedUrl:String?   //tweetのurl
+    var displayUrl:String?
+    var type:String?
+    var indices:[Double]?
+    var sizes:TwitterMediaSize?
+    
+    required init?(map: Map) {
+    }
+    
+    init(json:JSON) {
+        idStr               = json["id_str"].string
+        mediaUrlHttps       = json["media_url_https"].string
+        mediaUrl            = json["media_url"].string
+        expandedUrl         = json["expanded_url"].string
+        displayUrl          = json["display_url"].string
+        type                = json["type"].string
+//        indices             = json["indices"]
+        sizes               = TwitterMediaSize.init(json: json["sizes"])
+    }
+}
+
+class TwitterMediaSize: NSObject {
+    
+    init(json:JSON) {
+    }
+}
+
+class TwitterEntity: NSObject {
+    // user内　後回し
+    init(json:JSON) {
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ObjectMapper使おうとしたけど、Swifterのjsonが独自のものでダメだったーの一応保持
+
+/*
 
 // 参考になりそう:http://syossan.hateblo.jp/entry/20110219/1298099350
-class TwitterUserRaw {
-    let timeZone:String?
-    let protected:Bool?
-    let profileSidebarBorderColor:String?   //サイドバーボーダーカラー
-    let profileLinkColor:String?            //プロフィールリンクカラー
-    let lang:String?                         //言語
-    let favouritesCount:Int?              //ふぁぼった数
-    let defaultProfileImage:String?     //?
-    let profileBackgroundColor:String?  // 背景
-    let profileLocation:String?
-    let profileBackgroundTile:Bool?  //画像をタイル状にするか
-    let profileSidebarFillColor:String? //ユーザマイページサイドバーの背景色
-    let isTranslator:Bool?               //Interested in helping translate Twitter? Check out the Translation Center.」のリンク
-    let isTranslationEnabled:Bool?
-    let profileImageUrlHttps:String?
-    let friendsCount:Int?       // フォロー数
-//    let id:String           //TweetのID
-    // https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/entities-object
-    // エンティティは、Twitterに投稿されたコンテンツに関するメタデータと追加コンテキスト情報を提供します
-    // entitiesセクションでは、ハッシュタグ、ユーザのコメント、リンク、株式ティッカー（シンボル）、Twitterの投票、添付されたメディアなど、ツイートに含まれる一般的なものの配列を提供します。 これらの配列は、Twitterが基本的に事前処理されているか、または事前に解析されているため、Tweetsを取り込むときに開発者にとって便利です。 Tweet本体でこれらのエンティティを明示的に検索して見つけ出す必要はなく、パーサーはこのJSONセクションに直接行くことができます。
-//    let entities:[String]       //
-    
-    let profileBackgroundImageUrlHttps:String?
-    let utcOffset:String?        //ユーザが設定しているタイムゾーンとUTC（協定世界時）との差
-    let profileImageUrl:String?      // http
-    let statusesCount:Int?              //ツイート数
-    let defaultProfile:Bool?     //?
-    let following:Bool?          // フォローしているかどうか　連携してないからnullだ
-    let url:String?              // web url
-    let name:String?             // ユーザー名
-    let geoEnabled:Bool?         // ツイートに位置情報をつけるか
-    let profileUseBackgroundImage:Bool?      // 背景画像を用いるかどうか
-    let screenName:String?                   // ユーザー名
-    let description:String?                  // 説明
-    let notifications:Bool?                  // 指定ユーザからの通知メールを受け取るかどうか
-    let contributorsEnabled:Bool?            // Twitterのライター機能を使用しているかどうか
-    let hasExtendedProfile:Bool?         // ?
-    let followersCount:Int?             // フォロワーの数
-    let location:String?                 //ロケーション文字列
-    let verified:Bool?                   // 認証済みアカウントかどうか
-    let createdAt:String?
-    let followRequestSent:Bool?          // 鍵付きユーザに対し、フォロー申請したかどうか
-    let id_str:String?
-    let profileBannerUrl:String?
-    let profileBackgroundImageUrl:Bool?
-    let profileTextColor:String?
-    let translatorType:String?           // ?
-    
+class TwitterUser: Mappable {
+    var timeZone:String?
+    var protected:Bool?
+    var profileSidebarBorderColor:String?   //サイドバーボーダーカラー
+    var profileLinkColor:String?            //プロフィールリンクカラー
+    var lang:String?                         //言語
+    var favouritesCount:Int?              //ふぁぼった数
+    var defaultProfileImage:String?     //?
+    var profileBackgroundColor:String?  // 背景
+    var profileLocation:String?
+    var profileBackgroundTile:Bool?  //画像をタイル状にするか
+    var profileSidebarFillColor:String? //ユーザマイページサイドバーの背景色
+    var isTranslator:Bool?               //Interested in helping translate Twitter? Check out the Translation Center.」のリンク
+    var isTranslationEnabled:Bool?
+    var profileImageUrlHttps:String?
+    var friendsCount:Int?       // フォロー数
+    var profileBackgroundImageUrlHttps:String?
+    var utcOffset:String?        //ユーザが設定しているタイムゾーンとUTC（協定世界時）との差
+    var profileImageUrl:String?      // http
+    var statusesCount:Int?              //ツイート数
+    var defaultProfile:Bool?     //?
+    var following:Bool?          // フォローしているかどうか　連携してないからnullだ
+    var url:String?              // web url
+    var name:String?             // ユーザー名
+    var geoEnabled:Bool?         // ツイートに位置情報をつけるか
+    var profileUseBackgroundImage:Bool?      // 背景画像を用いるかどうか
+    var screenName:String?                   // ユーザー名
+    var description:String?                  // 説明
+    var notifications:Bool?                  // 指定ユーザからの通知メールを受け取るかどうか
+    var contributorsEnabled:Bool?            // Twitterのライター機能を使用しているかどうか
+    var hasExtendedProfile:Bool?         // ?
+    var followersCount:Int?             // フォロワーの数
+    var location:String?                 //ロケーション文字列
+    var verified:Bool?                   // 認証済みアカウントかどうか
+    var createdAt:String?
+    var followRequestSent:Bool?          // 鍵付きユーザに対し、フォロー申請したかどうか
+    var id:Int?
+    var idStr:String?
+    var profileBannerUrl:String?
+    var profileBackgroundImageUrl:Bool?
+    var profivarextColor:String?
+    var translatorType:String?           // ?
+
+    /*
     init(json:JSON) {
         
         timeZone = json["time_zone"].string
@@ -123,64 +343,168 @@ class TwitterUserRaw {
         id_str = json["id_str"].string
         profileBannerUrl = json["profile_banner_url"].string
         profileBackgroundImageUrl = json["profile_background_image_url"].bool
-        profileTextColor = json["profile_text_color"].string
+        profivarextColor = json["profile_text_color"].string
         translatorType = json["translator_type"].string
+    }*/
+    
+    required init?(map: Map) {
+    }
+    
+    func mapping(map: Map) {
+        timeZone                    <- map["time_zone"]//:String?
+        protected                   <- map["protected"]//:Bool?
+        profileSidebarBorderColor   <- map["profile_sidebar_border_color"]//:String?   //サイドバーボーダーカラー
+        profileLinkColor            <- map["profile_link_color"]//:String?            //プロフィールリンクカラー
+        lang                        <- map["lang"]//:String?                         //言語
+        favouritesCount             <- map["favourites_count"]//:Int?              //ふぁぼった数
+        defaultProfileImage         <- map["default_profile_image"]//:String?     //?
+        profileBackgroundColor      <- map["profile_background_color"]//:String?  // 背景
+        profileLocation             <- map["profile_location"]//:String?
+        profileBackgroundTile       <- map["profile_background_title"]//:Bool?  //画像をタイル状にするか
+        profileSidebarFillColor     <- map["profile_sidebar_fill_color"]//:String? //ユーザマイページサイドバーの背景色
+        isTranslator                <- map["in_translator"]//:Bool?               //Interested in helping translate Twitter? Check out the Translation Center.」のリンク
+        isTranslationEnabled        <- map["is_translation_enabled"]//:Bool?
+        profileImageUrlHttps        <- map["profile_image_url_https"]//:String?
+        friendsCount                <- map["friends_count"]//:Int?       // フォロー数
+        profileBackgroundImageUrlHttps <- map["profile_background_image_url_https"]//:String?
+        utcOffset                   <- map["utc_offset"]//:String?        //ユーザが設定しているタイムゾーンとUTC（協定世界時）との差
+        profileImageUrl             <- map["profile_image_url"]//:String?      // http
+        statusesCount               <- map["statuses_count"]//:Int?              //ツイート数
+        defaultProfile              <- map["default_profile"]//:Bool?     //?
+        following                   <- map["following"]//:Bool?          // フォローしているかどうか　連携してないからnullだ
+        url                         <- map["url"]//:String?              // web url
+        name                        <- map["name"]//:String?             // ユーザー名
+        geoEnabled                  <- map["geo_enabled"]//:Bool?         // ツイートに位置情報をつけるか
+        profileUseBackgroundImage   <- map["profile_use_background_image"]//:Bool?      // 背景画像を用いるかどうか
+        screenName                  <- map["screen_name"]//:String?                   // ユーザー名
+        description                 <- map["description"]//:String?                  // 説明
+        notifications               <- map["notifications"]//:Bool?                  // 指定ユーザからの通知メールを受け取るかどうか
+        contributorsEnabled         <- map["contributors_enabled"]//:Bool?            // Twitterのライター機能を使用しているかどうか
+        hasExtendedProfile          <- map["has_extended_profile"]//:Bool?         // ?
+        followersCount              <- map["followers_count"]//:Int?             // フォロワーの数
+        location                    <- map["location"]//:String?                 //ロケーション文字列
+        verified                    <- map["verified"]//:Bool?                   // 認証済みアカウントかどうか
+        createdAt                   <- map["created_at"]//:String?
+        followRequestSent           <- map["follow_request_sent"]//:Bool?          // 鍵付きユーザに対し、フォロー申請したかどうか
+        id                          <- map["id"]
+        idStr                       <- map["id_str"]//:String?
+        profileBannerUrl            <- map["profile_banner_url"]//:String?
+        profileBackgroundImageUrl   <- map["profile_background_image_url"]//:Bool?
+        profivarextColor            <- map["profile_text_color"]//:String?
+        translatorType              <- map["translator_type"]//:String?           // ?
     }
 }
 
 // Tweet
 class TwitterTweet: Mappable {
-    let inReplyToStatusIdStr:String?
-    let isQuoteStatus:Bool?
-    let source:String?
-    let lang:String?
-//    let place
-    let retweetCount:Int?
-    let favorited:Bool?
-    let inReplyToScreenName:String? // リプライ先のユーザーネーム
-    let id:Int?
-    let displayTextRange:[Double]?
-    let retweeted:Bool?
-//    let geo:
-    let inReplyToUserId:Int?
-//    let metadata:
-    let user:TwitterUser?
-    let FavoriteCount:Int?
-//    let coordinates:
-    let possiblySensitive:Bool?
-    let createdAt:Date?
-    let 
+    var id:Int?
+    var inReplyToStatusIdStr:String?
+    var isQuoteStatus:Bool?
+    var source:String?
+    var lang:String?
+//    var place
+    var retweetCount:Int?
+    var favorited:Bool?
+    var inReplyToScreenName:String? // リプライ先のユーザーネーム
+    var displayTextRange:[Double]?
+    var retweeted:Bool?
+//    var geo:
+    var inReplyToUserId:Int?
+//    var metadata:
+    var user:TwitterUser?
+    var favoriteCount:Int?
+//    var coordinates:
+    var possiblySensitive:Bool?
+    var createdAt:Date?
+    
+    required init?(map: Map) {
+    }
+
+    func mapping(map: Map) {
+        inReplyToStatusIdStr    <- map["in_reply_to_status_id_str"]// :String?
+        isQuoteStatus           <- map["is_quote_status"]//:Bool?
+        source                  <- map["source"]//:String?
+        lang                    <- map["lang"]//:String?
+        //    place
+        retweetCount            <- map["retweet_count"]//:Int?
+        favorited               <- map["favorited"]//:Bool?
+        inReplyToScreenName     <- map["in_reply_to_screen_name"]//:String? // リプライ先のユーザーネーム
+        id                      <- map["id"]//:Int?
+        displayTextRange        <- map["display_text_range"]//:[Double]?
+        retweeted               <- map["retweeted"]//:Bool?
+        //    geo:
+        inReplyToUserId         <- map["in_reply_to_user_id"]//:Int?
+        //    metadata:
+        user                    <- map["user"]//:TwitterUser?
+        favoriteCount           <- map["favorite_count"]//:Int?
+        //    coordinates:
+        possiblySensitive       <- map["possibly_sensitive"]//:Bool?
+        createdAt               <- map["created_at"]//:Date?
+    }
     
 }
 
 // ExtendedEntity
 class TwitterExtendedEntity: Mappable {
-    let media:TwitterMedia?
-    let indices:[Double]?
-    let url:String?
+    var media:TwitterMedia?
+    var indices:[Double]?
+    var url:String?
+    
+    required init?(map: Map) {
+    }
+    
+    func mapping(map: Map) {
+        media   <- map["media"]
+        indices <- map["indices"]
+        url     <- map["url"]
+    }
 }
 
 // Media
 // https://docs.google.com/spreadsheets/d/1dK8cK8M_XDN0RjguwBggo-FPgKDwoHUWRqoBzQN_AKU/edit#gid=0
 class TwitterMedia: Mappable {
     
-    let idStr:String?
-    let mediaUrlHttps:String?
-    let mediaUrl:String?
-    let expandedUrl:String?   //tweetのurl
-    let displayUrl:String?
-    let type:String?
-    let indices:[Double]?
-    let sizes:TwitterMediaSize?
+    var idStr:String?
+    var mediaUrlHttps:String?
+    var mediaUrl:String?
+    var expandedUrl:String?   //tweetのurl
+    var displayUrl:String?
+    var type:String?
+    var indices:[Double]?
+    var sizes:TwitterMediaSize?
+    
+    required init?(map: Map) {
+    }
 
+    func mapping(map: Map) {
+        idStr               <- map["id_str"]
+        mediaUrlHttps       <- map["media_url_https"]
+        mediaUrl            <- map["media_url"]
+        expandedUrl         <- map["expanded_url"]
+        displayUrl          <- map["display_url"]
+        type                <- map["type"]
+        indices             <- map["indices"]
+        sizes               <- map["sizes"]
+    }
 }
 
 class TwitterMediaSize: Mappable {
     
+    required init?(map: Map) {
+    }
+    
+    func mapping(map: Map) {
+    }
 }
 
 class TwitterEntity: Mappable {
     // user内　後回し
+    required init?(map: Map) {
+    }
+    
+    func mapping(map: Map) {
+    }
+
 }
 
 
@@ -339,3 +663,4 @@ class TwitterEntity: Mappable {
 //        ]
 //    }
 //},
+*/
