@@ -41,7 +41,7 @@ class ChannelCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    func setupIcon(twitterUser:TwitterUser) {
+    func setupIcon(twitterUser:Twitter.User) {
         self.iconImageView.sd_setImage(with: twitterUser.profileImageUrlHttps?.url,
                                        placeholderImage: nil,
                                        options: .retryFailed,

@@ -24,3 +24,4 @@ public extension ClassNameProtocol {
 }
 
 extension NSObject: ClassNameProtocol {}
+

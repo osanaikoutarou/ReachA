@@ -21,7 +21,7 @@ class TwitterFetcher: NSObject {
     
     //クロージャがスコープから抜けても存在し続けるときに @escaping が必要になります。
     
-    func fetchUser(screenName:String, successHandler: @escaping (TwitterUser) -> Void) {
+    func fetchUser(screenName:String, successHandler: @escaping (Twitter.User) -> Void) {
         
 //        swifter.showUser(
 //            for: .screenName(screenName),
@@ -45,13 +45,13 @@ class TwitterFetcher: NSObject {
         //https://search.twitter.com/search.json?q=from%3Agoogle%20since%3A2012-01-31%20filter%3Aimages&include_entities=true
         swifter.searchTweet(using: "ゆるキャン filter:images", geocode: nil, lang: nil, locale: nil, resultType: "popular", count: 100, until: nil, sinceID: nil, maxID: nil, includeEntities: true, callback: nil, tweetMode: .extended, success: { (json:JSON, searchMetadata:JSON) in
 
-            var tweets:[TwitterTweet] = []
+            var tweets:[Twitter.Tweet] = []
             for j in json.array! {
-                let t = TwitterTweet.init(json: j)
+                let t = Twitter.Tweet.init(json: j)
                 tweets.append(t)
             }
 
-            for t:TwitterTweet in tweets {
+            for t:Twitter.Tweet in tweets {
                 
                 print(t.fullText!)
                 

@@ -48,7 +48,7 @@ class Channel: NSObject {
     
     //TODO:放送時間、スケジュール、放送局、放送地域、評価感想、自分の評価感想
     
-    var twitterUser:TwitterUser?
+    var twitterUser:Twitter.User?
     
     override init() {
     }
@@ -66,7 +66,7 @@ class Channel: NSObject {
         let twitterFetcher = TwitterFetcher()
         twitterFetcher.fetchUser(
             screenName: twitterScreenName,
-            successHandler: { (tu:TwitterUser) in
+            successHandler: { (tu:Twitter.User) in
                 self.twitterUser = tu
                 
                 if let completion = completion {

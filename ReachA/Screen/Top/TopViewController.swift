@@ -25,7 +25,7 @@ class TopViewController: UIViewController {
         
         twitterFetcher.fetchUser(
             screenName: "yurucamp_anime",
-            successHandler: { (twitterUser:TwitterUser) in
+            successHandler: { (twitterUser:Twitter.User) in
                 
                 print(twitterUser)
                 
