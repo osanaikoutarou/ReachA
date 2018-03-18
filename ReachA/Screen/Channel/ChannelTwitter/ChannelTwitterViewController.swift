@@ -28,8 +28,10 @@ class ChannelTwitterViewController: UIViewController {
         
         if let twitterScreenName = channel.twitterScreenName {
             let twitterTopUrl = "https://twitter.com/" + twitterScreenName + "?lang=ja"
-            let urlRequest = URLRequest(url: twitterTopUrl.url)
-            wkWebView.load(urlRequest)
+            if let url = twitterTopUrl.url {
+                let urlRequest = URLRequest(url: url)
+                wkWebView.load(urlRequest)
+            }
         }
     }
     

@@ -26,7 +26,7 @@ class YoutubeApp {
             application.open(appURL!)
         }
         else {
-            application.open(webURL)
+            application.open(webURL!)
         }
     }
     

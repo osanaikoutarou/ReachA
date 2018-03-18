@@ -23,22 +23,20 @@ class TwitterFetcher: NSObject {
     
     func fetchUser(screenName:String, successHandler: @escaping (Twitter.User) -> Void) {
         
-//        swifter.showUser(
-//            for: .screenName(screenName),
-//            includeEntities: true,
-//            success: { (json:JSON) in
-//
-//                print(json)
-//
-//                let user = TwitterUser()
-//                user.setup(json: json)
-//
-//                successHandler(user)
-//
-//        }, failure: { error in
-//
-//            print(error)
-//        })
+        swifter.showUser(
+            for: .screenName(screenName),
+            includeEntities: true,
+            success: { (json:JSON) in
+
+                print(json)
+
+                let user = Twitter.User.init(json: json)
+                successHandler(user)
+
+        }, failure: { error in
+
+            print(error)
+        })
     }
     
     func hoge() {
@@ -51,15 +49,28 @@ class TwitterFetcher: NSObject {
                 tweets.append(t)
             }
 
-            for t:Twitter.Tweet in tweets {
-                
-                print(t.fullText!)
-                
-            }
+            
             
             
         }) { (error:Error) in
             print(error)
         }
+    }
+    
+    func searchMedias(using: String, with success: @escaping (_ tweets: [Twitter.Tweet]) -> Void) {
+        swifter.searchTweet(using: using, geocode: nil, lang: nil, locale: nil, resultType: nil, count: 100, until: nil, sinceID: nil, maxID: nil, includeEntities: true, callback: nil, tweetMode: .extended, success: { (json:JSON, searchMetadata:JSON) in
+            
+            var tweets:[Twitter.Tweet] = []
+            for j in json.array! {
+                let t = Twitter.Tweet.init(json: j)
+                tweets.append(t)
+            }
+            
+            success(tweets)
+            
+        }) { (error:Error) in
+            print(error)
+        }
+
     }
 }

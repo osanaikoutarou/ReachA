@@ -10,8 +10,8 @@ import Foundation
 
 extension String {
     
-    var url:URL {
-        return URL(string:self)!
+    var url:URL? {
+        return URL(string:self)
     }
     
     func sw4substring(to index:Int) -> String {

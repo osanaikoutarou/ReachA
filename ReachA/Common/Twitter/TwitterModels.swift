@@ -78,6 +78,9 @@ class Twitter {
         var profivarextColor:String?
         var translatorType:String?           // ?
         
+        override init() {
+            super.init()
+        }
         
         init(json:JSON) {
             timeZone = json["time_zone"].string
@@ -148,7 +151,8 @@ class Twitter {
         var inReplyToUserIdStr:String?
         var truncated:Bool?
         var fullText:String?
-        var extendedEntities:[Entities]?
+        var extendedEntities:Entities?
+        var entities:Entities?
         
         init(json:JSON) {
             inReplyToStatusIdStr    = json["in_reply_to_status_id_str"].string
@@ -174,19 +178,22 @@ class Twitter {
             inReplyToStatusIdStr    = json["in_reply_to_status_id_str"].string
             truncated               = json["truncated"].bool
             fullText                = json["full_text"].string
-            extendedEntities        = Entities.inits(jsons: json["extended_entities"].array!)
+            extendedEntities        = Entities.init(json: json["extended_entities"])
+            entities                = Entities.init(json: json["entities"])
         }
         
     }
     
     // ExtendedEntity
     class Entities: NSObject {
-        var media:Media?
+        var medias:[Media]?
         var indices:[Double]?
         var url:String?
         
         init(json:JSON) {
-            media   = Media.init(json:json["media"])
+            if let array = json["media"].array {
+                medias = Media.initArray(jsons: array)
+            }
             //        indices <- json["indices"].double
             url     = json["url"].string
         }
@@ -219,9 +226,20 @@ class Twitter {
             expandedUrl         = json["expanded_url"].string
             displayUrl          = json["display_url"].string
             type                = json["type"].string
+            // 仕様わからん
+            print("type : " + type!)
             indices             = json["indices"]
             sizes               = json["sizes"]
         }
+        
+        static func initArray(jsons:[JSON]) -> [Media] {
+            var medias:[Media] = []
+            for j in jsons {
+                medias.append(Media.init(json: j))
+            }
+            return medias
+        }
+
     }
     
     class Hashtag: NSObject {

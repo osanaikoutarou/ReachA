@@ -13,8 +13,10 @@ extension WKWebView {
     
     func load (with urlStr:String) {
         if !urlStr.isEmpty {
-            let urlRequest = URLRequest(url: urlStr.url)
-            self.load(urlRequest)
+            if let url = urlStr.url {
+                let urlRequest = URLRequest(url: url)
+                self.load(urlRequest)
+            }
         }
     }
 }

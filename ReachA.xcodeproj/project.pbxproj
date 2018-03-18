@@ -37,12 +37,14 @@
 		1E86961D2048472000337DC0 /* PlayYoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */; };
 		1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961F20485A5F00337DC0 /* YoutubeApp.swift */; };
 		1E86962220485A6E00337DC0 /* OtherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86962120485A6E00337DC0 /* OtherApp.swift */; };
+		1EB56121205E51A400BD3BC0 /* ChannelDetailFanArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB56120205E51A400BD3BC0 /* ChannelDetailFanArtViewController.swift */; };
 		1EC67CA2201E53FC00EE3955 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA3201E53FC00EE3955 /* Swifter.framework */; };
 		1EC67CA5201E540500EE3955 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC67CA4201E540500EE3955 /* Twitter.framework */; };
 		1EC67CA8201EDEE800EE3955 /* TwitterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */; };
 		1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */; };
 		1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CAD20222A5600EE3955 /* StringUtility.swift */; };
 		1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC996A203E81EB00CA9C3E /* DayEvents.swift */; };
+		1ECFD39F205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFD39E205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift */; };
 		1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */; };
 		1EE9A30220303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9A30120303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift */; };
 		1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */; };
@@ -112,12 +114,14 @@
 		1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayYoutubeViewController.swift; sourceTree = "<group>"; };
 		1E86961F20485A5F00337DC0 /* YoutubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeApp.swift; sourceTree = "<group>"; };
 		1E86962120485A6E00337DC0 /* OtherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherApp.swift; sourceTree = "<group>"; };
+		1EB56120205E51A400BD3BC0 /* ChannelDetailFanArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailFanArtViewController.swift; sourceTree = "<group>"; };
 		1EC67CA3201E53FC00EE3955 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC67CA4201E540500EE3955 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModels.swift; sourceTree = "<group>"; };
 		1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFetcher.swift; sourceTree = "<group>"; };
 		1EC67CAD20222A5600EE3955 /* StringUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
 		1ECC996A203E81EB00CA9C3E /* DayEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEvents.swift; sourceTree = "<group>"; };
+		1ECFD39E205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailFanArtCollectionViewCell.swift; sourceTree = "<group>"; };
 		1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetail.storyboard; sourceTree = "<group>"; };
 		1EE9A30120303C6400BAB029 /* CalendarDailyEventsCollectionViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyEventsCollectionViewBase.swift; sourceTree = "<group>"; };
 		1EE9A30320303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarDailyEventsCollectionViewBase.xib; sourceTree = "<group>"; };
@@ -314,6 +318,15 @@
 			path = Event;
 			sourceTree = "<group>";
 		};
+		1ECFD39D205E350F00672C86 /* ChannelFanArt */ = {
+			isa = PBXGroup;
+			children = (
+				1ECFD39E205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift */,
+				1EB56120205E51A400BD3BC0 /* ChannelDetailFanArtViewController.swift */,
+			);
+			path = ChannelFanArt;
+			sourceTree = "<group>";
+		};
 		1EE9A2FF20303AAC00BAB029 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +450,7 @@
 		DA10F53B200DD82400A5C9FC /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				1ECFD39D205E350F00672C86 /* ChannelFanArt */,
 				DABA87C1205650C400106BD9 /* ChannelList */,
 				1E5263F92047229B00EF3E18 /* ChannelContents */,
 				1E3A85B92045191200CFB052 /* ChannelTop */,
@@ -643,8 +657,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -745,6 +758,7 @@
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
 				1EF83BF22052D840003E4C5C /* SimpleCommonTableViewCell.swift in Sources */,
 				1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */,
+				1EB56121205E51A400BD3BC0 /* ChannelDetailFanArtViewController.swift in Sources */,
 				DA2F3B2E20565C6B0054BC26 /* CircleImageView.swift in Sources */,
 				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,
 				1E0022F32028879600475253 /* Content.swift in Sources */,
@@ -761,6 +775,7 @@
 				1EE9A31020306D8100BAB029 /* UICollectionView+Utility.swift in Sources */,
 				DA401C15200C924400CE2E1A /* TimelineViewController.swift in Sources */,
 				1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */,
+				1ECFD39F205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift in Sources */,
 				1E86962220485A6E00337DC0 /* OtherApp.swift in Sources */,
 				DA10F53D200DD8C800A5C9FC /* ChannelViewController.swift in Sources */,
 				1E3A85B72045163300CFB052 /* OfficialAnimeViewController.swift in Sources */,
