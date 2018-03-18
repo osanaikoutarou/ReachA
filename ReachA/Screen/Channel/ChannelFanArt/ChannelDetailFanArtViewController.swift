@@ -25,12 +25,12 @@ class ChannelDetailFanArtViewController: UIViewController, UICollectionViewDeleg
         fanartCollectionView.delegate = self
         fanartCollectionView.dataSource = self
         
-        fanartCollectionView .setupFlowLayout(margin: 4, column: 3, baseSize: CGSize.init(width: 100, height: 100))
+        fanartCollectionView .setupFlowLayout(margin: 4, column: 4, baseSize: CGSize.init(width: 100, height: 100))
     }
     
     func fetch() {
         
-        TwitterFetcher().searchMedias(using: "ゆるキャン△ filter:images") { (tweets:[Twitter.Tweet]) in
+        TwitterFetcher().searchMedias(using: "ゆるキャン△ filter:images -filter:replies -filter:retweets") { (tweets:[Twitter.Tweet]) in
 
             let addingFanArts = FanArt.initArray(tweets: tweets)
             self.fanArts += addingFanArts
@@ -55,6 +55,15 @@ class ChannelDetailFanArtViewController: UIViewController, UICollectionViewDeleg
         let cell = collectionView.dequeueReusableCell(with: ChannelDetailFanArtCollectionViewCell.self, for: indexPath)
         
         cell.setup(with: fanArt)
+        
+        print("ほげ " + fanArt.firstImageURL())
+        print("?? : " + (fanArt.mediaUrls?.first ?? "ない") + (fanArt.mediaUrl ?? "ない"))
+        
+        if (fanArt.mediaUrls?.first == nil &&
+            fanArt.mediaUrl == nil) {
+            print("なんでー(´・ω・｀) " + fanArt.tweet!.url()!)
+            
+        }
         
         return cell
         

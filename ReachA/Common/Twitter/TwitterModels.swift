@@ -11,7 +11,6 @@ import Swifter
 import ObjectMapper
 
 //class TwitterUser: NSObject {
-
 //    var json:JSON?
 //    var twitterUserRaw:TwitterUserRaw?
 //
@@ -29,7 +28,6 @@ import ObjectMapper
 //            print(twitterUserRaw)
 //        }
 //    }
-
 //}
 
 class Twitter {
@@ -129,6 +127,7 @@ class Twitter {
     // Tweet
     class Tweet: NSObject {
         var id:Int?
+        var idStr:String?
         var inReplyToStatusIdStr:String?
         var isQuoteStatus:Bool?
         var source:String?
@@ -155,6 +154,8 @@ class Twitter {
         var entities:Entities?
         
         init(json:JSON) {
+//            print("\n\n\n\n\n\n\n\n\n\n\n\n")
+//            print(json)
             inReplyToStatusIdStr    = json["in_reply_to_status_id_str"].string
             isQuoteStatus           = json["is_quote_status"].bool
             source                  = json["source"].string
@@ -164,6 +165,7 @@ class Twitter {
             favorited               = json["favorited"].bool
             inReplyToScreenName     = json["in_reply_to_screen_name"].string
             id                      = json["id"].integer
+            idStr                   = json["id_str"].string
             //        displayTextRange        = json["display_text_range"].array
             retweeted               = json["retweeted"].bool
             //    geo:
@@ -175,13 +177,26 @@ class Twitter {
             possiblySensitive       = json["possibly_sensitive"].bool
             createdAt               = json["created_at"].string
             
-            inReplyToStatusIdStr    = json["in_reply_to_status_id_str"].string
             truncated               = json["truncated"].bool
             fullText                = json["full_text"].string
+            if (json["extended_entities"] == nil || json["extended_entities"].description.isEmpty) {
+                print("empty ex tended")
+            }
+            if (json["entities"] == nil || json["entities"].description.isEmpty) {
+                print("empty en tities")
+            }
             extendedEntities        = Entities.init(json: json["extended_entities"])
             entities                = Entities.init(json: json["entities"])
         }
         
+        func url() -> String? {
+            if let screenName = user?.screenName {
+                return "https://twitter.com/" + screenName + "/status/" + self.idStr!
+            }
+            else {
+                return nil
+            }
+        }
     }
     
     // ExtendedEntity
@@ -191,18 +206,14 @@ class Twitter {
         var url:String?
         
         init(json:JSON) {
+            if (json == nil || json.description.isEmpty) {
+                print("からだ")
+            }
             if let array = json["media"].array {
                 medias = Media.initArray(jsons: array)
             }
             //        indices <- json["indices"].double
             url     = json["url"].string
-        }
-        
-        static func inits(jsons:[JSON]) -> [Entities] {
-            return jsons.map {
-                (j:JSON) -> Entities in
-                Entities.init(json: j)
-            }
         }
     }
     

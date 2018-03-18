@@ -68,6 +68,8 @@ class FanArt : Content {
     var userIconUrl:String?
     // その他
     var fullText:String?    // 本文
+    // debug用
+    var tweet:Twitter.Tweet?
     
     init(sourceType:SourceType, mediaType:MediaType) {
         self.sourceType = sourceType
@@ -123,6 +125,8 @@ class FanArt : Content {
         self.userName = tweet.user?.name!
         self.userIconUrl = tweet.user?.profileImageUrlHttps!
         self.fullText = tweet.fullText!
+        
+        self.tweet = tweet
     }
     
     static func initArray(tweets:[Twitter.Tweet]) -> [FanArt] {
