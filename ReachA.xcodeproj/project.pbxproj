@@ -79,6 +79,7 @@
 		DAC682CD203D427F00416BE7 /* BaseRSDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682CC203D427F00416BE7 /* BaseRSDao.swift */; };
 		DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC682CF203D491200416BE7 /* Debug.storyboard */; };
 		DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */; };
+		DACD5784205F63F300A57B05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DACD5783205F63F200A57B05 /* GoogleService-Info.plist */; };
 		DAD5F4A42043E037002392F1 /* UICollectionView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */; };
 		DAD5F4A62043E8EA002392F1 /* ChannelTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F4A52043E8EA002392F1 /* ChannelTabBarController.swift */; };
 /* End PBXBuildFile section */
@@ -161,6 +162,7 @@
 		DAC682CC203D427F00416BE7 /* BaseRSDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRSDao.swift; sourceTree = "<group>"; };
 		DAC682CF203D491200416BE7 /* Debug.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
 		DAC682D2203D498B00416BE7 /* DebugTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTopViewController.swift; sourceTree = "<group>"; };
+		DACD5783205F63F200A57B05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAD5F4A32043E037002392F1 /* UICollectionView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Layout.swift"; sourceTree = "<group>"; };
 		DAD5F4A52043E8EA002392F1 /* ChannelTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -508,6 +510,7 @@
 		DAA4E994200C858300CE1183 /* ReachA */ = {
 			isa = PBXGroup;
 			children = (
+				DACD5783205F63F200A57B05 /* GoogleService-Info.plist */,
 				DAC682CE203D490400416BE7 /* Debug */,
 				1E0022F12028876100475253 /* Model */,
 				1EE9A2FF20303AAC00BAB029 /* Common */,
@@ -633,6 +636,7 @@
 				DABA87C3205650D400106BD9 /* ChannelList.storyboard in Resources */,
 				1EF83BF420542DC4003E4C5C /* Wikipedia.storyboard in Resources */,
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
+				DACD5784205F63F300A57B05 /* GoogleService-Info.plist in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
 				1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */,
 				1E86961A2048465100337DC0 /* Play.storyboard in Resources */,
@@ -657,7 +661,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -689,6 +694,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReachA/Pods-ReachA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -699,9 +705,11 @@
 				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -712,6 +720,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -908,7 +917,7 @@
 				DEVELOPMENT_TEAM = U7MW83A3B2;
 				INFOPLIST_FILE = ReachA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.rearcha;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.reach.rearcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -925,7 +934,7 @@
 				DEVELOPMENT_TEAM = U7MW83A3B2;
 				INFOPLIST_FILE = ReachA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai.rearcha;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.reach.rearcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;

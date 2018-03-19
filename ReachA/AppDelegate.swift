@@ -9,16 +9,18 @@
 import UIKit
 import TwitterKit
 import TwitterCore
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         TWTRTwitter.sharedInstance().start(withConsumerKey:"uMLpStZCi0tGQmDQkhAHrTuFY", consumerSecret:"rW819KZK6Wdo8nXyVwh9y7aXFOq0YeXMXfcYfbFn4kLeQHcFwH")
+        
+        FirebaseApp.configure()
         
         return true
     }
