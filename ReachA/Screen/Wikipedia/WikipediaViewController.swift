@@ -9,6 +9,21 @@
 import UIKit
 import WebKit
 import Alamofire
+import SwiftyJSON
+
+// まんどくせｗ
+//class MediaWiki {
+//    struct Warning : Codable {
+//    }
+//    struct Main {
+//
+//    }
+//    struct Root : Codable{
+//        let batchcomplete: String
+//        let warnings:[Warning]
+//    }
+//}
+
 
 class WikipediaViewController: UIViewController  {
     
@@ -19,13 +34,37 @@ class WikipediaViewController: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Alamofire.request("http://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content& rvparse").response { (response:DefaultDataResponse) in
-            print(response)
+        Alamofire.request("https://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content&rvparse").responseJSON { response in
+            
+            var json:JSON?
+            
+            switch response.result {
+            case .success(let value):
+                json = JSON(value)
+//                print("JSON: \(json!)")
+            case .failure(let error):
+                print(error)
+            }
+            
+            guard let _ = json else {
+                return
+            }
+            
+            let htmlString = json!["query"]["pages"]["3550514"]["revisions"][0]["*"].string
+            print("htmlString: \(htmlString!)")
+            
+            self.wkWebView.loadHTMLString(htmlString!, baseURL: "https://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content&rvparse".url)
+            
+            
+//            json["query"]["pages"]["3550514"]["revisions"].forEach({ (_, data) in
+//                print(data.string ?? "あう")
+//            })
+            
         }
         
-        if let urlString = urlString {
-            wkWebView.load(with: urlString)
-        }
+//        if let urlString = urlString {
+//            wkWebView.load(with: urlString)
+//        }
     }
 
     func setupWithTitle(title:String) {

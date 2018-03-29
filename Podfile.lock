@@ -20,7 +20,6 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - ObjectMapper (3.1.0)
   - R.swift (4.0.0):
     - R.swift.Library (~> 4.0.0)
   - R.swift.Library (4.0.0)
@@ -35,6 +34,7 @@ PODS:
   - SlideMenuControllerSwift (4.0.0)
   - SwiftDate (4.5.1)
   - Swifter (2.1.0)
+  - SwiftyJSON (4.0.0)
   - TwitterCore (3.1.0)
   - TwitterKit (3.3.0):
     - TwitterCore (>= 3.1.0)
@@ -42,13 +42,13 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Firebase/Core
-  - ObjectMapper
   - R.swift
   - RealmSwift
   - SDWebImage
   - SlideMenuControllerSwift
   - SwiftDate
   - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+  - SwiftyJSON
   - TwitterKit
 
 EXTERNAL SOURCES:
@@ -68,7 +68,6 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
   Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
@@ -77,9 +76,10 @@ SPEC CHECKSUMS:
   SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
   Swifter: bbf4ebde56c9f8c13e6c7270bf6841a5f29dfda3
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
   TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
 
-PODFILE CHECKSUM: 8e9b624234c367c0cdc98e28aa9d28adf26de200
+PODFILE CHECKSUM: cd9c415c104b38ee00e84560db77d9da2ecbd794
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

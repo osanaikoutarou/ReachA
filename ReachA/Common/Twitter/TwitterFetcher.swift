@@ -9,7 +9,6 @@
 import UIKit
 import TwitterKit
 import Swifter
-import ObjectMapper
 
 class TwitterFetcher: NSObject {
 

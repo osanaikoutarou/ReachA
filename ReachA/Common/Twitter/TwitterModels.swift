@@ -8,7 +8,6 @@
 
 import UIKit
 import Swifter
-import ObjectMapper
 
 //class TwitterUser: NSObject {
 //    var json:JSON?
