@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import Alamofire
 
 class WikipediaViewController: UIViewController  {
     
@@ -17,6 +18,10 @@ class WikipediaViewController: UIViewController  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Alamofire.request("http://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content& rvparse").response { (response:DefaultDataResponse) in
+            print(response)
+        }
         
         if let urlString = urlString {
             wkWebView.load(with: urlString)

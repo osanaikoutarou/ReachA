@@ -11,5 +11,6 @@ target 'ReachA' do
 	pod 'ObjectMapper'
 	pod 'SlideMenuControllerSwift'
 	pod 'Firebase/Core'
+	pod 'Alamofire'
 end
 
