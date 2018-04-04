@@ -33,6 +33,14 @@
 		1E56E223205574A5006CDE86 /* ChannelTopComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
+		1E7D16D72074902F00FD61A4 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D32074902E00FD61A4 /* index.js */; };
+		1E7D16D82074902F00FD61A4 /* styleoverrides.css in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D42074902E00FD61A4 /* styleoverrides.css */; };
+		1E7D16D92074902F00FD61A4 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D52074902E00FD61A4 /* styles.css */; };
+		1E7D16DA2074902F00FD61A4 /* wikipedia.html in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D62074902E00FD61A4 /* wikipedia.html */; };
+		1E7D16E02074918600FD61A4 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16DC2074918600FD61A4 /* index.js */; };
+		1E7D16E12074918600FD61A4 /* styleoverrides.css in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16DD2074918600FD61A4 /* styleoverrides.css */; };
+		1E7D16E22074918600FD61A4 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16DE2074918600FD61A4 /* styles.css */; };
+		1E7D16E32074918600FD61A4 /* wikipedia.html in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16DF2074918600FD61A4 /* wikipedia.html */; };
 		1E86961A2048465100337DC0 /* Play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8696192048465100337DC0 /* Play.storyboard */; };
 		1E86961D2048472000337DC0 /* PlayYoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */; };
 		1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961F20485A5F00337DC0 /* YoutubeApp.swift */; };
@@ -43,10 +51,6 @@
 		1EC67CA8201EDEE800EE3955 /* TwitterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */; };
 		1EC67CAA201EDEF900EE3955 /* TwitterFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */; };
 		1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC67CAD20222A5600EE3955 /* StringUtility.swift */; };
-		1EC6FAD820733A61003CEC52 /* wikipedia.html in Resources */ = {isa = PBXBuildFile; fileRef = 1EC6FAD620733A61003CEC52 /* wikipedia.html */; };
-		1EC6FAD920733A61003CEC52 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EC6FAD720733A61003CEC52 /* index.js */; };
-		1EC6FADC20733A8E003CEC52 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1EC6FADA20733A8D003CEC52 /* styles.css */; };
-		1EC6FADD20733A8E003CEC52 /* styleoverrides.css in Resources */ = {isa = PBXBuildFile; fileRef = 1EC6FADB20733A8D003CEC52 /* styleoverrides.css */; };
 		1ECC996B203E81EB00CA9C3E /* DayEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC996A203E81EB00CA9C3E /* DayEvents.swift */; };
 		1ECFD39F205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFD39E205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift */; };
 		1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */; };
@@ -115,6 +119,14 @@
 		1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopComicTableViewCell.swift; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
+		1E7D16D32074902E00FD61A4 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		1E7D16D42074902E00FD61A4 /* styleoverrides.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleoverrides.css; sourceTree = "<group>"; };
+		1E7D16D52074902E00FD61A4 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		1E7D16D62074902E00FD61A4 /* wikipedia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wikipedia.html; sourceTree = "<group>"; };
+		1E7D16DC2074918600FD61A4 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		1E7D16DD2074918600FD61A4 /* styleoverrides.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleoverrides.css; sourceTree = "<group>"; };
+		1E7D16DE2074918600FD61A4 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		1E7D16DF2074918600FD61A4 /* wikipedia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wikipedia.html; sourceTree = "<group>"; };
 		1E8696192048465100337DC0 /* Play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Play.storyboard; sourceTree = "<group>"; };
 		1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayYoutubeViewController.swift; sourceTree = "<group>"; };
 		1E86961F20485A5F00337DC0 /* YoutubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeApp.swift; sourceTree = "<group>"; };
@@ -125,10 +137,6 @@
 		1EC67CA7201EDEE800EE3955 /* TwitterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModels.swift; sourceTree = "<group>"; };
 		1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFetcher.swift; sourceTree = "<group>"; };
 		1EC67CAD20222A5600EE3955 /* StringUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
-		1EC6FAD620733A61003CEC52 /* wikipedia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wikipedia.html; sourceTree = "<group>"; };
-		1EC6FAD720733A61003CEC52 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		1EC6FADA20733A8D003CEC52 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		1EC6FADB20733A8D003CEC52 /* styleoverrides.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleoverrides.css; sourceTree = "<group>"; };
 		1ECC996A203E81EB00CA9C3E /* DayEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEvents.swift; sourceTree = "<group>"; };
 		1ECFD39E205E354B00672C86 /* ChannelDetailFanArtCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailFanArtCollectionViewCell.swift; sourceTree = "<group>"; };
 		1EDF12532010528A00AB4ABA /* ChannelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetail.storyboard; sourceTree = "<group>"; };
@@ -286,6 +294,28 @@
 			path = Utilily;
 			sourceTree = "<group>";
 		};
+		1E7D16D22074902E00FD61A4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1E7D16D32074902E00FD61A4 /* index.js */,
+				1E7D16D42074902E00FD61A4 /* styleoverrides.css */,
+				1E7D16D52074902E00FD61A4 /* styles.css */,
+				1E7D16D62074902E00FD61A4 /* wikipedia.html */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1E7D16DB2074918600FD61A4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1E7D16DC2074918600FD61A4 /* index.js */,
+				1E7D16DD2074918600FD61A4 /* styleoverrides.css */,
+				1E7D16DE2074918600FD61A4 /* styles.css */,
+				1E7D16DF2074918600FD61A4 /* wikipedia.html */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		1E86961B204846E200337DC0 /* Play */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,17 +340,6 @@
 				1EC67CA9201EDEF900EE3955 /* TwitterFetcher.swift */,
 			);
 			path = Twitter;
-			sourceTree = "<group>";
-		};
-		1EC6FAD520733A29003CEC52 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				1EC6FAD720733A61003CEC52 /* index.js */,
-				1EC6FAD620733A61003CEC52 /* wikipedia.html */,
-				1EC6FADB20733A8D003CEC52 /* styleoverrides.css */,
-				1EC6FADA20733A8D003CEC52 /* styles.css */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		1ECC9969203E818500CA9C3E /* Date */ = {
@@ -529,7 +548,8 @@
 		DAA4E994200C858300CE1183 /* ReachA */ = {
 			isa = PBXGroup;
 			children = (
-				1EC6FAD520733A29003CEC52 /* Assets */,
+				1E7D16D22074902E00FD61A4 /* Assets */,
+				1E7D16DB2074918600FD61A4 /* Assets */,
 				DACD5783205F63F200A57B05 /* GoogleService-Info.plist */,
 				DAC682CE203D490400416BE7 /* Debug */,
 				1E0022F12028876100475253 /* Model */,
@@ -647,24 +667,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7D16E32074918600FD61A4 /* wikipedia.html in Resources */,
+				1E7D16DA2074902F00FD61A4 /* wikipedia.html in Resources */,
 				DAC682D0203D491200416BE7 /* Debug.storyboard in Resources */,
 				DA10F536200DD5FF00A5C9FC /* Top.storyboard in Resources */,
+				1E7D16E22074918600FD61A4 /* styles.css in Resources */,
 				DAA4E9A0200C858400CE1183 /* LaunchScreen.storyboard in Resources */,
+				1E7D16D92074902F00FD61A4 /* styles.css in Resources */,
 				1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */,
 				DAA4E99D200C858400CE1183 /* Assets.xcassets in Resources */,
-				1EC6FADD20733A8E003CEC52 /* styleoverrides.css in Resources */,
+				1E7D16E12074918600FD61A4 /* styleoverrides.css in Resources */,
 				1EE9A30B20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.xib in Resources */,
+				1E7D16D82074902F00FD61A4 /* styleoverrides.css in Resources */,
 				DABA87C3205650D400106BD9 /* ChannelList.storyboard in Resources */,
 				1EF83BF420542DC4003E4C5C /* Wikipedia.storyboard in Resources */,
 				1EE9A31620307B2200BAB029 /* Calendar.storyboard in Resources */,
-				1EC6FAD920733A61003CEC52 /* index.js in Resources */,
-				1EC6FAD820733A61003CEC52 /* wikipedia.html in Resources */,
 				DACD5784205F63F300A57B05 /* GoogleService-Info.plist in Resources */,
 				1EDF12542010528A00AB4ABA /* ChannelDetail.storyboard in Resources */,
 				1E3A85B1204515EA00CFB052 /* Official.storyboard in Resources */,
-				1EC6FADC20733A8E003CEC52 /* styles.css in Resources */,
 				1E86961A2048465100337DC0 /* Play.storyboard in Resources */,
 				1E079DAA204D96CC007C8AE8 /* ChannelDetailTop.storyboard in Resources */,
+				1E7D16D72074902F00FD61A4 /* index.js in Resources */,
+				1E7D16E02074918600FD61A4 /* index.js in Resources */,
 				DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */,
 				1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */,
 			);
@@ -685,8 +709,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

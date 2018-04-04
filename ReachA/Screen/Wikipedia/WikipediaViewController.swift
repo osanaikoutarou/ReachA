@@ -59,7 +59,9 @@ class WikipediaViewController: UIViewController  {
             
             
             
-            self.wkWebView.loadHTMLString(htmlString!, baseURL: "https://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content&rvparse".url)
+//            self.wkWebView.loadHTMLString(htmlString!, baseURL: "https://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content&rvparse".url)
+            
+            self.wkWebView.loadHTML(htmlString!, baseURL: "https://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3&rvprop=content&rvparse".url, padding: UIEdgeInsets.zero)
             
             
 //            json["query"]["pages"]["3550514"]["revisions"].forEach({ (_, data) in
