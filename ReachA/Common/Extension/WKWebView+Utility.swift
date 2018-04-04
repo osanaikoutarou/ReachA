@@ -31,10 +31,10 @@ extension WKWebView {
 //                DDLogError("window, proxyServer, baseURL or fileName not found");
                 return
         }
-
-        let localFilePath = Bundle().path(forResource: "wikipedia", ofType: "html")
         
-        print("あ: " + Bundle.main.path!)
+        let localFilePath = Bundle.main.path(forResource:"wikipedia", ofType:"html")
+        
+//        print("あ: " + Bundle.main.path!)
         
         guard let fileContents = try? String(contentsOfFile: localFilePath!, encoding: String.Encoding.utf8) else {
 //            DDLogError("\(localFilePath) contents not found");
@@ -66,7 +66,78 @@ extension WKWebView {
 //        loadHTMLFromAssetsFile(requestPath, scrolledToFragment: fragment)
         
         loadHTMLString(templateAndContent, baseURL: baseURL)
+        
+        
+        
     }
+    
+    
+    
+    
+    func loadWikipediaPage(_ string: String?, baseURL: URL?, padding: UIEdgeInsets) {
+        let html1:String =
+        """
+            <!DOCTYPE html>
+            <html>
+                <head>
+                <meta charset='UTF-8'>
+                <script src='index.js'></script>
+        """
+        let html2:String =
+        """
+                <meta name='viewport' id='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0'>
+        """
+        let html3:String =
+        """
+                </head>
+                <body style='padding-top: 0px;'>
+                    "<div class='content' id='content' style='margin-left: 0px;margin-right: 0px;'>
+        """
+        let html4:String =
+        """
+                    </div>
+                </body>
+            </html>
+        """
+        
+        let indexJsPath = Bundle.main.path(forResource:"index", ofType:"js")
+        let stylesCssPath = Bundle.main.path(forResource:"styles", ofType:"css")
+        let wikimediaCssPath = Bundle.main.path(forResource:"wikimedia-page-library-transform", ofType:"css")
+        let styleoverridesCssPath = Bundle.main.path(forResource:"styleoverrides", ofType:"css")
+
+        // なんかCSS適用されないな
+        let indexJsHtml = String(format:"<script src='%@'></script>", indexJsPath!)
+        let stylesCssHtml = String(format:"<link href='%@' rel='stylesheet' type='text/css'></link>", stylesCssPath!)
+        let wikimediaCssHtml = String(format:"<link href='%@' rel='stylesheet' type='text/css'></link>", wikimediaCssPath!)
+        let styleoverridesCssHtml = String(format:"<link href='%@' rel='stylesheet' type='text/css'></link>", styleoverridesCssPath!)
+        
+        var html = ""
+        html += html1
+        html += indexJsHtml
+        html += html2
+        html += stylesCssHtml
+        html += wikimediaCssHtml
+        html += styleoverridesCssHtml
+        html += html3
+        html += string!
+        html += html4
+        
+        print("------------------------")
+        print(indexJsHtml)
+        print(stylesCssHtml)
+        print(wikimediaCssHtml)
+        print(styleoverridesCssHtml)
+        
+        loadHTMLString(html, baseURL: baseURL)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
