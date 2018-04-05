@@ -37,6 +37,7 @@
 		1E7D16D82074902F00FD61A4 /* styleoverrides.css in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D42074902E00FD61A4 /* styleoverrides.css */; };
 		1E7D16D92074902F00FD61A4 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D52074902E00FD61A4 /* styles.css */; };
 		1E7D16DA2074902F00FD61A4 /* wikipedia.html in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D62074902E00FD61A4 /* wikipedia.html */; };
+		1E7D16E62075D7CB00FD61A4 /* WikipediaUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D16E52075D7CB00FD61A4 /* WikipediaUtility.swift */; };
 		1E86961A2048465100337DC0 /* Play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8696192048465100337DC0 /* Play.storyboard */; };
 		1E86961D2048472000337DC0 /* PlayYoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */; };
 		1E86962020485A5F00337DC0 /* YoutubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86961F20485A5F00337DC0 /* YoutubeApp.swift */; };
@@ -120,6 +121,7 @@
 		1E7D16D42074902E00FD61A4 /* styleoverrides.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleoverrides.css; sourceTree = "<group>"; };
 		1E7D16D52074902E00FD61A4 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		1E7D16D62074902E00FD61A4 /* wikipedia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wikipedia.html; sourceTree = "<group>"; };
+		1E7D16E52075D7CB00FD61A4 /* WikipediaUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaUtility.swift; sourceTree = "<group>"; };
 		1E8696192048465100337DC0 /* Play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Play.storyboard; sourceTree = "<group>"; };
 		1E86961C2048472000337DC0 /* PlayYoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayYoutubeViewController.swift; sourceTree = "<group>"; };
 		1E86961F20485A5F00337DC0 /* YoutubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeApp.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				1E6731A72014D9B200DB48DA /* TwitterUtility.swift */,
 				1EC67CAD20222A5600EE3955 /* StringUtility.swift */,
 				1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */,
+				1E7D16E52075D7CB00FD61A4 /* WikipediaUtility.swift */,
 			);
 			path = Utilily;
 			sourceTree = "<group>";
@@ -689,8 +692,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -786,6 +788,7 @@
 				DAA4E998200C858300CE1183 /* ViewController.swift in Sources */,
 				1EF83BEF2052D788003E4C5C /* ChannelTopFollowTableViewCell.swift in Sources */,
 				1EC67CAE20222A5600EE3955 /* StringUtility.swift in Sources */,
+				1E7D16E62075D7CB00FD61A4 /* WikipediaUtility.swift in Sources */,
 				1EE9A30A20303D2D00BAB029 /* CalendarDailyEventNormalCollectionViewCell.swift in Sources */,
 				1E387CCB2042D8300045C89D /* MockData.swift in Sources */,
 				1E223A262055510F00557A2B /* ChannelTopSegmentTableViewCell.swift in Sources */,
