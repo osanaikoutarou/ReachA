@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KBd-2y-700">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KBd-2y-700">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HiraginoKakuGothic.ttc">
-            <string>HiraginoSans-W3</string>
-            <string>HiraginoSans-W6</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Top-->
         <scene sceneID="ZIt-4C-ULH">
@@ -248,10 +242,8 @@
                         <outlet property="channelImageViewHeight" destination="iAC-a9-adc" id="Rlb-YO-Fv4"/>
                         <outlet property="channelImageViewTop" destination="m0K-zU-W8b" id="ubX-gt-rFc"/>
                         <outlet property="channelTableView" destination="dWv-T5-uFE" id="UTk-xU-Uqf"/>
-                        <segue destination="LgJ-13-To6" kind="show" identifier="toOfficial" id="SKN-ck-Lph">
-                            <nil key="action"/>
-                        </segue>
-                        <segue destination="4sI-3C-OtT" kind="showDetail" identifier="toWikipedia" action="showViewController:sender:" id="afZ-fh-eiF"/>
+                        <segue destination="LgJ-13-To6" kind="show" identifier="toOfficial" id="SKN-ck-Lph"/>
+                        <segue destination="4sI-3C-OtT" kind="showDetail" identifier="toWikipedia" id="afZ-fh-eiF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kez-Is-2yn" userLabel="First Responder" sceneMemberID="firstResponder"/>

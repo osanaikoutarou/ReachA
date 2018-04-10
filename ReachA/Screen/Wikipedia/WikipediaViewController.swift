@@ -67,21 +67,28 @@ class WikipediaViewController: UIViewController  {
             
             
             
+            print("ーーーーーーーーーーーーーーーー")
             
             if let doc = try? HTML(html: htmlString!, encoding: .utf8) {
-                print(doc.title ?? "titleなし")
                 
-                // Search for nodes by CSS
-                for link in doc.css("a, link") {
-                    print(link.text ?? "なし")
-                    print(link["href"] ?? "なし")
+
+                for a in doc.xpath("//li") {
+                    print(a.text ?? "なし")
                 }
                 
-                // Search for nodes by XPath
-                for link in doc.xpath("//a | //link") {
-                    print(link.text ?? "なし")
-                    print(link["href"] ?? "なし")
-                }
+//                print(doc.title ?? "titleなし")
+//
+//                // Search for nodes by CSS
+//                for link in doc.css("a, link") {
+//                    print(link.text ?? "なし")
+//                    print(link["href"] ?? "なし")
+//                }
+//
+//                // Search for nodes by XPath
+//                for link in doc.xpath("//a | //link") {
+//                    print(link.text ?? "なし")
+//                    print(link["href"] ?? "なし")
+//                }
             }
             
             
