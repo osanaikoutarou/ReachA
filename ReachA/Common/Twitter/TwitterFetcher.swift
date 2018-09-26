@@ -23,7 +23,7 @@ class TwitterFetcher: NSObject {
     func fetchUser(screenName:String, successHandler: @escaping (Twitter.User) -> Void) {
         
         swifter.showUser(
-            for: .screenName(screenName),
+            .screenName(screenName),
             includeEntities: true,
             success: { (json:JSON) in
 

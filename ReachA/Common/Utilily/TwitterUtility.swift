@@ -49,8 +49,8 @@ class TwitterUtility: NSObject {
 //            print(error)
 //        })
         
-        swifter.authorize(with: URL(string: "http://example.com")!,
-                          presentFrom:vc ,
+        swifter.authorize(withCallback: URL(string: "http://example.com")!,
+                          presentingFrom:vc ,
                           success: { (accessToken, urlresponse) in
                             
         }, failure: { error in

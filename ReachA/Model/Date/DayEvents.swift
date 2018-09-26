@@ -15,10 +15,16 @@ class DayEvents: NSObject {
     var events:[CalendarEvent] = []
     
     init(daysAfterToday:Int) {
-        let now = DateInRegion()
-        let target = now + daysAfterToday.day;
-        let region = Region(tz: TimeZoneName.asiaTokyo, cal: CalendarName.gregorian, loc: LocaleName.japanese)
-        date = DateInRegion(components: [.year:target.year, .month:target.month, .day:target.day], fromRegion: region)
+        date = DateInRegion() + daysAfterToday.days
+//
+//
+//
+//        let now = DateInRegion()
+//        let target = now + daysAfterToday
+//        let region = Region(calendar: Calendar(identifier: .gregorian),
+//                            zone: TimeZone(identifier: "Asia/Tokyo")!,
+//                            locale: Locale(identifier: "ja"))
+//        date = DateInRegion(components: [.year:target.year, .month:target.month, .day:target.day], fromRegion: region)
     }
 
 }

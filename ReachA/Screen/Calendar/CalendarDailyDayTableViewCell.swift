@@ -30,6 +30,6 @@ class CalendarDailyDayTableViewCell: UITableViewCell {
             dayLabel.text = String(describing: dayStr)
         }
         
-        dayofweekLabel.text = dayEvents.date?.weekdayName.sw4substring(to: 1)
+        dayofweekLabel.text = dayEvents.date?.weekdayName(.default).sw4substring(to: 1)
     }
 }
