@@ -1,0 +1,39 @@
+[
+  {
+    "id":20181000,
+    "name":"ゆるキャン△",
+    "officialUrl":"http://yurucamp.jp/",
+    "wikipedia":"https://ja.wikipedia.org/wiki/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3",
+    "twitter" : {
+      "screenName":"yurucamp_anime"
+    }
+  },
+  {
+    "id":20181001,
+    "name":"citorus",
+    "officialUrl":"http://citrus-anime.com/",
+    "wikipedia":"https://ja.wikipedia.org/wiki/Citrus_(%E6%BC%AB%E7%94%BB)",
+    "twitter" : {
+      "screenName":"citrus_anime"
+    }
+  },
+  {
+    "id":20181002,
+    "name":"三ツ星カラーズ",
+    "officialUrl":"http://mitsuboshi-anime.com/",
+    "wikipedia":"https://ja.wikipedia.org/wiki/%E4%B8%89%E3%83%84%E6%98%9F%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA",
+    "twitter" : {
+      "screenName":"3boshi_anime"
+    }
+  },
+  {
+    "id":20181003,
+    "name":"からくりサーカス",
+    "officialUrl":"https://karakuri-anime.com/",
+    "wikipedia":"https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A%E3%82%B5%E3%83%BC%E3%82%AB%E3%82%B9",
+    "twitter" : {
+      "screenName":"karakuri_anime"
+    }
+  }
+
+]
