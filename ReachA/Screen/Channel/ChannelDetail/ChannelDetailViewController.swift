@@ -24,7 +24,7 @@ class ChannelDetailViewController: UIViewController,WKNavigationDelegate {
     }
 
     func refresh(channel:Channel) {
-        if let url = channel.officialUrl?.url {
+        if let url = channel.officialUrl.url {
             let urlRequest = URLRequest(url: url)
             wkWebView.load(urlRequest)
         }

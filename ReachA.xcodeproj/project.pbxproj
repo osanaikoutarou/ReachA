@@ -14,6 +14,7 @@
 		1E0022FC2028A59100475253 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FB2028A59100475253 /* CalendarViewController.swift */; };
 		1E0022FE2028A66A00475253 /* CalendarDailyDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */; };
 		1E0023002028A69B00475253 /* CalendarDailyMonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */; };
+		1E042F5421614BAD006776AC /* ChannelData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E042F5321614BAD006776AC /* ChannelData.json */; };
 		1E079DAA204D96CC007C8AE8 /* ChannelDetailTop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */; };
 		1E079DAC204D978C007C8AE8 /* ChannelDetailContents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */; };
 		1E079DAE204D9843007C8AE8 /* ChannelDetailContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */; };
@@ -31,6 +32,7 @@
 		1E5263FE2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */; };
 		1E5264052047BD2B00EF3E18 /* UITableView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */; };
 		1E56E223205574A5006CDE86 /* ChannelTopComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */; };
+		1E5CDD782165D13A000495DB /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CDD772165D13A000495DB /* JsonLoader.swift */; };
 		1E6731A82014D9B200DB48DA /* TwitterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6731A72014D9B200DB48DA /* TwitterUtility.swift */; };
 		1E6BA63C2035F9CA004BA558 /* CalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */; };
 		1E7D16D72074902F00FD61A4 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D16D32074902E00FD61A4 /* index.js */; };
@@ -98,6 +100,7 @@
 		1E0022FB2028A59100475253 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		1E0022FD2028A66A00475253 /* CalendarDailyDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyDayTableViewCell.swift; sourceTree = "<group>"; };
 		1E0022FF2028A69B00475253 /* CalendarDailyMonthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyMonthTableViewCell.swift; sourceTree = "<group>"; };
+		1E042F5321614BAD006776AC /* ChannelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ChannelData.json; sourceTree = "<group>"; };
 		1E079DA9204D96CC007C8AE8 /* ChannelDetailTop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailTop.storyboard; sourceTree = "<group>"; };
 		1E079DAB204D978C007C8AE8 /* ChannelDetailContents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelDetailContents.storyboard; sourceTree = "<group>"; };
 		1E079DAD204D9843007C8AE8 /* ChannelDetailContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailContentsViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 		1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelContentVideoTableViewCell.swift; sourceTree = "<group>"; };
 		1E5264042047BD2B00EF3E18 /* UITableView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utility.swift"; sourceTree = "<group>"; };
 		1E56E222205574A5006CDE86 /* ChannelTopComicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopComicTableViewCell.swift; sourceTree = "<group>"; };
+		1E5CDD772165D13A000495DB /* JsonLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
 		1E6731A72014D9B200DB48DA /* TwitterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUtility.swift; sourceTree = "<group>"; };
 		1E6BA63B2035F9CA004BA558 /* CalendarUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtility.swift; sourceTree = "<group>"; };
 		1E7D16D32074902E00FD61A4 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
@@ -214,6 +218,15 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
+		1E042F5221614AF5006776AC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CDD762165D13A000495DB /* Loader */,
+				1E042F5321614BAD006776AC /* ChannelData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		1E079DAF204E5303007C8AE8 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +291,14 @@
 				1E5263FD2047B58C00EF3E18 /* ChannelContentVideoTableViewCell.swift */,
 			);
 			path = ChannelVideos;
+			sourceTree = "<group>";
+		};
+		1E5CDD762165D13A000495DB /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CDD772165D13A000495DB /* JsonLoader.swift */,
+			);
+			path = Loader;
 			sourceTree = "<group>";
 		};
 		1E6731A62014D99900DB48DA /* Utilily */ = {
@@ -535,6 +556,7 @@
 		DAA4E994200C858300CE1183 /* ReachA */ = {
 			isa = PBXGroup;
 			children = (
+				1E042F5221614AF5006776AC /* Data */,
 				1E7D16D22074902E00FD61A4 /* Assets */,
 				DACD5783205F63F200A57B05 /* GoogleService-Info.plist */,
 				DAC682CE203D490400416BE7 /* Debug */,
@@ -674,6 +696,7 @@
 				1E7D16D72074902F00FD61A4 /* index.js in Resources */,
 				DAA4E99B200C858400CE1183 /* Main.storyboard in Resources */,
 				1EE9A30420303C7200BAB029 /* CalendarDailyEventsCollectionViewBase.xib in Resources */,
+				1E042F5421614BAD006776AC /* ChannelData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,6 +824,7 @@
 				DA10F546200DDA6B00A5C9FC /* ChannelDetailViewController.swift in Sources */,
 				1EF83BF22052D840003E4C5C /* SimpleCommonTableViewCell.swift in Sources */,
 				1E3A85BB2045192200CFB052 /* ChannelTopViewController.swift in Sources */,
+				1E5CDD782165D13A000495DB /* JsonLoader.swift in Sources */,
 				1EB56121205E51A400BD3BC0 /* ChannelDetailFanArtViewController.swift in Sources */,
 				DA2F3B2E20565C6B0054BC26 /* CircleImageView.swift in Sources */,
 				DAC682D3203D498B00416BE7 /* DebugTopViewController.swift in Sources */,

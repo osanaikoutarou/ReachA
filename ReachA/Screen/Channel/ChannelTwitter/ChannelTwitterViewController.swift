@@ -25,14 +25,12 @@ class ChannelTwitterViewController: UIViewController {
     }
     
     func refresh(channel:Channel) {
-        
-        if let twitterScreenName = channel.twitterScreenName {
-            let twitterTopUrl = "https://twitter.com/" + twitterScreenName + "?lang=ja"
-            if let url = twitterTopUrl.url {
-                let urlRequest = URLRequest(url: url)
-                wkWebView.load(urlRequest)
-            }
+        let twitterTopUrl = "https://twitter.com/" + channel.twitterScreenName + "?lang=ja"
+        if let url = twitterTopUrl.url {
+            let urlRequest = URLRequest(url: url)
+            wkWebView.load(urlRequest)
         }
+        
     }
     
 //    func refresh(channel:Channel) {

@@ -30,12 +30,12 @@ enum ChannelType {
 
 class Channel: NSObject {
     
-    var id:String?                  // Account ID
-    var name:String?                // Account name
-    var type:ChannelType?
-    var officialUrl:String?         // 公式サイトのURL
-    var wikipedia:String?           // wikipediaのURL
-    var twitterScreenName:String?   // Twitter
+    var id:String = ""                  // Account ID
+    var name:String = ""                // Account name
+    var type:ChannelType = .anime
+    var officialUrl:String = ""         // 公式サイトのURL
+    var wikipedia:String = ""           // wikipediaのURL
+    var twitterScreenName:String = ""   // Twitter
     
     var topImageURL:String = ""
     var descriptionText:String = ""
@@ -49,8 +49,17 @@ class Channel: NSObject {
     //TODO:放送時間、スケジュール、放送局、放送地域、評価感想、自分の評価感想
     
     var twitterUser:Twitter.User?
-    
-    override init() {
+
+    static func create(_ dic:[String:Any]) -> Channel {
+        let obj = Channel()
+        obj.id = String(dic["id"] as! Int)
+        obj.name = dic["name"] as! String
+        obj.type = .anime
+        obj.officialUrl = dic["officialUrl"] as! String
+        obj.wikipedia = dic["wikipedia"] as! String
+        obj.twitterScreenName = (dic["twitter"] as! [String:Any])["screenName"] as! String
+        
+        return obj
     }
     
     func setup(completion: ((Bool) -> Void)?) {
@@ -58,10 +67,6 @@ class Channel: NSObject {
     }
     
     func setupTwitter(completion: ((Bool) -> Void)?) {
-        
-        guard let twitterScreenName = twitterScreenName else {
-            return;
-        }
         
         let twitterFetcher = TwitterFetcher()
         twitterFetcher.fetchUser(
@@ -73,6 +78,10 @@ class Channel: NSObject {
                     completion(true)
                 }
         })
+    }
+    
+    func printDescription() {
+        print("[Channel] \(id) \(name) \(type) \(officialUrl) \(wikipedia) \(twitterScreenName) ")
     }
     
 }
