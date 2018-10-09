@@ -31,8 +31,9 @@ class JsonLoader: NSObject {
     
     var channels:[Channel] = []
     
-    
-    
+    func loadAll() {
+        channels = JsonLoader.loadChannels()
+    }
 }
 
 extension JsonLoader {

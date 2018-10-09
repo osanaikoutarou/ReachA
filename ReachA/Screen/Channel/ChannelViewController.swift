@@ -13,7 +13,7 @@ class ChannelViewController: UIViewController,UICollectionViewDelegate,UICollect
     @IBOutlet weak var channelCollectionView: UICollectionView!
 
 //    var twitterUsers:[TwitterUser] = []
-    var channels:[Channel] = []
+    var channels:[Channel] = JsonLoader.shared.channels
 
     override func viewDidLoad() {
         super.viewDidLoad()

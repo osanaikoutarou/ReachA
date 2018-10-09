@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
-        JsonLoader.loadChannels()
+        JsonLoader.shared.loadAll()
         
         return true
     }
